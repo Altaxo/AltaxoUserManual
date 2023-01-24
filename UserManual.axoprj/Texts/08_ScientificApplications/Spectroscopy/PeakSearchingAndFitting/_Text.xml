@@ -48,15 +48,15 @@ Additionally, when the original data have changed, you can re-apply the preproce
 
 In the following sections, the options for the peak searching, peak fitting, and output steps are described in more detail.
 
-```{Altaxo child="PeakSearching"}
+```{Altaxo child="PeakSearching\_Text"}
 PeakSearching
 ```
 
-```{Altaxo child="PeakFitting"}
+```{Altaxo child="PeakFitting\_Text"}
 PeakFitting
 ```
 
-```{Altaxo child="Output"}
+```{Altaxo child="Output\_Text"}
 Output
 ```
 </SourceText>

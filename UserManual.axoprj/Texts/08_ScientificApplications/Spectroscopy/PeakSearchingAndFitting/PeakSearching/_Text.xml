@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>08_ScientificApplications\Spectroscopy\PeakSearchingAndFitting\PeakSearching\_Text</Name>
+  <CreationTime>2023-01-23T12:34:27.1875128+01:00</CreationTime>
+  <LastChangeTime>2023-01-23T12:34:27.1875128+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Peak searching
+
+Currently, two methods for peak searching are implemented:
+
+1) Peak searching by topology search
+2) Peak searching by continuous wavelet transformation
+
+Peak searching by topology is faster than peak searching by continuous wavelet transformation. But it has problems when peaks are overlapping, for instance a peak is located in the shoulder of another peak.
+Essentially, you can use peak searching by topology for spectra with well separated peaks and a low noise level.
+For all other cases, peak searching by continuous wavelet transformation is the better choice.
+
+```{Altaxo child="PeakSearchingByTopology\_Text"}
+PeakSearchingByTopology
+```
+
+```{Altaxo child="PeakSearchingByCwt\_Text"}
+PeakSearchingByCwt
+```
+
+References:
+
+[1] Pan Du, Warren A. Kibbe, Simon M. Lin, "Improved peak detection in mass spectrum by incorporating continuous wavelet transform-based pattern matching", Bioinformatics Volume 22, Issue 17, August 2006 pp 2059–2065, https://doi.org/10.1093/bioinformatics/btl355
+
+[2] Chao Yang, Zengyou He, Weichuan Yu, "Comparison of public peak detection algorithms for MALDI mass spectrometry data analysis",  BMC Bioinformatics 10, 4 (2009), https://doi.org/10.1186/1471-2105-10-4</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

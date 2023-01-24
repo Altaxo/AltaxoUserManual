@@ -8,9 +8,24 @@
     <Properties Count="0" AssemblyVersion="4.8.2881.0" />
   </Properties>
   <StyleName />
-  <SourceText>##### Calibration
+  <SourceText>##### Smoothing
 
-The calibration step will change the spectrum's x-axis. Presumed that a calibration was made (see [here](#Section_RamanSpectroscopy_CalibrationWithNeonAndSi)), the x-axis can be changed from an uncalibrated x-axis to a calibrated x-axis.
+The smoothing step will apply some smoothing algorithm to the spectral data in order to reduce the noise level.
+
+Currently, only one smoothing method is implemented:
+
+###### Smoothing by Savitzky-Golay
+
+The method uses the Savitzky-Golay method to smooth a signal. Basically, it is a local polynomial fit, of which the center fit value is used as replacement for the original point. As an additional option, not only the center fit value, but also the derivative at that point can be used (but note that the x-values are not used to calculate the derivative value).
+
+Savitzky-Golay has the following options:
+
+- Number of points: The number of points for the local fit. The more points, the smoother the result, but the more the original shape of the spectrum is changed.
+- Polynomail order: The polynomial order of the fit. The default value of 2 means that a quadratic fit is applied.
+- Derivative order: The default value of 0 means the central fit function value is used to replace the original point. A value of 1 means the first derivative is used, etc. Note that the result is not the true derivative, since the x-values are not used for evaluation of the derivative (the space between the points is assumed to be 1).
+
+
+
 
 
 

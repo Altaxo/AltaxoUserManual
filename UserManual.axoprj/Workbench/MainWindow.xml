@@ -3,22 +3,20 @@
   <CurrentLayoutConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;LayoutRoot&gt;
   &lt;RootPanel Orientation="Horizontal"&gt;
-    &lt;LayoutPanel Orientation="Vertical" DockWidth="0.984918292603115*"&gt;
-      &lt;LayoutPanel Orientation="Horizontal" DockHeight="2.7026560918225*"&gt;
+    &lt;LayoutPanel Orientation="Vertical"&gt;
+      &lt;LayoutPanel Orientation="Horizontal"&gt;
         &lt;LayoutDocumentPaneGroup Orientation="Horizontal"&gt;
-          &lt;LayoutDocumentPane Id="c73fbea8-1730-41d2-b2ac-da29ffd21353" DockWidth="1.32684948979592*" /&gt;
+          &lt;LayoutDocumentPane Id="1d914bd6-36e2-4f5a-97cc-f8601365e092" /&gt;
         &lt;/LayoutDocumentPaneGroup&gt;
       &lt;/LayoutPanel&gt;
-      &lt;LayoutAnchorablePane Name="DockBottom" DockHeight="213"&gt;
-        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" ContentId="Altaxo.Gui.Pads.Output.TextOutputWindowController" LastActivationTimeStamp="01/16/2023 09:45:44" /&gt;
-        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Data reader" ContentId="Altaxo.Gui.Pads.DataDisplay.DataDisplayController" LastActivationTimeStamp="12/14/2022 13:29:30" /&gt;
-        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Notes" IsSelected="True" ContentId="Altaxo.Gui.Pads.Notes.NotesController" LastActivationTimeStamp="01/19/2023 12:00:23" /&gt;
+      &lt;LayoutAnchorablePane Name="DockBottom" DockHeight="233.8"&gt;
+        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" IsSelected="True" ContentId="Altaxo.Gui.Pads.Output.TextOutputWindowController" LastActivationTimeStamp="12/22/2022 22:46:31" /&gt;
+        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Notes" ContentId="Altaxo.Gui.Pads.Notes.NotesController" LastActivationTimeStamp="11/20/2022 22:10:37" /&gt;
+        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Data reader" ContentId="Altaxo.Gui.Pads.DataDisplay.DataDisplayController" LastActivationTimeStamp="12/19/2022 10:56:42" /&gt;
       &lt;/LayoutAnchorablePane&gt;
     &lt;/LayoutPanel&gt;
-    &lt;LayoutAnchorablePane Name="DockRight" DockWidth="431.8"&gt;
-      &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Files" ContentId="Altaxo.Gui.Pads.FileBrowser.FileBrowserController" LastActivationTimeStamp="01/11/2023 10:55:29" /&gt;
-      &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Project" IsSelected="True" ContentId="Altaxo.Gui.Pads.ProjectBrowser.ProjectBrowseController" LastActivationTimeStamp="01/23/2023 16:51:40" /&gt;
-      &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Lighting" ContentId="Altaxo.Gui.Pads.LightingPad.LightingController" LastActivationTimeStamp="01/11/2023 10:55:28" /&gt;
+    &lt;LayoutAnchorablePane Id="be6895b6-fe1d-47b6-886c-ef96f21c3277" Name="DockRight" DockWidth="479"&gt;
+      &lt;LayoutAnchorable AutoHideWidth="354" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Project" IsSelected="True" ContentId="Altaxo.Gui.Pads.ProjectBrowser.ProjectBrowseController" LastActivationTimeStamp="01/24/2023 22:45:40" /&gt;
     &lt;/LayoutAnchorablePane&gt;
   &lt;/RootPanel&gt;
   &lt;TopSide /&gt;
@@ -26,6 +24,9 @@
   &lt;LeftSide /&gt;
   &lt;BottomSide /&gt;
   &lt;FloatingWindows /&gt;
-  &lt;Hidden /&gt;
+  &lt;Hidden&gt;
+    &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Files" IsSelected="True" ContentId="Altaxo.Gui.Pads.FileBrowser.FileBrowserController" LastActivationTimeStamp="01/24/2023 21:40:38" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
+    &lt;LayoutAnchorable AutoHideWidth="384" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Lighting" IsSelected="True" ContentId="Altaxo.Gui.Pads.LightingPad.LightingController" LastActivationTimeStamp="01/24/2023 21:40:38" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
+  &lt;/Hidden&gt;
 &lt;/LayoutRoot&gt;</CurrentLayoutConfiguration>
 </MainWindow>

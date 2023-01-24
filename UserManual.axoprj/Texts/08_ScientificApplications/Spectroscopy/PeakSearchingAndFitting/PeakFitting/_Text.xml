@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>08_ScientificApplications\Spectroscopy\PeakSearchingAndFitting\PeakFitting\_Text</Name>
+  <CreationTime>2023-01-23T12:34:30.8818377+01:00</CreationTime>
+  <LastChangeTime>2023-01-23T12:34:30.8818377+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Peak fitting
+
+After the peak searching step, the resulting approximate positions, widths, and heights of the peaks can be used as initial values for a subsequent peak fitting step.
+
+Different fitting methods exists, which are described in the following.
+
+###### Peak fitting by incremental peak addition
+
+The method starts by searching the spectrum for the highest peak. Approximate position, width, and height of this peak is used as initial values for a fit function that contains only this peak and a baseline of user-defined polynomial order. The fit is executed. After fitting this peak, the fit function values are subtracted from the original spectrum (calculating the residual of the fit). In this residual, the highest peak is searched again. The position, width and height of the previous fit plus the approximate position, width, and height of the new peak is used as initial values for a fit function which has one more peak than the previous one. The fit is executed again. The process is repeated, adding more and more peaks, until a certain number of peaks are reached, or another stop criterion is fulfilled.
+
+&gt; **Note:**  
+&gt; For the fitting method `PeakFittingByIncrementalPeakAddition` the peak searching step is not required. Please leave peak searching at the default value of topology search. Furthermore, baseline correction is also not required, since the fit function itself contains a polynomial baseline.
+
+The options for this method are:
+
+- Fit function: Choose the appropriate fit function.
+- Order of baseline polynomial. Use a value of -1 for no baseline, a value of 0 for a constant baseline, 1 for a linear baseline. Values greater than 1 are possible too, but not recommended.
+- Max. number of peaks: The maximum number of peaks that the fit function uses. The addition of peaks stops when this number is reached. Note that the final number of peaks can be less than this number, because after the fitting step, a pruning step follows, dropping the most insignificant peaks.
+- Minimal relative height: The addition of peaks stops, if the highest peak in the residual has a height that is less the given factor times the original y-span of the spectrum (which is the difference of maximum y-value and minimum y-value of the spectrum).
+- Minimal signal to noise: The addition of peaks stops, if the highest peak in the residual has a height that is less the given factor times the noise level.
+- Minimal peak FWHM: If you know the resolution properties of your spectrometer, you can give here the minimal Full-Width-Half-Maximum value that a peak could reach. You can enter this value in points (checkbox cleared), or in the x-units of the spectrum (checkbox checked).
+- Prune peaks factor: After the fitting, the most insignificant peaks can be dropped (i.e. not included in the result). This is done based on the Chi² value of the fit. The default value of 10% means, that peaks are dropped, as long as the new Chi² value of the fit remains below (100% + 10%) = 110% of the original Chi² value. Simply speaking, by dropping some peaks, the fit can go worse by 10%.
+- Separate error evaluation with relative fit width: This choice only affects how the parameter errors (but not the parameter values itself) are calculated. For details see section ["separate error evaluation for each peak"](#Section_PeakFitting_SeparateErrorEvaluation).
+
+Depending on the maximum number of peaks, and the complexity of the fit function, the evaluation can take considerable time, so please be patient! The advantage is, that by increasing the maximum number of peaks, you can model more and more details of your spectrum, leading to very precise fits.
+
+Reference:
+
+[1] Frank Alsmeyer, Wolfgang Marquardt, "Automatic generation of peak shaped models", Appl. Spectroscopy 58, 986-994 (2004), https://doi.org/10.1366/0003702041655421
+
+###### Peak fitting separately
+
+This method uses the result of the previous peak searching step. It assumed that each peak is well separated from the neighboring peaks, so that the peak reaches to the left and to the right (nearly) a value of zero.
+
+&gt; **Note:**  
+&gt; The method assumes that the spectrum is baseline corrected, i.e. that the peak falls down to the left and to the right to a value of zero! Please use an appropriate baseline correction method.
+
+The method fits each peak separately. If say the peak searching step results in 80 peaks, then 80 different fits are made, each with a fit function which contains only one peak.
+
+This method has the following options:
+
+- Fit function: Choose the appropriate fit function.
+- Scale fit width by: Only the points in the spectrum in the vicinity of each peak are used for the fit. The default value of 200% means, that the approximate FWHM of the peak (as the result of the peak searching step) is multiplied with a factor of 2. The resulting width is then used for the fit range (i.e. 100% FWHM to the left and 100% FWHM to the right).
+
+###### Peak fitting together (without or with separate variances)
+
+In contrast to the method `PeakFittingSeparately`, this methods are better suited for peaks that can overlap.
+
+&gt; **Note:**  
+&gt; The methods assume that the spectrum is baseline corrected, i.e. that if the peaks would not overlap, the peak would falls down to the left and to the right to a value of zero. Thus, the base of the peaks is assumed to be at zero. Please use an appropriate baseline correction method.
+
+The method uses the resulting number of peaks from the peak searching step, and the approximate values for position, width, and height of the peaks, to create a fit function with that number of peaks and the initial values for position, width, and height. Then the fit is executed.
+
+This methods have the following options:
+
+- Fit function: Choose the appropriate fit function.
+- Scale fit width by: Only the points in the spectrum in the vicinity of each peak are used for the fit. The default value of 200% means, that the approximate FWHM of the peak (as the result of the peak searching step) is multiplied with a factor of 2. The resulting width is then used for the fit range (i.e. 100% FWHM to the left and 100% FWHM to the right) around a peak. The fit ranges of all peaks are then combined into the final fit range.
+
+The differences of the two methods are described in the [next section](#Section_PeakFitting_SeparateErrorEvaluation).
+
+
+###### Separate evaluation of parameter errors for each peak  {#Section_PeakFitting_SeparateErrorEvaluation}
+
+If you are not interested in the resulting errors of the fit parameters, i.e. errors for position, width, height etc. of the peaks, you can skip this section.
+
+The error of the fit parameters of a nonlinear fit is calculated from the Chi² value of the fit. Basically, it is defined as how much the parameter must be varied, so that the Chi² value becomes twice at high as before.
+
+The problem here: when you make a fit that fits all peaks simultaneously (PeakFittingTogether and PeakFittingByIncrementalPeakAddition), then small peaks will not much contribute to the Chi² value. Which means, that the parameter of those small peaks must be varied unrealistically high in order to double the Chi² value of the fit.
+
+In order to get more realistic error values for the parameters, not the global Chi² value of the fit is used, but the local Chi² value. To calculate the local Chi² value of a peak, only the points in the vicinity of that peak are used for summing up the squared differences between original spectrum and fit function. How many points are included depends on the value of the `Scale fit width by` value: the default value of 200% means that 200% of the FWHM of the peak (from the peak searching step) is used for calculating the local Chi² value of the peak. When the parameters of that peak are now varied, this local Chi² value is much more influenced (relative to the value before), than the global Chi² value, leading to more realistic results for the parameter errors.
+
+These local Chi² values to calculate the parameter errors are utilized by `PeakFittingTogetherWithSeparateVariances` (otherwise equal to `PeakFittingTogether`), and for `PeakFittingByIncrementalPeakAddition`, if the checkbox `Separate error eval. with relative fit width` is checked.
+
+
+
+
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

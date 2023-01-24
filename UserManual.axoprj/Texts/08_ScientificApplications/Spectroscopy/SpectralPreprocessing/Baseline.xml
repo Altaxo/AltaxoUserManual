@@ -8,7 +8,49 @@
     <Properties Count="0" AssemblyVersion="4.8.2881.0" />
   </Properties>
   <StyleName />
-  <SourceText />
+  <SourceText>##### Baseline
+
+Baseline correction is essential, because some of the subsequent methods, for instance some of the peak fitting methods, assume that the baseline was corrected before, so that the base of the peaks can be assumed to be zero.
+
+Different baseline correction methods exist, but non of them is waterproof. The reason is simply, that there is information missing. Assume your entire spectrum consists of massive overlapping peaks, there is no way to determine a baseline, because each spectral point has intensity from at least one peak.
+
+The methods described below therefore assime that at least in some regions of the spectrum there are no neighboring peaks, and the intensity in those regions is at its base level.
+
+###### AirPLS, ALS, ArPLS
+
+These are methods based on diffusion equations. Thus all methods exhibit a diffusion constant lamda. The higher lambda is, the more flat is the resulting baseline. This group of methods is especially well suited if the spectrum exhibits a high noise level, but require some manual adjustment of the parameters by trial-and-error.
+
+References:  
+[1] Zhang ZM, Chen S, Liang YZ. "Baseline correction using adaptive iteratively reweighted penalized least squares", Analyst. 2010 May; 135(5):1138-46, Epub 2010 Feb 19. PMID: 20419267, https://doi.org/10.1039/b922045c
+
+[2] Sung-June Baek, Aaron Park, Young-Jin Ahn and Jaebum Choo, "Baseline correction using asymmetrically reweighted penalized least squares smoothing", Analyst, 2015, 140, 250-257, https://doi.org/10.1039/C4AN01061B
+
+[3] Paul H.C. Eilers, Hans F.M. Boelens, "Baseline Correction with Asymmetric Least Squares Smoothing", October 21, 2005
+
+###### PolynomialDetrending
+
+Strictly speaking, this is not a method to guess the baseline, since the entire  spectrum is used for evaluation. The method evaluates a polynomial fit of user-defined order of the entire spectrum. The resulting polynomial is then used as the baseline. The method may perform good if only very few and narrow peaks exist in the spectrum.
+
+###### SNIP (linear and loglog)
+
+This implements the SNIP algorithm. Basically, the method spans a line between two spectral points. The width of the line is defined by the user, but must be an odd number of spectral points. The resulting baseline point is then either used from the spectrum (if the center of the line lies above the spectrum), or from the center of the line (if the center of the line lies below the spectrum). This is repeated for a fixed number of iterations.
+
+*SNIPLinear* is using the original spectral y-values, whereas *SNIPLogLog* first takes twice the logarithm of the y-values, which presumes that the y-values are all positive.
+
+The following options are available:
+
+- Half width: the half of the (width of the line described above minus 1). Thus, a value of 1 means the width of the line is 3 points; a value of 10 means a line width of 21 points. The half width can also be entered in units of the x-axis of the spectrum. The value of the half width should be at least that of the full (!) width of the broadest peak in the spectrum.
+
+- Number of iterations: The default value of 40 is appropriate for most applications.
+
+References:
+
+[1] C.G. Ryan, E. Clayton, W.L. Griffin, S.H. Sie, D.R. Cousens,
+"SNIP, a statistics-sensitive background treatment for the quantitative analysis of PIXE spectra in geoscience applications",
+Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, Volume 34, Issue 3, 1988, pp. 396-402, ISSN 0168-583X,
+https://doi.org/10.1016/0168-583X(88)90063-8
+
+</SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />
 </Text>
