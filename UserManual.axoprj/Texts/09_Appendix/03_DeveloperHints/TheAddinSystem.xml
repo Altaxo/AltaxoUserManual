@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\03_DeveloperHints\TheAddinSystem</Name>
+  <CreationTime>2019-03-17T11:57:28.3056343+01:00</CreationTime>
+  <LastChangeTime>2019-03-17T11:57:28.3056343+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>### Hints for developers
+
+#### The addin system
+
+##### The `AddIn` node (Level 1)  {#AddinSystem_Node_Level1_AddIn}
+
+The AddIn node is the root node of the addin.
+
+###### The `StringResources` node (Level 2, parent [AddIn](#AddinSystem_Node_Level1_AddIn))
+The `StringResources` node contains an attribute only: `file`, which designates the location of a .resources file (relative to the location of the .addin file) which contains common string resources for the addin.
+
+###### The `BitmapResources` node (Level 2, parent [AddIn](#AddinSystem_Node_Level1_AddIn))
+The `BitmapResources` node contains an attribute only: `file`, which designates the location of a .resources file (relative to the location of the .addin file) which contains common bitmap resources for the addin.
+
+###### The `Runtime` node (Level 2, parent [AddIn](#AddinSystem_Node_Level1_AddIn))  {#AddinSystem_Node_Level2_Runtime}
+
+The runtime node contains one or more import nodes.
+
+
+###### The `Import`node (Level 3, parent [Runtime](#AddinSystem_Node_Level2_Runtime))
+
+The `Import` node has an attribute `assembly`.
+
+The assembly attribute can have one of the following formats (see `Altaxo.AddinItems.Runtime.Load()`):
+
+- an assembly name starting with `:` means that the assembly is searched in the GAC and in the directory where the startup assembly is located.
+- an assembly name starting with `$` should have the following format: `$AddinName/AssemblyName`. The assembly is searched in the directory where the specified addin file is located (and in subdirectories of it).
+- all other assembly names are treated as they are. The assembly is searched beginning in the path where the addin file is located.</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

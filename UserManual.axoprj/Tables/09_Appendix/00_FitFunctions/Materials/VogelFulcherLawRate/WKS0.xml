@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table Type="AltaxoBase,Altaxo.Data.DataTable,5">
+  <Name>09_Appendix\00_FitFunctions\Materials\VogelFulcherLawRate\WKS0</Name>
+  <TableScript Type="UndefinedValue" />
+  <Properties Type="UndefinedValue" />
+  <Notes />
+  <CreationTime>2021-05-23T21:58:31.8491868+02:00</CreationTime>
+  <LastChangeTime>2023-01-18T16:15:36.257037+01:00</LastChangeTime>
+  <PropCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>0</NumberOfRows>
+    <ColumnArray Count="0" />
+    <ColumnScripts Count="0" />
+  </PropCols>
+  <DataCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>1</NumberOfRows>
+    <ColumnArray Count="2">
+      <Column>
+        <Name>A</Name>
+        <Kind>1</Kind>
+        <Group>0</Group>
+        <Data Type="AltaxoBase,Altaxo.Data.DoubleColumn,0">
+          <BaseType>AltaxoBase,Altaxo.Data.DataColumn,0</BaseType>
+          <Data Count="1" Encoding="Xml">
+            <e>120</e>
+          </Data>
+        </Data>
+      </Column>
+      <Column>
+        <Name>B</Name>
+        <Kind>0</Kind>
+        <Group>0</Group>
+        <Data Type="AltaxoBase,Altaxo.Data.DoubleColumn,0">
+          <BaseType>AltaxoBase,Altaxo.Data.DataColumn,0</BaseType>
+          <Data Count="1" Encoding="Xml">
+            <e>1</e>
+          </Data>
+        </Data>
+      </Column>
+    </ColumnArray>
+    <ColumnScripts Count="0" />
+  </DataCols>
+</Table>

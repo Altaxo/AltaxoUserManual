@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Retardation\Dielectrics\KohlrauschComplexFrequency\Description</Name>
+  <CreationTime>2021-07-14T22:27:47.0937231+02:00</CreationTime>
+  <LastChangeTime>2021-07-14T22:27:47.0937231+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>###### Kohlrausch retardation of the relative dielectric permittivity (frequency)
+
+This function models the retardation of the relative dielectric permittivity in dependence on the frequency $f$, including a term for the DC electric conductivity:
+
+$$
+\varepsilon^*(f) = \varepsilon'(f) - i \varepsilon''(f) = \varepsilon_{\infty} + \Delta\varepsilon \int_0^{\infty} \exp(- i 2 \pi f t') \frac{d\Phi}{d t} dt' - \frac{i \sigma_{DC}}{2 \pi f \varepsilon_0} \\
+\Phi(t) = \exp\left [ -\left ( \frac{t}{\tau}\right )^{\beta} \right ]
+$$
+
+based on the Fourier transform of the derivative of the time-domain Kohlrausch function $\Phi(t)$:
+
+with $\varepsilon^*$ being the complex relative dielectric permittivity of a material (the other quantities are described below).
+It is a special case of the underlying base function with the options `NumberOfTerms=1`, `UseFrequencyInsteadOfOmega=true`, `UseFlowTerm=true`, `IsRelativeDielectricPermittivity=true`, `InvertViscosity=true`, `InvertResult=false` and `LogarithmizeResult=false`. These options can be changed by double-clicking on the fit function.
+
+
+```{Altaxo child="..\..\KohlrauschBaseFunction"}
+Base function
+```
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Kohlrausch susceptibility fit functions (with $\varepsilon_{\infty}=2$, $\Delta \varepsilon=10$, $\tau=1$ and $\sigma_{DC}=0$). The values for $\beta$ are indicated in the legend.
+
+^^^
+![](graph:Fig2){width=15cm}  
+^^^ Fig. 2: Comparison of Kohlrausch susceptibility fit functions (with $\varepsilon_{\infty}=2$, $\Delta \varepsilon=10$, $\tau=1$ and $\beta=1$) without and with DC conductivity. The values for $\sigma_{DC}$ are indicated in the legend.
+
+---
+References:  
+- Kohlrausch, R., "Theorie des elektrischen Rückstandes in der Leidner Flasche", Annalen der Physik und Chemie. 91 (1) (1854): 56–82, 179–213, [doi:10.1002/andp.18541670103](https://doi.org/10.1002/andp.18541670103)
+- Williams, G., Watts, D. C., "Non-Symmetrical Dielectric Relaxation Behavior Arising from a Simple Empirical Decay Function", Transactions of the Faraday Society 66 (1970) 80–85. [doi:10.1039/tf9706600080](https://doi.org/10.1039/tf9706600080)
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

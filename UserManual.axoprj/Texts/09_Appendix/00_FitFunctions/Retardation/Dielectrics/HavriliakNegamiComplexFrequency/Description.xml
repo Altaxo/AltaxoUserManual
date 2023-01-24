@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Retardation\Dielectrics\HavriliakNegamiComplexFrequency\Description</Name>
+  <CreationTime>2021-07-13T14:49:36.4109534+02:00</CreationTime>
+  <LastChangeTime>2021-07-13T14:49:36.4109534+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>###### Havriliak-Negami retardation of the relative dielectric permittivity (frequency)
+
+This function models the retardation of the relative dielectric permittivity in dependence on the frequency $f$, including a term for the DC electric conductivity:
+
+$$
+\varepsilon^*(f) = \varepsilon'(f) - i \varepsilon''(f) = \varepsilon_{\infty} +  \frac{\Delta \varepsilon}{(1+(i 2 \pi f \tau)^{\alpha})^{\gamma}}   -\frac{i \sigma_{DC}}{2 \pi f \varepsilon_0}
+$$
+
+with $\varepsilon^*$ being the complex relative dielectric permittivity of a material (the other quantities are described below).
+It is a special case of the underlying base function with the options `NumberOfTerms=1`, `UseFrequencyInsteadOfOmega=true`, `UseFlowTerm=true`, `IsRelativeDielectricPermittivity=true`, `InvertViscosity=true`, `InvertResult=false` and `LogarithmizeResult=false`. These options can be changed by double-clicking on the fit function.
+
+
+```{Altaxo child="..\..\HavriliakNegamiBaseFunction"}
+Base function
+```
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Havriliak-Negami (with $\varepsilon_{\infty}=2$, $\Delta \varepsilon=10$, $\tau=1$ and $\sigma=0$). The values for $\alpha$ and $\gamma$ are indicated in the legend.
+
+^^^
+![](graph:Fig2){width=15cm}  
+^^^ Fig. 2: Comparison of Havriliak-Negami (with $\varepsilon_{\infty}=2$, $\Delta \varepsilon=10$, $\tau=1$, $\alpha=1$ and $\gamma=1$) without and with DC conductivity. The values for $\sigma_{DC}$ are indicated in the legend.
+
+---
+References:  
+- Havriliak, S., Negami, S., "A complex plane representation of dielectric and mechanical relaxation processes in some polymers", Polymer 8: 161–210, doi:10.1016/0032-3861(67)90021-3
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

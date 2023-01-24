@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Transitions\LogisticDecreasing\Description</Name>
+  <CreationTime>2021-06-15T11:04:49.4899156+02:00</CreationTime>
+  <LastChangeTime>2021-06-15T11:04:49.4899156+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### LogisticDecreasing
+
+This function evaluates a sum of logistic terms (decreasing steps), plus a background polynomial with one or multiple terms, according to
+
+$$
+y(x) = \frac{a_0}{1+ \exp \left ( \frac{x-x_{c0}}{w_0} \right ) } + ... + \frac{a_{n-1}}{1+ \exp \left ( \frac{x-x_{cn-1}}{w_{n-1}} \right ) } + b_0 + b_1 x^1 + ... + b_m x^m 
+$$
+
+in which:
+
+- $a_0 ... a_{n-1}$ are the amplitudes (step heights) of the logistic step terms
+
+- $x_{c0} ... x_{cn-1}$ are the locations of the logistic step terms
+
+- $w_0 ... w_{n-1}$ are the widths of the logistic step terms
+
+- $b_0 ... b_m$ are the coefficients of the background polynomial of order  $m$
+
+- $n$ is the number of logistic step terms ($n \geq 1$)
+- $m$ is the order of the background polynomial (set $m=-1$ to disable the background polynomial)
+
+The number of logistic step terms $n$ and the order of the background polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=0$. 
+
+The domain of the function is $-\infty \leq x \leq \infty$. 
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: LogisticDecreasing ($n=1$, $m=0$) with $a_0=5$, $x_{c0}=7$, $w_0=3$ and $b_0=1$.
+---
+References:
+[Sigmoid function at Wikipedia](https://en.wikipedia.org/wiki/Sigmoid_function)
+
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

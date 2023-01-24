@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table Type="AltaxoBase,Altaxo.Data.DataTable,5">
+  <Name>zzScripts\ExportWebHelp</Name>
+  <TableScript Type="AltaxoBase,Altaxo.Scripting.TableScript,1">
+    <Text>#region ScriptHeader
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Altaxo;
+using Altaxo.Calc.LinearAlgebra;
+using Altaxo.Data;
+
+namespace Altaxo.Calc
+{
+	public class SetTableValues : Altaxo.Calc.TableScriptExeBase
+	{
+		public override void Execute(Altaxo.Data.DataTable mytable, IProgressReporter reporter)
+		{
+			Altaxo.Data.DataColumnCollection  col = mytable.DataColumns;
+			Altaxo.Data.DataColumnCollection pcol = mytable.PropertyColumns;
+			Altaxo.Data.DataTableCollection table = Altaxo.Data.DataTableCollection.GetParentDataTableCollectionOf(mytable);
+            #endregion
+            // ----- add your script below this line -----
+
+            var document = Current.Project.TextDocumentCollection["_Master_WebHelp"];
+
+            var exportOptions = document.GetPropertyValue(Altaxo.Text.MamlExportOptions.PropertyKeyMamlExportOptions, ()=&gt;null);
+            
+            var errors = new List&lt;Altaxo.Text.MarkdownError&gt;();
+            exportOptions.Export(document, exportOptions.OutputFileName, errors);
+            
+            
+			
+			// ----- add your script above this line -----
+#region ScriptFooter
+		} // Execute method
+	} // class
+} //namespace
+#endregion
+</Text>
+  </TableScript>
+  <Properties Type="UndefinedValue" />
+  <Notes />
+  <CreationTime>2018-10-19T21:44:45.2361001+02:00</CreationTime>
+  <LastChangeTime>2018-10-19T21:44:45.2361001+02:00</LastChangeTime>
+  <PropCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>0</NumberOfRows>
+    <ColumnArray Count="0" />
+    <ColumnScripts Count="0" />
+  </PropCols>
+  <DataCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>0</NumberOfRows>
+    <ColumnArray Count="0" />
+    <ColumnScripts Count="0" />
+  </DataCols>
+</Table>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Retardation\Modulus\Lg10HavriliakNegamiComplexOmega\Description</Name>
+  <CreationTime>2021-07-14T12:43:18.2733854+02:00</CreationTime>
+  <LastChangeTime>2021-07-14T12:43:18.2733854+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>###### Havriliak-Negami retardation of a general modulus (circular frequency)
+
+This function models the retardation of a general modulus (e.g. mechanical modulus) in dependence on the circular frequency $\omega$ with a retardation and a flow term:
+
+
+$$
+M^*(\omega) = M'(\omega) + i M''(\omega) = \left [\frac{1}{M_{\infty}} + \left ( \frac{1}{M_{0}}-\frac{1}{M_{\infty}} \right ) \frac{1}{(1+(i \tau \omega)^{\alpha})^{\gamma}} - \frac{i }{\omega \eta} \right ]^{-1}
+$$
+
+Here, the values of the real and imaginary part of the calculated modulus are **logarithmized** for the output:
+
+$$
+lgM'(\omega) = \log_{10}(M'(\omega)) \\
+lgM''(\omega) = \log_{10}(M''(\omega)) \\
+$$
+
+Should your data are not logarithmized, use a DecadicLogarithmTransformation to logarithmize them, too.
+
+The quantities are described below.
+It is a special case of the underlying base function with the options `UseFrequencyInsteadOfOmega=false`, `UseFlowTerm=true`, `InvertViscosity=false`  and `LogarithmizeResult=false`. These options can be changed by double-clicking on the fit function.
+
+```{Altaxo child="..\HavriliakNegamiModulusBaseFunction"}
+Base function
+```
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Havriliak-Negami fit functions (with $M_0=10^{6}$, $M_{\infty}=10^{9}$, $\tau=1$ and $\eta=10^{33}$). The values for $\alpha$ and $\gamma$ are indicated in the legend. 
+
+^^^
+![](graph:Fig2){width=15cm}  
+^^^ Fig. 2: Comparison of Havriliak-Negami fit functions (with $M_0=10^{6}$, $M_{\infty}=10^{9}$, $\tau=1$, $\alpha=1$ and $\gamma=1$) with different viscosities $\eta$. The values for $\eta$ are indicated in the legend.
+
+---
+References:  
+- Havriliak, S., Negami, S., "A complex plane representation of dielectric and mechanical relaxation processes in some polymers", Polymer 8: 161–210, doi:10.1016/0032-3861(67)90021-3
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

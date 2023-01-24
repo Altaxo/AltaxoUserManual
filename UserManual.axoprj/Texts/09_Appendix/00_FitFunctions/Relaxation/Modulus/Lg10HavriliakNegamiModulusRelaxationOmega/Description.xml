@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Relaxation\Modulus\Lg10HavriliakNegamiModulusRelaxationOmega\Description</Name>
+  <CreationTime>2021-07-11T22:50:40.999913+02:00</CreationTime>
+  <LastChangeTime>2021-07-11T22:50:40.999913+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>###### Havriliak-Negami modulus relaxation (circular frequency)
+
+This function models the complex dynamic modulus in dependence on the circular frequency as:
+
+
+$$
+M^*(\omega) = M'(\omega) + i M''(\omega) = M_{\infty} + (M_{0}-M_{\infty})\frac{1}{(1+(i \tau \omega)^{\alpha})^{\gamma}} 
+$$
+
+or with a generalized flow term (both equations are equivalent if $\sigma=0$) :
+
+$$
+M^*(\omega) = M'(\omega) + i M''(\omega) = \left\{\frac{1}{M_{\infty} + (M_{0}-M_{\infty})\frac{1}{(1+(i \tau \omega)^{\alpha})^{\gamma}} } + \frac{i \sigma}{\omega} \right \}^{-1}
+$$
+
+with the circular frequency $\omega = 2\pi f$  being the independent variable, and $\log_{10}(M'(\omega))$ and $\log_{10}(M''(\omega))$ being the dependent variables, namely the decadic logarithm of the real and imaginary part of the complex dynamic modulus $M^*(\omega)$.
+
+The parameters are:
+
+- $M_0$ : low frequency modulus limit
+- $M_{\infty}$ : high frequency modulus limit
+- $\tau$ : relaxation time
+- $\alpha$, $\gamma$ : shape exponents (usually $ 0&lt;\alpha\le 1 $ and $ 0&lt;\gamma\le 1 $)
+- $\sigma$ : generalized flow term, for instance fluidity (inverse viscosity), conductivity etc.
+
+&gt; Note:  
+&gt; If your data are not logarithmized already, please use a DecadicLogarithmTransformation for your data.
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Havriliak-Negami (with $M_0=10^6$, $M_{\infty}=10^9$, $\tau=1$ and $\eta=10^{33}$). The values for $\alpha$ and $\gamma$ are indicated in the legend.
+
+^^^
+![](graph:Fig2){width=15cm}  
+^^^ Fig. 2: Comparison of Havriliak-Negami (with $M_0=10^6$, $M_{\infty}=10^9$, $\tau=1$, $\alpha=1$ and $\gamma=1$) without and with flow term. The values for $\eta$ are indicated in the legend.
+
+---
+References:  
+- Havriliak, S., Negami, S., "A complex plane representation of dielectric and mechanical relaxation processes in some polymers", Polymer 8: 161–210, doi:10.1016/0032-3861(67)90021-3
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

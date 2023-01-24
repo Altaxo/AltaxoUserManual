@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>06_CodeEditor\_Text</Name>
+  <CreationTime>2018-09-26T21:46:29.0379614+02:00</CreationTime>
+  <LastChangeTime>2018-09-26T21:46:29.0379614+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>## Altaxo's code editor
+
+The code editor in Altaxo is used to create, edit, and finally run scripts written in the [C#](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/) programming language. The scripts are compiled using the Roslyn compiler, an [open source project](https://github.com/dotnet/roslyn) from Microsoft. In this way it keeps pace with the development of the C# language. Additionally, Roslyn is powering some features that make working with scripts more comfortable.
+These features are:
+
+- **Semantic highlighting**: the text is colored according to the semantics.
+- **Code completion**: the editor gives you a list of class names available, member names that are valid in the given context and so on. This makes it very ease to write code, and method names can be long and meaningful.
+- **Signature help**: closely related to code completion, signature help shows you different signatures of (overloaded) methods.
+- **Brace matching**: if the cursor is at an open or closing brace, the corresponding brace will be highlighted, too.
+- **Diagnostics**: code fragments that will not compile have red squiggles under the text.
+- **Documentation**: documentation text that you have added to methods you have added to your script is shown when you use those methods in other parts of your script text.
+- **External help**: if you place the cursor on a .NET framework class or member and press `F1`, the documentation web page from Microsoft will be shown. Likewise, if you place the cursor on an Altaxo class or member, the documentation web page of Altaxo's class library will be shown in the browser.
+- **Folding**: code fragments that are framed inside of `#region` and `#endregion` statements can be folded away or expanded again using the sidebar.
+- **Go to definition**: if you place the cursor at a variable name and hit `F12`, the cursor jumps to the location where the variable is defined.
+- **Live document formatting**: as you write the code, the code is formatted (at the end of the line when you enter the final semicolon, or at the end of a block when you enter the closing brace).
+- **Reference highlighting**: if you click into a variable, all occurrences of that variable in the text will be highlighted.
+- **Quick info**: hover the mouse over a variable, a class or a method, and you will get a quick info concerning that item.
+- **Renaming**: clicking into a variable name and then press `F2` allows you to rename that variable. The name will be replaced in all occurrences of that variable.
+
+
+### Keyboard shortcuts and commands
+
+Inside the code editor window the following keyboard shortcuts and other commands are available:
+
+- `F1` (while the cursor is in a variable, a method or class name): get help for that item
+- `F2`: rename variable
+- `F12`: go to definition
+- right click to open the context menu: format document (formats the entire document)
+
+### The code editor window in detail
+
+The figure below shows the code editor window with the default worksheet script.
+
+![](graph:GCodeEditorWindow){width=25cm}
+
+- On the very left of the code editor window there are the line numbers.
+- Furthermore, on the left side there are `+` buttons that can be used to toggle the folding of the script header and the script footer. More code will show up if you toggle this. It is intended for experienced users how want to add additional using statements, member variables etc. You can even add entire new methods or classes.
+- The info bar on the top shows the current class and the current method or property you are currently editing.
+- The list box on the bottom shows errors, warnings, or information concerning both the compiling of your code as well as errors during execution of the code.
+
+On the right hand side there are four buttons, whose function will be described below:
+- the button `OK` will **compile** your code, and then **execute** it.
+- the button `Compile` will **compile** your code (but not execute it), so that you can check your code for errors without executing it.
+- the button `Update` will close this dialog **while keeping** your code changes, but without compiling and executing, so that when you next time opens the worksheet script, it will show the code as you have left it. Use this e.g. if your code currently not compiles, but you intend to keep the changes.
+- the button `Cancel` will close the dialog, but **without keeping** the changes you have made to the code.
+
+### Long running code
+
+Long running code in Altaxo is code that runs for more than 10 seconds. If your code runs for more than 10 seconds, another dialog box will open, which allows you to cancel or interrupt code execution.
+You can help to make long running code a little bit more responsive.
+
+There is a variable `reporter` available in the `Execute` method (`Execute` is the default method of the worksheet script). The `reporter` variable can and should be used for the following two purposes:
+
+- To allow the user to cancel execution, and to return from code execution in a defined state.
+- To show the user the progress of your code execution.
+
+#### Allow cancellation of code execution at defined points
+
+To allow the user to cancel long running code, look at the following example:
+
+```
+for (int i = 0; i &lt; 100000; i++)
+{
+    Foo(); // method Foo() runs moderately long (say &lt; 1 s)
+
+    if (reporter.CancellationPending)
+        break; // or: return
+}
+```
+
+Here, the `if (reporter.CancellationPending)` statement ask the `reporter` if the user has requested to cancel the execution, and if so, ends the loop with a `break` statement.
+
+#### Report the progress to the user
+
+The example above can be extended to show progress to the user.
+
+```
+int len = 100000;
+for (int i = 0; i &lt; len; i++)
+{
+    Foo(); // method foo runs moderately long (&lt; 1 s)
+
+    if (reporter.CancellationPending)
+        break; // or: return
+
+    if (reporter.ShouldReportNow)
+        reporter.ReportProgress(string.Format("{0} of {1}", i, len), i / (double)len);
+}
+```
+
+Here, the statement `if (reporter.ShouldReportNow)` first asks if it is necessary to report now (this property is set every second or so). If so, the method `ReportProgress` is called, which reports the progress both as text (`string.Format...`) as well as as a numerical value in the range from 0 to 1. This value is calculated using the loop variable `i` and dividing it to the total number of loops `len`. 
+
+Of course, you can omit the `if (reporter.ShouldReportNow)` statement and directly call the `ReportProgress` method. For smaller loops this is OK, but for a loop as shown here, this would call the `string.Format` method and `ReportProgress` method a hundred thousand times. Not very effective!
+
+
+
+
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>zzFragments\Features</Name>
+  <CreationTime>2018-05-18T12:44:17.5282083+02:00</CreationTime>
+  <LastChangeTime>2018-05-18T12:44:17.5282083+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>## Introduction into Altaxo
+
+### Features in version 0.50
+
+#### GUI
+
+- Worksheet Views (as many tables as you want)
+- Support for a huge number of columns (I tested it with a hundred thousand)
+- Property columns (this are "horizontal" columns) that hold meta-data for the columns (for instance column labels, column units, or numbers)
+- Simple dragging for change of column width
+- Selecting rows, columns and property columns, even non-contiguous regions
+- Copy and paste of selected areas, if the region does not match, the transposed region will be pasted in (if this matches better)
+- Renaming of columns / worksheets / graphs 
+- Project explorer shows all graphs and tables 
+- Graph and Worksheet views can be closed without removing the underlying graph / table (they can be opened again using the project explorer)
+
+#### Plotting
+- Line and scatter plots (and both combined) with a lot of options, including fill styles and drop styles. 
+- Brandnew: Label style (labels can either be attached to the data point, or to one of the axes) 
+- Support for different layers. Layers can be rotated, scaled, and linked to other layers. 
+- Density images. 
+
+#### Input / output
+- ASCII import with automatic structure and number format recognition
+- ASCII export (tab separated)
+- Picture import (as brightness values)
+- Galactic® SPC file import (multiple files selectable)
+- Galactic® SPC file export wizard
+- Export of graphs as WMF (Windows Metafile)
+- The Altaxo document is now stored as ZIP-file. The worksheets and graphs are stored in XML file format inside of the ZIP-file. Support for versioning.
+
+#### Data analysis
+- Complex number library 
+- Growing collection of special functions (Bessel related functions, Gamma related function, Error functions, spherical functions 
+- Random number generators, probability distributions. 
+- Interpolation functions 
+- Fourier transformation code. 
+- Partial least squares analysis, and principal component analysis 
+- Matrix operations 
+- Statistics 
+- Prepared for non-linear fitting. 
+
+#### Scripting / programming
+- Column scripts and worksheet scripts
+- Script language is C# - you can use the hole bunch of classes of the .NET framework and all the classes of Altaxo itself!
+- Script execution is very fast since the scripts are compiled.
+Worksheet script window with syntax highlighting and code completion feature.
+- Help pane with Altaxo class reference
+Addin support (addins are DLLs that are linked to the program, see SharpDevelop)
+
+#### Planned features for the next version
+- Output pane for the fitting results and for messages. 
+- Function plotting (already prepared, but currently no GUI) 
+- Curve fitting (the functions are already there, but also no GUI) 
+- Table properties to tag tables with special information. 
+- More GUI (user options, ASCII import/export options, data analyis and and and (but is very time consuming). 
+- More clickable objects in the graph view. 
+
+#### Developers Needed!
+Help by other developers is greatly appreciated!
+
+Help is especially welcome in the following areas:
+
+- Mathematics: to implement the statistical functions, linear and non-linear curve fits, and special mathematical functions
+- Help system: since the column scripts can use all public classes and objects from the program, a good documentation of these classes is absolutely necessary 
+- Help system: to write an user's guide
+
+#### Installation
+- For those who have already installed the .NET runtime: just download the Setup.msi file and double-click it! The installer will do the job then! 
+- For those who have not already installed the .NET runtime: install the .NET runtime first. You only need the redistributable, it is available in different languages. You can download it from Microsoft here, it is around 33MB). After installation of the .NET framework redistributable, download Setup.msi and simply double-click on it.  
+  
+Using Altaxo
+I actually not have the time to write a user's guide. Help on that is greatly appreciated (see above).
+
+#### Support
+Altaxo is an Open Source project, that is covered under the GNU Public License.  As such, your main form of support for Altaxo will be through subscription to the Altaxo mailing list. In addition, SourceForge has bug tracking capabilities, so please report any bugs here.  Wish list items will also be considered, but I make absolutely no promises.  
+
+#### Localization
+Altaxo was initially written with an english user interface. The code (the class names and the comments) is also in english. This is especially important since you can use the classes in your own column and worksheet scripts.
+
+So far no plans exist to localize Altaxo to other languages. Due to the good localization support of the SharpDevelop project used for the GUI, it should be possible to localize Altaxo for other languages.
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

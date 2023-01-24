@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\01_CommandLine\_Text</Name>
+  <CreationTime>2018-10-19T23:01:59.2034702+02:00</CreationTime>
+  <LastChangeTime>2018-10-19T23:01:59.2034702+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>### Altaxo's command line arguments
+
+Altaxo can be started using either `AltaxoStartup.exe` or `AltaxoStartup32.exe`, located in the `bin` subfolder of the Altaxo installation folder.
+`AltaxoStartup32.exe` starts Altaxo always in 32 bit mode. If using `AltaxoStartup.exe`, the mode Altaxo is started with depends on your system architecture (32 bit on 32-bit Windows systems, 64 bit on 64-bit Windows systems).
+
+The following command line arguments can be used to start up Altaxo (both with `AltaxoStartup.exe` and `AltaxoStartup32.exe`:
+
+- `xyz.axoprj` :  
+	loads the Altaxo project named `xyz.axoprj`.
+
+- `-nologo` :   
+	suppresses the show up of the Altaxo logo during startup.
+	
+- `-noExceptionBox` :  
+	suppresses the show up of the exception box should an exception occur during startup or running of the application
+	
+- `-embedding` :  
+	runs Altaxo in COM local server mode (do not use this unless you know exactly what you do, currently working properly only when used with `AltaxoStartup32.exe`, i.e. in 32 bit mode).
+
+- `-executetablescript nameOfTheTable` :  
+	executes the table script of the table `nameOfTheTable`. This argument can be used multiple times. The scripts are executed in the order they are given at the command line.
+
+- `-exit` :  
+	if this argument is the last argument, Altaxo is exited before Altaxo's workbench is shown. All arguments before this argument are executed nevertheless (e.g. loading of a Altaxo project, executing a table script etc.). If this argument is not the last one, it is ignored.
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

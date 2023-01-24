@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Retardation\Modulus\HavriliakNegamiMultiComplexFrequency\Description</Name>
+  <CreationTime>2021-07-13T21:20:33.1263805+02:00</CreationTime>
+  <LastChangeTime>2021-07-13T21:20:33.1263805+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>###### Havriliak-Negami retardation of a general modulus (frequency)
+
+This function models the retardation of a general modulus (e.g. mechanical modulus) in dependence on the frequency $f$ with two retardation terms and a term for the flow:
+
+$$
+M^*(f) =  M'(f) + i M''(f) = \left [ \chi_{\infty} +  \frac{\Delta \chi}{(1+(i 2\pi f \tau)^{\alpha})^{\gamma}}  +  \frac{\Delta \chi_1}{(1+(i 2 \pi f \tau_1)^{\alpha_1})^{\gamma_1}} -\frac{i }{2 \pi f \eta} \right ]^{-1}
+$$
+
+The quantities are described below.
+It is a special case of the underlying base function with the options `NumberOfTerms=2`, `UseFrequencyInsteadOfOmega=true`, `UseFlowTerm=true`, `IsRelativeDielectricPermittivity=false`, `InvertViscosity=false`, `InvertResult=true` and `LogarithmizeResult=false`. These options can be changed by double-clicking on the fit function.
+
+
+```{Altaxo child="..\..\HavriliakNegamiBaseFunction"}
+Base function
+```
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Havriliak-Negami fit functions (with $\chi_{\infty}=0.5 \times 10^{-9}$, $\Delta \chi=0.999 \times 10^{-6}$, $\tau=1000$, $\Delta \chi_1=0.5 \times 10^{-9}$, $\tau_1=0.1$, $\alpha_1=1$, $\gamma_1=1$   and $\eta=10^{33}$). The values for $\alpha$ and $\gamma$ are indicated in the legend. Note that here the $\chi$ values are mechanical compliances (in Pa^-1^).
+
+^^^
+![](graph:Fig2){width=15cm}  
+^^^ Fig. 2: Comparison of Havriliak-Negami fit functions (with $\chi_{\infty}=0.5 \times 10^{-9}$, $\Delta \chi=0.999 \times 10^{-6}$, $\tau=1000$, $\alpha=1$, $\gamma=1$, $\Delta \chi_1=0.5 \times 10^{-9}$, $\tau_1=0.1$, $\alpha_1=1$ and $\gamma_1=1$) with different viscosities $\eta$. The values for $\eta$ are indicated in the legend. Note that here the $\chi$ values are mechanical compliances (in Pa^-1^).
+
+---
+References:  
+- Havriliak, S., Negami, S., "A complex plane representation of dielectric and mechanical relaxation processes in some polymers", Polymer 8: 161–210, doi:10.1016/0032-3861(67)90021-3
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

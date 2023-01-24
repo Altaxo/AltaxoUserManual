@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\General\PowerLawPrefactor\Description</Name>
+  <CreationTime>2021-05-01T18:59:38.0140013+02:00</CreationTime>
+  <LastChangeTime>2021-05-01T18:59:38.0140013+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Power law (with pre-factors)
+
+This function evaluates a power law with one or multiple terms according to
+
+$$
+y(x) = y_0 + a_0 x^{k_0} + ... + a_{n-1} x^{k_{n-1}}
+$$
+
+in which:
+
+- $y_0$ is the value of the base line (value of y for $x=0$ )
+- $a_0$ .. $a_{n-1}$ are the pre-factors of the terms
+- $k_0$ ... $k_{n-1}$ are the exponents
+- $n$ is the number of  terms
+
+The number of terms $n$ can be changed by double-clicking on the fit function. The default value is $n=1$. Strictly speaking, the function is a power law only if $y_0=0$ and $n=1$.
+
+The domain of the function is $ 0 \leq x &lt; \infty $ if all $k_0..k_{n-1}$ are positive, or $ 0 &lt; x &lt; \infty $ if some of the exponents are negative.
+
+&gt; **Note:**  
+Even if you set the exponents fixed to integer values, the domain of the function is not extended to the full range! If the full range is neccessary, try to use `Polynomial` instead.
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Power law with $y_0=0$, $a_0=3$ and $k_0=2.5$ with linear x- and y-axes.
+
+^^^
+![](graph:Fig2){width=15cm}  
+^^^ Fig. 2: Power law with the same parameters $y_0=0$, $a_0=3$ and $k_0=2.5$ in a double-logarithmic plot.
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

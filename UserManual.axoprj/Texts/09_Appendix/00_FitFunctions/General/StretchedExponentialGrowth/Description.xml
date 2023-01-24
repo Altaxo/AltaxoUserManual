@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\General\StretchedExponentialGrowth\Description</Name>
+  <CreationTime>2021-05-19T22:49:42.8481497+02:00</CreationTime>
+  <LastChangeTime>2021-05-19T22:49:42.8481497+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Stretched exponential growth
+
+This function evaluates a stretched exponential growth process starting at $x=x_0$ with one or multiple terms according to
+
+$$
+y(x) = \cases{y_0 + a_0 \exp\left(\left[\frac{x-x_0}{\tau_0}\right]^{\beta_0} \right ) + ... + a_{n-1} \exp\left(\left[\frac{x-x_0}{\tau_{n-1}}\right]^{\beta_{n-1}} \right ) \thickspace \thickspace (x &gt; x_0)
+\cr y_0 + \sum_{0}^{n-1} a_i  \thickspace \thickspace (x \leq x_0)}
+$$
+
+in which:
+
+- $x_0$ is the starting point of the growth process. If this value is known, you should enter the value and set this parameter to fixed.
+- $y_0$ is an offset value
+- $a_0$ .. $a_{n-1}$ are the pre-factors of the exponential terms
+- $\tau_0$ ... $\tau_{n-1}$ are the characteristic times
+- $\beta_0$ ... $\beta_{n-1}$ are the exponents, usually in the range $ 0 &lt; \beta \leq 1 $
+- $n$ is the number of exponential terms
+
+The number of terms $n$ can be changed by double-clicking on the fit function. The default value is $n=1$.
+
+The domain of the function is $-\infty &lt; x &lt; \infty$. The function values are set to constant for $x&lt;x_0$.
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Stretched exponential growth with $x_0=0$, $y_0=-2$, $a_0=3$, $\tau_0=4$, and $\beta=0.5$ (green) in comparison to a 'normal' exponential growth function with the same parameters (grey). Note that the 'normal' exponential growth has varying function values both for $x&lt;0$ and $x&gt;0$, whereas the stretched exponential growth is constant for $x&lt;x_0$.
+---
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

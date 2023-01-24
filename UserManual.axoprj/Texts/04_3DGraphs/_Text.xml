@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>04_3DGraphs\_Text</Name>
+  <CreationTime>2018-05-17T22:02:46.6305819+02:00</CreationTime>
+  <LastChangeTime>2018-05-17T22:02:46.6305819+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="2" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+      <e>
+        <Key>8FBF38A4-E9ED-4C17-B6F0-F6E5E285FD33</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+  <StyleName />
+  <SourceText>## 3D-Graphs
+ 
+```{Altaxo child="01_Quickstart\_Text"}
+Quickstart
+```</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

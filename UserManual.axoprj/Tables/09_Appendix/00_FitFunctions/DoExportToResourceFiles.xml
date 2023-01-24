@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table Type="AltaxoBase,Altaxo.Data.DataTable,5">
+  <Name>09_Appendix\00_FitFunctions\DoExportToResourceFiles</Name>
+  <TableScript Type="AltaxoBase,Altaxo.Scripting.TableScript,1">
+    <Text>#region ScriptHeader
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Altaxo;
+using Altaxo.Calc.LinearAlgebra;
+using Altaxo.Data;
+using System.IO;
+
+namespace Altaxo.Calc
+{
+    public class SetTableValues : Altaxo.Calc.TableScriptExeBase
+    {
+        public override void Execute(Altaxo.Data.DataTable mytable, IProgressReporter reporter)
+        {
+            Altaxo.Data.DataColumnCollection col = mytable.DataColumns;
+            Altaxo.Data.DataColumnCollection pcol = mytable.PropertyColumns;
+            Altaxo.Data.DataTableCollection table = Altaxo.Data.DataTableCollection.GetParentDataTableCollectionOf(mytable);
+            #endregion
+            // ----- add your script below this line -----
+
+            var orgStringResFileName = @"V:\C\Altaxo\src\Altaxo\Base\Calc\FitFunctions\StringResources.resx";
+            var orgImageResFileName = @"V:\C\Altaxo\src\Altaxo\Base\Calc\FitFunctions\ImageResources.resx";
+
+
+
+            // Function to get the tuples consisting of Markdown documents and relative resource key
+            IEnumerable&lt;(Altaxo.Text.TextDocument document, string relativeResourceKey)&gt; GetDocuments()
+            {
+                for (int i = 0; i &lt; col.RowCount; ++i)
+                {
+                    var folder = "09_Appendix\\00_FitFunctions\\" + col["Folder"][i] + "\\";
+                    var itemName = folder + "Description";
+                    var doc = Current.Project.TextDocumentCollection[itemName];
+
+                    var resourceString = col["ResourceString"][i];
+
+                    yield return (doc, resourceString);
+
+                }
+            }
+
+
+            // now the function body
+
+            var tempStringName = Path.GetTempFileName();
+            var tempImageName = Path.GetTempFileName();
+            File.Copy(orgStringResFileName, tempStringName, true); // copy the original string resx file elsewhere, because it is overwritten
+            File.Copy(orgImageResFileName, tempImageName, true);// copy the original image resx file elsewhere, because it is overwritten
+
+
+
+
+            using (var stringResReader = new System.Resources.ResXResourceReader(tempStringName))
+            {
+                using (var stringResWriter = new System.Resources.ResXResourceWriter(orgStringResFileName))
+                {
+                    using (var imageResReader = new System.Resources.ResXResourceReader(tempImageName))
+                    {
+                        using (var imageResWriter = new System.Resources.ResXResourceWriter(orgImageResFileName))
+                        {
+                            Altaxo.Text.MarkdownToResourceExport.ExportMarkdownDocumentsToResourceFiles(
+                                GetDocuments(),
+                                "Altaxo.Calc.FitFunctions",
+                                stringResReader, stringResWriter, false,
+                                imageResReader, imageResWriter, true);
+                        }
+                    }
+                }
+            }
+
+            File.Delete(tempStringName);
+            File.Delete(tempImageName);
+
+            // ----- add your script above this line -----
+            #region ScriptFooter
+        } // Execute method
+    } // class
+} //namespace
+#endregion
+</Text>
+  </TableScript>
+  <Properties Type="UndefinedValue" />
+  <Notes />
+  <CreationTime>2021-05-08T22:31:46.2345395+02:00</CreationTime>
+  <LastChangeTime>2023-01-18T17:29:28.9242096+01:00</LastChangeTime>
+  <PropCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>0</NumberOfRows>
+    <ColumnArray Count="0" />
+    <ColumnScripts Count="0" />
+  </PropCols>
+  <DataCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>66</NumberOfRows>
+    <ColumnArray Count="2">
+      <Column>
+        <Name>ResourceString</Name>
+        <Kind>0</Kind>
+        <Group>0</Group>
+        <Data Type="AltaxoBase,Altaxo.Data.TextColumn,0">
+          <BaseType>AltaxoBase,Altaxo.Data.DataColumn,0</BaseType>
+          <Data Count="66">
+            <e>General.ExponentialDecay</e>
+            <e>General.ExponentialEquilibration</e>
+            <e>General.ExponentialGrowth</e>
+            <e>General.Polynomial</e>
+            <e>General.PowerLawPrefactor</e>
+            <e>General.PowerLawRatio</e>
+            <e>General.Rational</e>
+            <e>General.RationalInverse</e>
+            <e>General.StretchedExponentialDecay</e>
+            <e>General.StretchedExponentialEquilibration</e>
+            <e>General.StretchedExponentialGrowth</e>
+            <e>Kinetics.ConversionAutocatalytic</e>
+            <e>Kinetics.ConversionNthOrder</e>
+            <e>Kinetics.KineticsNthOrder</e>
+            <e>Kinetics.RateOfConversionNthOrder</e>
+            <e>Kinetics.RateOfConversionAutocatalytic</e>
+            <e>Materials.ArrheniusLawRate</e>
+            <e>Materials.ArrheniusLawTime</e>
+            <e>Materials.VogelFulcherLawRate</e>
+            <e>Materials.VogelFulcherLawTime</e>
+            <e>Peaks.CauchyAmplitude</e>
+            <e>Probability.CauchyArea</e>
+            <e>Peaks.GaussAmplitude</e>
+            <e>Probability.GaussArea</e>
+            <e>Probability.VoigtArea</e>
+            <e>Probability.VoigtAreaParametrizationNu</e>
+            <e>Relaxation.Modulus.HavriliakNegamiModulusRelaxationFrequency</e>
+            <e>Relaxation.Modulus.HavriliakNegamiModulusRelaxationOmega</e>
+            <e>Relaxation.Modulus.KohlrauschModulusRelaxationFrequency</e>
+            <e>Relaxation.Modulus.KohlrauschModulusRelaxationOmega</e>
+            <e>Relaxation.Modulus.Lg10HavriliakNegamiModulusRelaxationFrequency</e>
+            <e>Relaxation.Modulus.Lg10HavriliakNegamiModulusRelaxationOmega</e>
+            <e>Relaxation.Modulus.Lg10KohlrauschModulusRelaxationFrequency</e>
+            <e>Relaxation.Modulus.Lg10KohlrauschModulusRelaxationOmega</e>
+            <e>Retardation.Dielectrics.HavriliakNegamiComplexFrequency</e>
+            <e>Retardation.Dielectrics.HavriliakNegamiComplexOmega</e>
+            <e>Retardation.Dielectrics.KohlrauschComplexFrequency</e>
+            <e>Retardation.Dielectrics.KohlrauschComplexOmega</e>
+            <e>Retardation.General.HavriliakNegamiComplexFrequency</e>
+            <e>Retardation.General.HavriliakNegamiComplexOmega</e>
+            <e>Retardation.General.KohlrauschComplexFrequency</e>
+            <e>Retardation.General.KohlrauschComplexOmega</e>
+            <e>Retardation.Modulus.HavriliakNegamiComplexFrequency</e>
+            <e>Retardation.Modulus.HavriliakNegamiComplexOmega</e>
+            <e>Retardation.Modulus.HavriliakNegamiMultiComplexFrequency</e>
+            <e>Retardation.Modulus.HavriliakNegamiMultiComplexOmega</e>
+            <e>Retardation.Modulus.KohlrauschComplexFrequency</e>
+            <e>Retardation.Modulus.KohlrauschComplexOmega</e>
+            <e>Retardation.Modulus.Lg10HavriliakNegamiComplexFrequency</e>
+            <e>Retardation.Modulus.Lg10HavriliakNegamiComplexOmega</e>
+            <e>Retardation.Modulus.Lg10KohlrauschComplexFrequency</e>
+            <e>Retardation.Modulus.Lg10KohlrauschComplexOmega</e>
+            <e>Transitions.GeneralEffectiveMedium</e>
+            <e>Transitions.GeneralizedLogisticDecreasing</e>
+            <e>Transitions.GeneralizedLogisticIncreasing</e>
+            <e>Transitions.Lg10GeneralEffectiveMedium</e>
+            <e>Transitions.LinearFermiDiracTransition</e>
+            <e>Transitions.LogarithmicFermiDiracTransition</e>
+            <e>Transitions.LogisticDecreasing</e>
+            <e>Transitions.LogisticIncreasing</e>
+            <e>Transitions.SmoothedPercolation</e>
+            <e>Peaks.PearsonIVAmplitude</e>
+            <e>Peaks.PearsonIVAmplitudeParametrizationHPW</e>
+            <e>Peaks.PearsonVIIAmplitude</e>
+            <e>Probability.PearsonIVArea</e>
+            <e>Peaks.PseudoVoigtAmplitude</e>
+          </Data>
+        </Data>
+      </Column>
+      <Column>
+        <Name>Folder</Name>
+        <Kind>0</Kind>
+        <Group>0</Group>
+        <Data Type="AltaxoBase,Altaxo.Data.TextColumn,0">
+          <BaseType>AltaxoBase,Altaxo.Data.DataColumn,0</BaseType>
+          <Data Count="66">
+            <e>General\ExponentialDecay</e>
+            <e>General\ExponentialEquilibration</e>
+            <e>General\ExponentialGrowth</e>
+            <e>General\Polynomial</e>
+            <e>General\PowerLawPrefactor</e>
+            <e>General\PowerLawRatio</e>
+            <e>General\Rational</e>
+            <e>General\RationalInverse</e>
+            <e>General\StretchedExponentialDecay</e>
+            <e>General\StretchedExponentialEquilibration</e>
+            <e>General\StretchedExponentialGrowth</e>
+            <e>Kinetics\ConversionAutocatalytic</e>
+            <e>Kinetics\ConversionNthOrder</e>
+            <e>Kinetics\KineticsNthOrder</e>
+            <e>Kinetics\RateOfConversionNthOrder</e>
+            <e>Kinetics\RateOfConversionAutocatalytic</e>
+            <e>Materials\ArrheniusLawRate</e>
+            <e>Materials\ArrheniusLawTime</e>
+            <e>Materials\VogelFulcherLawRate</e>
+            <e>Materials\VogelFulcherLawTime</e>
+            <e>Peaks\CauchyAmplitude</e>
+            <e>Probability\CauchyArea</e>
+            <e>Peaks\GaussAmplitude</e>
+            <e>Probability\GaussArea</e>
+            <e>Probability\VoigtArea</e>
+            <e>Probability\VoigtAreaParametrizationNu</e>
+            <e>Relaxation\Modulus\HavriliakNegamiModulusRelaxationFrequency</e>
+            <e>Relaxation\Modulus\HavriliakNegamiModulusRelaxationOmega</e>
+            <e>Relaxation\Modulus\KohlrauschModulusRelaxationFrequency</e>
+            <e>Relaxation\Modulus\KohlrauschModulusRelaxationOmega</e>
+            <e>Relaxation\Modulus\Lg10HavriliakNegamiModulusRelaxationFrequency</e>
+            <e>Relaxation\Modulus\Lg10HavriliakNegamiModulusRelaxationOmega</e>
+            <e>Relaxation\Modulus\Lg10KohlrauschModulusRelaxationFrequency</e>
+            <e>Relaxation\Modulus\Lg10KohlrauschModulusRelaxationOmega</e>
+            <e>Retardation\Dielectrics\HavriliakNegamiComplexFrequency</e>
+            <e>Retardation\Dielectrics\HavriliakNegamiComplexOmega</e>
+            <e>Retardation\Dielectrics\KohlrauschComplexFrequency</e>
+            <e>Retardation\Dielectrics\KohlrauschComplexOmega</e>
+            <e>Retardation\General\HavriliakNegamiComplexFrequency</e>
+            <e>Retardation\General\HavriliakNegamiComplexOmega</e>
+            <e>Retardation\General\KohlrauschComplexFrequency</e>
+            <e>Retardation\General\KohlrauschComplexOmega</e>
+            <e>Retardation\Modulus\HavriliakNegamiComplexFrequency</e>
+            <e>Retardation\Modulus\HavriliakNegamiComplexOmega</e>
+            <e>Retardation\Modulus\HavriliakNegamiMultiComplexFrequency</e>
+            <e>Retardation\Modulus\HavriliakNegamiMultiComplexOmega</e>
+            <e>Retardation\Modulus\KohlrauschComplexFrequency</e>
+            <e>Retardation\Modulus\KohlrauschComplexOmega</e>
+            <e>Retardation\Modulus\Lg10HavriliakNegamiComplexFrequency</e>
+            <e>Retardation\Modulus\Lg10HavriliakNegamiComplexOmega</e>
+            <e>Retardation\Modulus\Lg10KohlrauschComplexFrequency</e>
+            <e>Retardation\Modulus\Lg10KohlrauschComplexOmega</e>
+            <e>Transitions\GeneralEffectiveMedium</e>
+            <e>Transitions\GeneralizedLogisticDecreasing</e>
+            <e>Transitions\GeneralizedLogisticIncreasing</e>
+            <e>Transitions\Lg10GeneralEffectiveMedium</e>
+            <e>Transitions\LinearFermiDiracTransition</e>
+            <e>Transitions\LogarithmicFermiDiracTransition</e>
+            <e>Transitions\LogisticDecreasing</e>
+            <e>Transitions\LogisticIncreasing</e>
+            <e>Transitions\SmoothedPercolation</e>
+            <e>Peaks\PearsonIVAmplitude</e>
+            <e>Peaks\PearsonIVAmplitudeParametrizationHPW</e>
+            <e>Peaks\PearsonVIIAmplitude</e>
+            <e>Probability\PearsonIVArea</e>
+            <e>Peaks\PseudoVoigtAmplitude</e>
+          </Data>
+        </Data>
+      </Column>
+    </ColumnArray>
+    <ColumnScripts Count="0" />
+  </DataCols>
+</Table>

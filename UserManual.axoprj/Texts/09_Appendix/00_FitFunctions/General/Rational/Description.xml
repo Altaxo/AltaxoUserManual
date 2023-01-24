@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\General\Rational\Description</Name>
+  <CreationTime>2021-05-01T18:59:38.0140013+02:00</CreationTime>
+  <LastChangeTime>2021-05-01T18:59:38.0140013+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>###### Rational
+
+This function evaluates a rational polynom with one or multiple terms in the nominator and in the denominator according to
+
+$$
+y(x) = \frac{a_0 + a_1 x + ... + a_{n} x^{n}}{1 + b_1 x + .. + b_{m} x^{m}}
+$$
+
+in which:
+
+- $a_0$ .. $a_{n}$ are the coefficients of the nominator polynom
+- $b_1$ .. $b_{m}$ are the coefficients of the denominator polynom
+- $n$ is the polynomial order of the nominator polynom
+- $m$ is the polynomial order of the denominator polynom
+
+In order to avoid covariance between the 0th order coefficients $a_0$ and $b_0$, in this formula $b_0$ is set to $b_0=1$. Please use `RationalInverse` if a free value of $b_0$ is preferred.
+
+The polynomial orders $n$ and $m$ can be changed by double-clicking on the fit function. The default value is $n=1$ and $m=1$.
+
+The domain of the function is $ -\infty &lt; x &lt; \infty $, with some points (poles) excluded, at which the denominator becomes zero.
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Rational $\frac{2+x}{1+2x}$, i.e. with $n=m=1$, $a_0=2$, $a_1=1$ and $b_1=2$.
+
+---</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

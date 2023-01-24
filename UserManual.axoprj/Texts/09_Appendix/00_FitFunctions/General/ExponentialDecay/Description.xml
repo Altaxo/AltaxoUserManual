@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\General\ExponentialDecay\Description</Name>
+  <CreationTime>2021-05-01T18:59:38.0140013+02:00</CreationTime>
+  <LastChangeTime>2021-05-01T18:59:38.0140013+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### ExponentialDecay
+
+This function evaluates an exponential decay with one or multiple terms according to
+
+$$
+y(x) = y_0 + a_0 \exp\left(\frac{-x}{\tau_0}\right ) + ... + a_{n-1} \exp\left(\frac{-x}{\tau_{n-1}} \right )
+$$
+
+in which:
+
+- $y_0$ is the value of the base line (value of y for $x\rightarrow \infty$ )
+- $a_0$ .. $a_{n-1}$ are the prefactors of the exponential decay terms
+- $\tau_0$ ... $\tau_{n-1}$ are the characteristic times
+- $n$ is the number of exponential terms
+
+The number of terms $n$ can be changed by double-clicking on the fit function. The default value is $n=1$.
+
+The domain of the function is $-\infty \leq x \leq \infty$.
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Exponential decay with $y_0=1$, $a_0=3$, and $\tau_0=4$.
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Kinetics\RateOfConversionNthOrder\Description</Name>
+  <CreationTime>2021-07-20T22:44:48.8400979+02:00</CreationTime>
+  <LastChangeTime>2021-07-20T22:44:48.8400979+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Conversion of a reaction of n^th^ order
+
+This fit function represents the solution of the differential equation of a conversion kinetics of n^th^ order, namely:
+
+$$
+\frac{dc}{dx} = k (1-c)^n \\ \\ c(x \le t_0)=0
+$$
+
+in which 
+
+- $c$ is a value in the range [0, 1], e.g. the chemical conversion,
+- $x$ is the independent variable (for a kinetics, $x$ represents the time),
+- $k$ is a rate parameter,
+- $n$ is the order of the kinetic conversion process,
+- $t_0$ is the point (time) of the start of the reaction, i.e. $c(t_0)=0$.
+
+&gt; **Important**: In this fit function, the **dependent variable is not the conversion** $c(x)$, **but a scaled value of the conversion rate** $y(x)=A_0 \frac{dc(x)}{dx}$, in which $A_0$ is an additional parameter!
+
+
+The value of $k$ is assumed to be positive.
+
+The solution for $x\ge t_0$ of the differential equation is:
+
+
+$$
+c(x) = \cases { 
+                1 - \left \[ 1 -k (1-n)( x - t_0) \right \]^{\frac{1}{1-n}} \thickspace \mathrm{if} \thickspace n \neq 1 \cr
+                 1 - \exp(-k (x-t_0)) \thickspace \mathrm{if} \thickspace n=1} 
+$$
+
+For $x \le t_0$, $c$ is set to 0. Additionally, in order to be consistent among different $n$, $c$ is set to 1 if $n&lt;1$ and $x&gt;t_0 + \frac{1}{k(1-n)}$. 
+
+The domain of the function is $-\infty \leq x \leq \infty$. 
+
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: RateOfConversionNthOrder fit functions (with $t_0=1$, $A_0=1$, $k=1$). The values for $n$ are indicated in the legend.
+---
+
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

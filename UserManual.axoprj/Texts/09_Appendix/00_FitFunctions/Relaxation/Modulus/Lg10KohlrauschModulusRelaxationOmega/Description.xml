@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Relaxation\Modulus\Lg10KohlrauschModulusRelaxationOmega\Description</Name>
+  <CreationTime>2021-07-16T12:55:46.9464214+02:00</CreationTime>
+  <LastChangeTime>2021-07-16T12:55:46.9464214+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>###### Kohlrausch modulus relaxation (circular frequency)
+
+This function models the complex dynamic modulus in dependence on the circular frequency as:
+
+$$
+M^*(\omega) = M'(\omega) + i M''(\omega) = M_{\infty} + (M_{0}-M_{\infty})\int_0^{\infty} \exp(- i \omega t') \frac{d\Phi}{d t} dt' \\
+\Phi(t) = \exp\left [ -\left ( \frac{t}{\tau}\right )^{\beta} \right ]
+$$
+
+or with a generalized flow term (both equations are equivalent if $\sigma=0$) :
+
+$$
+M^*(\omega) = M'(\omega) + i M''(\omega) = \left\{ \left [ M_{\infty} + (M_{0}-M_{\infty})\int_0^{\infty} \exp(- i \omega t') \frac{d\Phi}{d t} dt' \right ]^{-1} - \frac{i }{\omega \eta} \right \}^{-1}
+$$
+
+based on the Fourier transform of the derivative of the time-domain Kohlrausch function $\Phi(t)$.
+
+Here, the values of the real and imaginary part of the calculated modulus are **logarithmized** for the output:
+
+$$
+lgM'(\omega) = \log_{10}(M'(\omega)) \\
+lgM''(\omega) = \log_{10}(M''(\omega)) \\
+$$
+
+Should your data are not logarithmized, use a DecadicLogarithmTransformation to logarithmize them, too.
+
+The quantities are described below.
+It is a special case of the underlying base function with the options  `UseFrequencyInsteadOfOmega=false`, `UseFlowTerm=true`,  `InvertViscosity=false` and `LogarithmizeResult=false`. These options can be changed by double-clicking on the fit function.
+
+
+```{Altaxo child="..\KohlrauschModulusRelaxationBaseFunction"}
+Base function
+```
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Kohlrausch fit functions (with $M_0=10^6$, $M_{\infty}=10^9$, $\tau=1$ and $\eta=10^{33}$). The values for $\beta$ are indicated in the legend.
+
+^^^
+![](graph:Fig2){width=15cm}  
+^^^ Fig. 2: Comparison of Kohlrausch fit functions (with $M_0=10^6$, $M_{\infty}=10^9$, $\tau=1$ and $\beta=1$) without and with flow term. The values for $\eta$ are indicated in the legend.
+
+---
+References:  
+- Kohlrausch, R., "Theorie des elektrischen Rückstandes in der Leidner Flasche", Annalen der Physik und Chemie. 91 (1) (1854): 56–82, 179–213, [doi:10.1002/andp.18541670103](https://doi.org/10.1002/andp.18541670103)
+- Williams, G., Watts, D. C., "Non-Symmetrical Dielectric Relaxation Behavior Arising from a Simple Empirical Decay Function", Transactions of the Faraday Society 66 (1970) 80–85. [doi:10.1039/tf9706600080](https://doi.org/10.1039/tf9706600080)
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

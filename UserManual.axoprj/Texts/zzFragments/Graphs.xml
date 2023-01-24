@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>zzFragments\Graphs</Name>
+  <CreationTime>2018-05-18T12:47:57.7001463+02:00</CreationTime>
+  <LastChangeTime>2018-05-18T12:47:57.7001463+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>## Graphs
+### Composition
+A graph is only the shell for one or more so called layers. A layer is a rectangular area onto the graph document. A layer has a position, and a size. You can have different layers with the same position and size, or you can have layers with different positions and sizes. Layers can even been rotated or scaled.
+
+Each layer has a x-axis and a y-axis. The main purpose of layers is therefore to have different y-axes on the same graph (or, of course, different x-axes). A layer can be linked to another layer by position, size, and by the axes scales. On the left side of a graph you will see one or more buttons labeled "1", "2" and so on. This are the layer buttons. By clicking on a layer button, you will make that layer the "active layer". By clicking it again, you open the layer dialog box. By right-clicking on the layer button, you will see a popup menu, which contains all plots into this layer. The active plot is marked with a check. By clicking the checked plot, you will open the plot style dialog for that plot curve. By clicking onto another plot, you will mark this as the "active plot". By clicking the next time onto this plot, you will open the plot style dialog for this item. </SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

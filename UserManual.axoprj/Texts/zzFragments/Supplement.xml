@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>zzFragments\Supplement</Name>
+  <CreationTime>2018-05-18T12:48:48.2243667+02:00</CreationTime>
+  <LastChangeTime>2018-05-18T12:48:48.2243667+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>## Supplement
+
+### Main differences to Origin® (Microcal Corporation)
+
+#### Gui
+- You can close Worksheets and Graphs without removing the underlying table or graph document. They are still there, and you can reopen it by clicking the table or graph document in the project explorer. 
+- If you want to really remove a table or graph, make sure nothing is selected on your Worksheet or Graph, then click the remove button or choose Edit-&gt;Delete from the menu. This will permanently remove the Worksheet or Graph from the document. 
+- The active plot curve is not choosen in the data menu, but by right clicking on the layer icon. 
+- The layer dialog can be opened by left clicking on the layer icon.
+
+#### Scripting
+Of course you can not compare Origin®'s LabTalk® language with the C# scripting language of Altaxo. In Altaxo scripts you can use the whole bunch of classes and methods not only from the .NET framework, but also all of the classes of Altaxo itself. The auto completion feature, which is available at least for worksheet scripts, is a good help. If you need an overview of the classes of Altaxo, you can use the Altaxo class reference. For the first aid here are some scripting differences:
+
+- Scripts get compiled, so they run much faster. You will get syntactical errors in your program during the compilation. 
+- Up to now the scripts will run in the main thread. If you program an endless loop :-( you have no way to interrupt it! Be careful and save your work before invoking the script! 
+- Instead of using col(A) in Origin®, use col["A"] in Altaxo. Instead of col(A)[i] in Origin®, use col["A"][i] in Altaxo. 
+- The term col["A"][i] returns an variant. Since there are different column types, Altaxo can not know what column type column "A" will have at runtime. If you are sure that it is, for instance, a double column, you may want to cast it in some situations using (double)col["A"][i]. 
+ 
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

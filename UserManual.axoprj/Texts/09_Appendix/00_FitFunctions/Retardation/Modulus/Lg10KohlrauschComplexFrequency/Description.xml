@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Retardation\Modulus\Lg10KohlrauschComplexFrequency\Description</Name>
+  <CreationTime>2021-07-15T20:59:17.5647807+02:00</CreationTime>
+  <LastChangeTime>2021-07-15T20:59:17.5647807+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>###### Kohlrausch retardation of a general modulus (frequency)
+
+This function models the retardation of a general modulus (e.g. mechanical modulus) in dependence on the frequency $f$ with a retardation and a flow term:
+
+
+$$
+M^*(f) = M'(f) + i M''(f) = \left [\frac{1}{M_{\infty}} + \left ( \frac{1}{M_{0}}-\frac{1}{M_{\infty}} \right ) \int_0^{\infty} \exp(- i 2 \pi f t') \frac{d\Phi}{d t} dt' - \frac{i }{2 \pi f \eta} \right ]^{-1} \\
+\Phi(t) = \exp\left [ -\left ( \frac{t}{\tau}\right )^{\beta} \right ]
+$$
+
+Here, the values of the real and imaginary part of the calculated modulus are **logarithmized** for the output:
+
+$$
+lgM'(f) = \log_{10}(M'(f)) \\
+lgM''(f) = \log_{10}(M''(f)) \\
+$$
+
+Should your data are not logarithmized, use a DecadicLogarithmTransformation to logarithmize them, too.
+
+The quantities are described below.
+It is a special case of the underlying base function with the options `UseFrequencyInsteadOfOmega=true`, `UseFlowTerm=true`, `InvertViscosity=false`  and `LogarithmizeResult=false`. These options can be changed by double-clicking on the fit function.
+
+```{Altaxo child="..\KohlrauschModulusBaseFunction"}
+Base function
+```
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Kohlrausch fit functions (with $M_0=10^{6}$, $M_{\infty}=10^{9}$, $\tau=1$ and $\eta=10^{33}$). The values for $\beta$ are indicated in the legend. 
+
+^^^
+![](graph:Fig2){width=15cm}  
+^^^ Fig. 2: Comparison of Kohlrausch fit functions (with $M_0=10^{6}$, $M_{\infty}=10^{9}$, $\tau=1$, and $\beta=1$) with different viscosities $\eta$. The values for $\eta$ are indicated in the legend.
+
+---
+References:  
+- Kohlrausch, R., "Theorie des elektrischen Rückstandes in der Leidner Flasche", Annalen der Physik und Chemie. 91 (1) (1854): 56–82, 179–213, [doi:10.1002/andp.18541670103](https://doi.org/10.1002/andp.18541670103)
+- Williams, G., Watts, D. C., "Non-Symmetrical Dielectric Relaxation Behavior Arising from a Simple Empirical Decay Function", Transactions of the Faraday Society 66 (1970) 80–85. [doi:10.1039/tf9706600080](https://doi.org/10.1039/tf9706600080)
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

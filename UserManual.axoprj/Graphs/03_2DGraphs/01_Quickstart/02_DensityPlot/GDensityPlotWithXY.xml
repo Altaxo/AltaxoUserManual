@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Graph Type="AltaxoBase,Altaxo.Graph.Gdi.GraphDocument,4">
+  <Name>03_2DGraphs\01_Quickstart\02_DensityPlot\GDensityPlotWithXY</Name>
+  <GraphIdentifier />
+  <CreationTime>2018-10-25T20:53:00.9131429+02:00</CreationTime>
+  <LastChangeTime>2018-10-25T20:53:00.9131429+02:00</LastChangeTime>
+  <Notes />
+  <RootLayer Type="AltaxoBase,Altaxo.Graph.Gdi.HostLayer,0">
+    <CachedParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+      <X>283.46456692913387</X>
+      <Y>283.46456692913387</Y>
+    </CachedParentSize>
+    <CachedSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+      <X>697.68054</X>
+      <Y>451.44</Y>
+    </CachedSize>
+    <CachedPosition Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+      <X>0</X>
+      <Y>0</Y>
+    </CachedPosition>
+    <LocationAndSize Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+      <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+        <X>283.46456692913387</X>
+        <Y>283.46456692913387</Y>
+      </ParentSize>
+      <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>697.68054</Value>
+      </SizeX>
+      <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>451.44</Value>
+      </SizeY>
+      <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>0</Value>
+      </PositionX>
+      <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>0</Value>
+      </PositionY>
+      <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </LocalAnchorX>
+      <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </LocalAnchorY>
+      <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </ParentAnchorX>
+      <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </ParentAnchorY>
+      <Rotation>0</Rotation>
+      <ShearX>0</ShearX>
+      <ScaleX>1</ScaleX>
+      <ScaleY>1</ScaleY>
+    </LocationAndSize>
+    <Grid Type="AltaxoBase,Altaxo.Graph.GridPartitioning,0">
+      <XPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+        <Partitioning Count="0" />
+      </XPartitioning>
+      <YPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+        <Partitioning Count="0" />
+      </YPartitioning>
+    </Grid>
+    <GraphObjects Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicCollection,1">
+      <GraphObjects Count="1">
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer,6">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.HostLayer,0</BaseType>
+          <CachedParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+            <X>697.68054</X>
+            <Y>451.44</Y>
+          </CachedParentSize>
+          <CachedSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+            <X>532.33025202</X>
+            <Y>319.61951999999997</Y>
+          </CachedSize>
+          <CachedPosition Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+            <X>101.16367829999999</X>
+            <Y>62.750160000000008</Y>
+          </CachedPosition>
+          <LocationAndSize Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>697.68054</X>
+              <Y>451.44</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.763</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.708</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.145</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.139</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </LocationAndSize>
+          <Grid Type="AltaxoBase,Altaxo.Graph.GridPartitioning,0">
+            <XPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+              <Partitioning Count="0" />
+            </XPartitioning>
+            <YPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+              <Partitioning Count="0" />
+            </YPartitioning>
+          </Grid>
+          <GraphObjects Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicCollection,1">
+            <GraphObjects Count="11">
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+GridPlanesPlaceHolder,0" />
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleLinePlaceHolder,0">
+                <Index>0</Index>
+              </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleLinePlaceHolder,0">
+                <Index>1</Index>
+              </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleMajorLabelPlaceHolder,0">
+                <Index>0</Index>
+              </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleMajorLabelPlaceHolder,0">
+                <Index>1</Index>
+              </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleMinorLabelPlaceHolder,0">
+                <Index>0</Index>
+              </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleMinorLabelPlaceHolder,0">
+                <Index>1</Index>
+              </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleTitlePlaceHolder,0">
+                <Index>0</Index>
+              </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleTitlePlaceHolder,0">
+                <Index>1</Index>
+              </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+PlotItemPlaceHolder,0" />
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+PlotItemPlaceHolder,0" />
+            </GraphObjects>
+          </GraphObjects>
+          <CoordinateSystem Type="AltaxoBase,Altaxo.Graph.Gdi.CS.G2DCartesicCoordinateSystem,0">
+            <XYInterchanged>false</XYInterchanged>
+            <XReverse>false</XReverse>
+            <YReverse>false</YReverse>
+          </CoordinateSystem>
+          <Scales Type="AltaxoBase,Altaxo.Graph.Scales.ScaleCollection,1">
+            <Members Count="2">
+              <e Type="AltaxoBase,Altaxo.Graph.Scales.LinearScale,4">
+                <Org>-17.96875</Org>
+                <End>17.46875</End>
+                <Bounds Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                  <NumberOfItems>64</NumberOfItems>
+                  <MinValue>-16</MinValue>
+                  <MaxValue>15.5</MaxValue>
+                </Bounds>
+                <Rescaling Type="AltaxoBase,Altaxo.Graph.Scales.Rescaling.LinearScaleRescaleConditions,0">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Rescaling.NumericScaleRescaleConditions,2</BaseType>
+                  <DataBoundsOrg>-16</DataBoundsOrg>
+                  <DataBoundsEnd>15.5</DataBoundsEnd>
+                  <OrgRescaling>Auto</OrgRescaling>
+                  <EndRescaling>Auto</EndRescaling>
+                  <OrgRelativeTo>Absolute</OrgRelativeTo>
+                  <EndRelativeTo>Absolute</EndRelativeTo>
+                  <UserProvidedOrg>0</UserProvidedOrg>
+                  <UserProvidedEnd>0</UserProvidedEnd>
+                  <ResultingOrg>-16</ResultingOrg>
+                  <ResultingMinOrg>-INF</ResultingMinOrg>
+                  <ResultingEnd>15.5</ResultingEnd>
+                  <ResultingMaxEnd>INF</ResultingMaxEnd>
+                </Rescaling>
+                <TickSpacing Type="AltaxoBase,Altaxo.Graph.Scales.Ticks.LinearTickSpacing,0">
+                  <ZeroLever>0.25</ZeroLever>
+                  <MinGrace>0.0625</MinGrace>
+                  <MaxGrace>0.0625</MaxGrace>
+                  <SnapOrgToTick>SnapToNothing</SnapOrgToTick>
+                  <SnapEndToTick>SnapToNothing</SnapEndToTick>
+                  <TargetNumberOfMajorTicks>4</TargetNumberOfMajorTicks>
+                  <TargetNumberOfMinorTicks>2</TargetNumberOfMinorTicks>
+                  <UserDefinedMajorSpan />
+                  <UserDefinedMinorTicks />
+                  <TransformationOffset>0</TransformationOffset>
+                  <TransformationDivider>1</TransformationDivider>
+                  <TransformationIsMultiply>false</TransformationIsMultiply>
+                  <SuppressedMajorTicks Type="UndefinedValue" />
+                  <SuppressedMinorTicks Type="UndefinedValue" />
+                  <AdditionalMajorTicks Type="UndefinedValue" />
+                  <AdditionalMinorTicks Type="UndefinedValue" />
+                </TickSpacing>
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Scales.LinearScale,4">
+                <Org>-17.96875</Org>
+                <End>17.46875</End>
+                <Bounds Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                  <NumberOfItems>64</NumberOfItems>
+                  <MinValue>-16</MinValue>
+                  <MaxValue>15.5</MaxValue>
+                </Bounds>
+                <Rescaling Type="AltaxoBase,Altaxo.Graph.Scales.Rescaling.LinearScaleRescaleConditions,0">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Rescaling.NumericScaleRescaleConditions,2</BaseType>
+                  <DataBoundsOrg>-16</DataBoundsOrg>
+                  <DataBoundsEnd>15.5</DataBoundsEnd>
+                  <OrgRescaling>Auto</OrgRescaling>
+                  <EndRescaling>Auto</EndRescaling>
+                  <OrgRelativeTo>Absolute</OrgRelativeTo>
+                  <EndRelativeTo>Absolute</EndRelativeTo>
+                  <UserProvidedOrg>0</UserProvidedOrg>
+                  <UserProvidedEnd>0</UserProvidedEnd>
+                  <ResultingOrg>-16</ResultingOrg>
+                  <ResultingMinOrg>-INF</ResultingMinOrg>
+                  <ResultingEnd>15.5</ResultingEnd>
+                  <ResultingMaxEnd>INF</ResultingMaxEnd>
+                </Rescaling>
+                <TickSpacing Type="AltaxoBase,Altaxo.Graph.Scales.Ticks.LinearTickSpacing,0">
+                  <ZeroLever>0.25</ZeroLever>
+                  <MinGrace>0.0625</MinGrace>
+                  <MaxGrace>0.0625</MaxGrace>
+                  <SnapOrgToTick>SnapToNothing</SnapOrgToTick>
+                  <SnapEndToTick>SnapToNothing</SnapEndToTick>
+                  <TargetNumberOfMajorTicks>4</TargetNumberOfMajorTicks>
+                  <TargetNumberOfMinorTicks>2</TargetNumberOfMinorTicks>
+                  <UserDefinedMajorSpan />
+                  <UserDefinedMinorTicks />
+                  <TransformationOffset>0</TransformationOffset>
+                  <TransformationDivider>1</TransformationDivider>
+                  <TransformationIsMultiply>false</TransformationIsMultiply>
+                  <SuppressedMajorTicks Type="UndefinedValue" />
+                  <SuppressedMinorTicks Type="UndefinedValue" />
+                  <AdditionalMajorTicks Type="UndefinedValue" />
+                  <AdditionalMinorTicks Type="UndefinedValue" />
+                </TickSpacing>
+              </e>
+            </Members>
+          </Scales>
+          <GridPlanes Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.GridPlaneCollection,0">
+            <GridPlanes Count="1">
+              <e Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.GridPlane,0">
+                <ID Type="AltaxoBase,Altaxo.Graph.CSPlaneID,0">
+                  <Axis>2</Axis>
+                  <Logical>0</Logical>
+                  <UsePhysical>false</UsePhysical>
+                </ID>
+                <Grid1 Type="UndefinedValue" />
+                <Grid2 Type="UndefinedValue" />
+                <Background Type="UndefinedValue" />
+              </e>
+            </GridPlanes>
+          </GridPlanes>
+          <AxisStyles Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.AxisStyleCollection,0">
+            <AxisStyles Count="2">
+              <e Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.AxisStyle,2">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>1</Axis>
+                  <Logical1>0</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>false</Is3DIdentifier>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.AxisLineStyle,1">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+                    <Configured>327712</Configured>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                    <Width>1.6</Width>
+                    <MiterLimit>0</MiterLimit>
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+                    <Configured>327712</Configured>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                    <Width>1.6</Width>
+                    <MiterLimit>0</MiterLimit>
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+                    <Configured>327712</Configured>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                    <Width>1.6</Width>
+                    <MiterLimit>0</MiterLimit>
+                  </MinorPen>
+                  <MajorLength>8.4</MajorLength>
+                  <MinorLength>4.2</MinorLength>
+                  <AxisPosition Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>true</Major1Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>true</Minor1Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.AxisLabelStyle,6">
+                  <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 18world</Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
+                    <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
+                    <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </ForeColor>
+                  </Brush>
+                  <Background Type="UndefinedValue" />
+                  <AutoAlignment>true</AutoAlignment>
+                  <HorzAlignment>Near</HorzAlignment>
+                  <VertAlignment>Near</VertAlignment>
+                  <Rotation>0</Rotation>
+                  <XOffset>0</XOffset>
+                  <YOffset>0</YOffset>
+                  <SuppressedLabels Type="UndefinedValue" />
+                  <LabelFormat Type="AltaxoBase,Altaxo.Graph.Gdi.LabelFormatting.NumericLabelFormattingAuto,1">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Gdi.LabelFormatting.NumericLabelFormattingBase,1</BaseType>
+                    <BaseType>AltaxoBase,Altaxo.Graph.Gdi.LabelFormatting.LabelFormattingBase,1</BaseType>
+                    <Prefix />
+                    <Suffix />
+                    <DecimalPlaces>0</DecimalPlaces>
+                  </LabelFormat>
+                  <LabelSide />
+                </MajorLabelStyle>
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.TextGraphic,3">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+                  <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirectAutoSize,1">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1</BaseType>
+                    <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+                      <X>532.33025202</X>
+                      <Y>319.61951999999997</Y>
+                    </ParentSize>
+                    <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>48.90234375</Value>
+                    </SizeX>
+                    <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>20.373046875</Value>
+                    </SizeY>
+                    <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>-80.4</Value>
+                    </PositionX>
+                    <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0</Value>
+                    </PositionY>
+                    <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </LocalAnchorX>
+                    <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>1</Value>
+                    </LocalAnchorY>
+                    <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0</Value>
+                    </ParentAnchorX>
+                    <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </ParentAnchorY>
+                    <Rotation>90</Rotation>
+                    <ShearX>0</ShearX>
+                    <ScaleX>1</ScaleX>
+                    <ScaleY>1</ScaleY>
+                  </Location>
+                  <Text>Y axis</Text>
+                  <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 18world</Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
+                    <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
+                    <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </ForeColor>
+                  </Brush>
+                  <BackgroundStyle Type="UndefinedValue" />
+                  <LineSpacing>1.25</LineSpacing>
+                </AxisTitle>
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.AxisStyle,2">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>0</Axis>
+                  <Logical1>0</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>false</Is3DIdentifier>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.AxisLineStyle,1">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+                    <Configured>327712</Configured>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                    <Width>1.6</Width>
+                    <MiterLimit>0</MiterLimit>
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+                    <Configured>327712</Configured>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                    <Width>1.6</Width>
+                    <MiterLimit>0</MiterLimit>
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+                    <Configured>327712</Configured>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                    <Width>1.6</Width>
+                    <MiterLimit>0</MiterLimit>
+                  </MinorPen>
+                  <MajorLength>8.4</MajorLength>
+                  <MinorLength>4.2</MinorLength>
+                  <AxisPosition Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>true</Major1Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>true</Minor1Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="AltaxoBase,Altaxo.Graph.Gdi.Axis.AxisLabelStyle,6">
+                  <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 18world</Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
+                    <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
+                    <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </ForeColor>
+                  </Brush>
+                  <Background Type="UndefinedValue" />
+                  <AutoAlignment>true</AutoAlignment>
+                  <HorzAlignment>Near</HorzAlignment>
+                  <VertAlignment>Near</VertAlignment>
+                  <Rotation>0</Rotation>
+                  <XOffset>0</XOffset>
+                  <YOffset>0</YOffset>
+                  <SuppressedLabels Type="UndefinedValue" />
+                  <LabelFormat Type="AltaxoBase,Altaxo.Graph.Gdi.LabelFormatting.NumericLabelFormattingAuto,1">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Gdi.LabelFormatting.NumericLabelFormattingBase,1</BaseType>
+                    <BaseType>AltaxoBase,Altaxo.Graph.Gdi.LabelFormatting.LabelFormattingBase,1</BaseType>
+                    <Prefix />
+                    <Suffix />
+                    <DecimalPlaces>0</DecimalPlaces>
+                  </LabelFormat>
+                  <LabelSide />
+                </MajorLabelStyle>
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.TextGraphic,3">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+                  <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirectAutoSize,1">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1</BaseType>
+                    <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+                      <X>532.33025202</X>
+                      <Y>319.61951999999997</Y>
+                    </ParentSize>
+                    <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>48.90234375</Value>
+                    </SizeX>
+                    <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>20.373046875</Value>
+                    </SizeY>
+                    <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0</Value>
+                    </PositionX>
+                    <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>35.4</Value>
+                    </PositionY>
+                    <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </LocalAnchorX>
+                    <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0</Value>
+                    </LocalAnchorY>
+                    <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </ParentAnchorX>
+                    <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>1</Value>
+                    </ParentAnchorY>
+                    <Rotation>0</Rotation>
+                    <ShearX>0</ShearX>
+                    <ScaleX>1</ScaleX>
+                    <ScaleY>1</ScaleY>
+                  </Location>
+                  <Text>X axis</Text>
+                  <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 18world</Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
+                    <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
+                    <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </ForeColor>
+                  </Brush>
+                  <BackgroundStyle Type="UndefinedValue" />
+                  <LineSpacing>1.25</LineSpacing>
+                </AxisTitle>
+              </e>
+            </AxisStyles>
+          </AxisStyles>
+          <DataClipping Type="AltaxoBase,Altaxo.Graph.LayerDataClipping,0">StrictToCS</DataClipping>
+          <Plots Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.PlotItemCollection,3">
+            <GroupStyles Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.Groups.PlotGroupStyleCollection,0">
+              <BaseType>AltaxoBase,Altaxo.Graph.Plot.Groups.PlotGroupStyleCollectionBase,1</BaseType>
+              <Styles Count="0" />
+              <Strictness>Normal</Strictness>
+              <InheritFromParent>true</InheritFromParent>
+              <DistributeToChilds>false</DistributeToChilds>
+              <TransformingStyle Type="UndefinedValue" />
+            </GroupStyles>
+            <PlotItems Count="1">
+              <PlotItem Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.DensityImagePlotItem,1">
+                <Data Type="AltaxoBase,Altaxo.Graph.Plot.Data.XYZMeshedColumnPlotData,3">
+                  <MatrixProxy Type="AltaxoBase,Altaxo.Data.DataTableMatrixProxy,0">
+                    <Table Type="AltaxoBase,Altaxo.Data.DataTableProxy,1">
+                      <BaseType>AltaxoBase,Altaxo.Main.DocNodeProxy,1</BaseType>
+                      <Path Type="AltaxoBase,Altaxo.Main.AbsoluteDocumentPath,0">
+                        <Path Count="2">
+                          <e>Tables</e>
+                          <e>03_2DGraphs\01_Quickstart\02_DensityPlot\WAdvanced</e>
+                        </Path>
+                      </Path>
+                    </Table>
+                    <Group>0</Group>
+                    <RowHeaderColumn Type="AltaxoBase,Altaxo.Data.ReadableColumnProxy,2">
+                      <BaseType>AltaxoBase,Altaxo.Main.DocNodeProxy2ndLevel,1</BaseType>
+                      <Path Type="AltaxoBase,Altaxo.Main.AbsoluteDocumentPath,0">
+                        <Path Count="4">
+                          <e>Tables</e>
+                          <e>03_2DGraphs\01_Quickstart\02_DensityPlot\WAdvanced</e>
+                          <e>DataCols</e>
+                          <e>X-values</e>
+                        </Path>
+                      </Path>
+                    </RowHeaderColumn>
+                    <ColumnHeaderColumn Type="AltaxoBase,Altaxo.Data.ReadableColumnProxy,2">
+                      <BaseType>AltaxoBase,Altaxo.Main.DocNodeProxy2ndLevel,1</BaseType>
+                      <Path Type="AltaxoBase,Altaxo.Main.AbsoluteDocumentPath,0">
+                        <Path Count="4">
+                          <e>Tables</e>
+                          <e>03_2DGraphs\01_Quickstart\02_DensityPlot\WAdvanced</e>
+                          <e>PropCols</e>
+                          <e>Y-values</e>
+                        </Path>
+                      </Path>
+                    </ColumnHeaderColumn>
+                    <UseAllAvailableColumnsOfGroup>true</UseAllAvailableColumnsOfGroup>
+                    <UseAllAvailableDataRows>true</UseAllAvailableDataRows>
+                  </MatrixProxy>
+                  <XBoundaries Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                    <NumberOfItems>64</NumberOfItems>
+                    <MinValue>-16</MinValue>
+                    <MaxValue>15.5</MaxValue>
+                  </XBoundaries>
+                  <YBoundaries Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                    <NumberOfItems>64</NumberOfItems>
+                    <MinValue>-16</MinValue>
+                    <MaxValue>15.5</MaxValue>
+                  </YBoundaries>
+                  <VBoundaries Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                    <NumberOfItems>4096</NumberOfItems>
+                    <MinValue>-0.21722891503668823</MinValue>
+                    <MaxValue>1</MaxValue>
+                  </VBoundaries>
+                </Data>
+                <Style Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.Styles.DensityImagePlotStyle,3">
+                  <ClipToLayer>true</ClipToLayer>
+                  <Scale Type="AltaxoBase,Altaxo.Graph.Scales.LinearScale,4">
+                    <Org>-0.21722891503668823</Org>
+                    <End>1</End>
+                    <Bounds Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                      <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                      <NumberOfItems>4096</NumberOfItems>
+                      <MinValue>-0.21722891503668823</MinValue>
+                      <MaxValue>1</MaxValue>
+                    </Bounds>
+                    <Rescaling Type="AltaxoBase,Altaxo.Graph.Scales.Rescaling.LinearScaleRescaleConditions,0">
+                      <BaseType>AltaxoBase,Altaxo.Graph.Scales.Rescaling.NumericScaleRescaleConditions,2</BaseType>
+                      <DataBoundsOrg>-0.21722891503668823</DataBoundsOrg>
+                      <DataBoundsEnd>1</DataBoundsEnd>
+                      <OrgRescaling>Auto</OrgRescaling>
+                      <EndRescaling>Auto</EndRescaling>
+                      <OrgRelativeTo>Absolute</OrgRelativeTo>
+                      <EndRelativeTo>Absolute</EndRelativeTo>
+                      <UserProvidedOrg>0</UserProvidedOrg>
+                      <UserProvidedEnd>0</UserProvidedEnd>
+                      <ResultingOrg>-0.21722891503668823</ResultingOrg>
+                      <ResultingMinOrg>-INF</ResultingMinOrg>
+                      <ResultingEnd>1</ResultingEnd>
+                      <ResultingMaxEnd>INF</ResultingMaxEnd>
+                    </Rescaling>
+                    <TickSpacing Type="AltaxoBase,Altaxo.Graph.Scales.Ticks.NoTickSpacing,0" />
+                  </Scale>
+                  <Colorization Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.ColorProvider.ColorProviderBGRY,0">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Plot.ColorProvider.ColorProviderBase,0</BaseType>
+                    <ColorBelow Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </ColorBelow>
+                    <ColorAbove Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FFFFFAFA}</Color>
+                      <Name>Snow</Name>
+                      <SetName>KnownColors</SetName>
+                    </ColorAbove>
+                    <ColorInvalid Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#00FFFFFF}</Color>
+                      <Name>Transparent</Name>
+                      <SetName>KnownColors</SetName>
+                    </ColorInvalid>
+                    <Transparency>0</Transparency>
+                    <ColorSteps>0</ColorSteps>
+                  </Colorization>
+                </Style>
+              </PlotItem>
+            </PlotItems>
+          </Plots>
+        </GraphicsObject>
+      </GraphObjects>
+    </GraphObjects>
+  </RootLayer>
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="1" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>2CFD57CF-25D5-456E-9E45-D7D8823F4A54</Key>
+        <Value Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 18world</Value>
+      </e>
+    </Properties>
+  </Properties>
+</Graph>

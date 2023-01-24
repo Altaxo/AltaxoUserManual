@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>08_ScientificApplications\Spectroscopy\SpectralPreprocessing\Smoothing</Name>
+  <CreationTime>2023-01-18T23:51:07.6058882+01:00</CreationTime>
+  <LastChangeTime>2023-01-18T23:51:07.6058882+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Calibration
+
+The calibration step will change the spectrum's x-axis. Presumed that a calibration was made (see [here](#Section_RamanSpectroscopy_CalibrationWithNeonAndSi)), the x-axis can be changed from an uncalibrated x-axis to a calibrated x-axis.
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

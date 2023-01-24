@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>_Master</Name>
+  <CreationTime>2018-03-14T22:00:45.0123591+01:00</CreationTime>
+  <LastChangeTime>2018-03-14T22:00:45.0123591+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="5" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+      <e>
+        <Key>8FBF38A4-E9ED-4C17-B6F0-F6E5E285FD33</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+      <e>
+        <Key>0E223CE7-2845-48A1-BFB1-7642849F5A3A</Key>
+        <Value Type="AltaxoBase,Altaxo.Text.MamlExportOptions,0">
+          <SplitLevel>4</SplitLevel>
+          <ImageFolderName>HelpContent\Images</ImageFolderName>
+          <EnableRemoveOldContentsOfImageFolder>true</EnableRemoveOldContentsOfImageFolder>
+          <EnableAutoOutline>true</EnableAutoOutline>
+          <EnableHtmlEscape>true</EnableHtmlEscape>
+          <EnableLinkToPreviousSection>true</EnableLinkToPreviousSection>
+          <LinkToPreviousSectionLabelText>Previous section: </LinkToPreviousSectionLabelText>
+          <EnableLinkToNextSection>true</EnableLinkToNextSection>
+          <LinkToNextSectionLabelText>Next section: </LinkToNextSectionLabelText>
+          <ExpandChildDocuments>true</ExpandChildDocuments>
+          <BodyTextFontFamily>Segoe UI</BodyTextFontFamily>
+          <BodyTextFontSize>15.000000000000002</BodyTextFontSize>
+          <IsIntendedForHtmlHelp1File>true</IsIntendedForHtmlHelp1File>
+          <OpenHelpFileBuilder>true</OpenHelpFileBuilder>
+          <OutputFileName>V:\C\Altaxo\src\AltaxoClassRef-Chm.shfbproj</OutputFileName>
+          <ContentFolderName>HelpContent</ContentFolderName>
+          <EnableRemoveOldContentsOfContentFolder>true</EnableRemoveOldContentsOfContentFolder>
+          <ContentFileNameBase />
+          <RenumerateFigures>false</RenumerateFigures>
+        </Value>
+      </e>
+      <e>
+        <Key>1A21999E-6F58-4B59-B635-2F839AABF080</Key>
+        <Value Type="AltaxoBase,Altaxo.Text.HtmlExportOptions,0">
+          <SplitLevel>3</SplitLevel>
+          <ImageFolderName>Images</ImageFolderName>
+          <EnableRemoveOldContentsOfImageFolder>false</EnableRemoveOldContentsOfImageFolder>
+          <EnableHtmlEscape>true</EnableHtmlEscape>
+          <EnableLinkToPreviousSection>true</EnableLinkToPreviousSection>
+          <LinkToPreviousSectionLabelText>Previous section: </LinkToPreviousSectionLabelText>
+          <EnableLinkToNextSection>true</EnableLinkToNextSection>
+          <LinkToNextSectionLabelText>Next section: </LinkToNextSectionLabelText>
+          <EnableLinkToTableOfContents>true</EnableLinkToTableOfContents>
+          <LinkToTableOfContentsLabelText>Table of contents</LinkToTableOfContentsLabelText>
+          <ExpandChildDocuments>true</ExpandChildDocuments>
+          <BodyTextFontFamily>Segoe UI</BodyTextFontFamily>
+          <BodyTextFontSize>15</BodyTextFontSize>
+          <OutputFileName>C:\Temp\HtmlExport\Index.html</OutputFileName>
+          <EnableRemoveOldContentsOfOutputFolder>false</EnableRemoveOldContentsOfOutputFolder>
+          <OpenHtmlViewer>false</OpenHtmlViewer>
+          <RenumerateFigures>false</RenumerateFigures>
+        </Value>
+      </e>
+      <e>
+        <Key>5BB2EED3-9FCD-4E63-9113-CCB2A2066462</Key><Value Type="OpenXMLAddin,Altaxo.Text.OpenXMLExportOptions,0"><ExpandChildDocuments>true</ExpandChildDocuments><MaxImageHeight Type="AltaxoCore,Altaxo.Units.DimensionfulQuantity,0"><Value>9.5</Value><Prefix Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-2</Exponent><Name>centi</Name><Shortcut>c</Shortcut></Prefix><Unit Type="AltaxoCore,Altaxo.Units.UnitWithLimitedPrefixes,0"><Unit Type="AltaxoCore,Altaxo.Units.Length.Meter,0" /><PrefixList Count="4"><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-6</Exponent><Name>micro</Name><Shortcut>µ</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-3</Exponent><Name>milli</Name><Shortcut>m</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-2</Exponent><Name>centi</Name><Shortcut>c</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-1</Exponent><Name>deci</Name><Shortcut>d</Shortcut></e></PrefixList></Unit></MaxImageHeight><MaxImageHeight Type="AltaxoCore,Altaxo.Units.DimensionfulQuantity,0"><Value>9.5</Value><Prefix Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-2</Exponent><Name>centi</Name><Shortcut>c</Shortcut></Prefix><Unit Type="AltaxoCore,Altaxo.Units.UnitWithLimitedPrefixes,0"><Unit Type="AltaxoCore,Altaxo.Units.Length.Meter,0" /><PrefixList Count="4"><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-6</Exponent><Name>micro</Name><Shortcut>µ</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-3</Exponent><Name>milli</Name><Shortcut>m</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-2</Exponent><Name>centi</Name><Shortcut>c</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-1</Exponent><Name>deci</Name><Shortcut>d</Shortcut></e></PrefixList></Unit></MaxImageHeight><ThemeName>GitHub</ThemeName><OpenApplication>true</OpenApplication><OutputFileName>C:\Temp\RenderedWordFile.docx</OutputFileName></Value></e>
+    </Properties>
+  </Properties>
+  <StyleName />
+  <SourceText># Altaxo user manual
+
+```{Altaxo child="00_Installation\_Text"}
+Installation
+```
+
+```{Altaxo child="01_UserInterface\_Text"}
+User interface
+```
+
+```{Altaxo child="02_TablesAndWorksheets\_Text"}
+Tables and Worksheets
+```
+
+```{Altaxo child="03_2DGraphs\_Text"}
+2D Graphs
+```
+
+```{Altaxo child="04_3DGraphs\_Text"}
+3D Graphs
+```
+
+```{Altaxo child="05_TextDocuments\_Text"}
+Text documents - Markdown in Altaxo
+```
+
+```{Altaxo child="06_CodeEditor\_Text"}
+Altaxo's code editor
+```
+
+```{Altaxo child="07_ProjectOrganization\_Text"}
+Project organization
+```
+
+```{Altaxo child="08_ScientificApplications\_Text"}
+ScientificApplications
+```
+
+```{Altaxo child="09_Appendix\_Text"}
+Altaxo's command line arguments
+```
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

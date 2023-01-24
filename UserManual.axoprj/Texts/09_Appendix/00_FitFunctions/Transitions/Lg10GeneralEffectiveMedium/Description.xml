@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Transitions\Lg10GeneralEffectiveMedium\Description</Name>
+  <CreationTime>2021-07-19T11:36:50.7870971+02:00</CreationTime>
+  <LastChangeTime>2021-07-19T11:36:50.7870971+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### General effective medium transition (logarithmized)
+
+This transition models e.g. the DC electrical conductivity of conductive particles embedded in a matrix, but is also suitable for other percolation problems.
+
+The function, which evaluates the property $y$ of a compound in dependence of a filler concentration $p$ ($ 0 \le p \le 1 $) is implicitly given by the following equation:
+
+$$
+  (1-p) \frac{y_{0}^{1/s} - y^{1/s}}{y_{0}^{1/s} + A y^{1/s}} +
+  p \frac{y_{1}^{1/t} - y^{1/t}}{y_{1}^{1/t} + A y^{1/t}} = 0 \\ \\
+  A = (1-p_c)/p_c)
+$$
+
+in which:
+- $p$ : volume concentration of the filler particles ($ 0 \le p \le 1 $)
+- $p_c$ : critical percolation threshold (location of the transition ($ 0 &lt; p_c &lt; 1 $))
+- $s, t$ : exponents ($s&gt;0$, $t&gt;0$)
+- $y_{0}$ : property of the matrix material (e.g. electrical conductivity of the matrix)
+- $y_{1}$ : property of the filler particles (e.g. electrical conductivity of the filler)
+- $y$ : resulting property of the compound (e.g. electrical conductivity of the matrix with filler particles)
+
+**Instead of returning $y$ as described above, the function will return the decadic logarithm $\log_{10}(y)$. Furthermore, instead of $y_0$ and $y_1$, the logarithmized parameters $\lg_{10}(y_0)$ and $\lg_{10}(y_1)$ are used!**
+
+The equation has the following properties, which match the percolation theory for concentrations below and above the percolation threshold:
+
+- $y = y_0$ for $p=0$ 
+- $y \approx y_0 \left ( \frac{p_c-p}{p_c} \right )^{-s}$ for $p &lt; p_c$
+- $y \approx y_1 \left ( \frac{p-p_c}{1-p_c} \right )^{t}$ for $p &gt; p_c$
+- $y = y_1$ for $p=1$
+
+In contrast to the separate percolation equations below and above the percolation threshold, the general effective medium transition avoids the divergence near the percolation threshold, and provides a smooth transition between the two equations.
+
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Lg10GeneralEffectiveMedium transition with the parameters $lg_{10}(y_0)=-14$, $lg_{10}(y_1)=-2$, $p_c=0.2$, $s=0.87$ and $t=2$.
+---
+References:
+- McLachlan, D. and G. Sauti. “The AC and DC conductivity of nanocomposites.” Journal of Nanomaterials 2007 (2007): 15, [doi:10.1155/2007/30389](https://doi.org/10.1155/2007/30389)
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

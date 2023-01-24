@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Transitions\LinearFermiDiracTransition\Description</Name>
+  <CreationTime>2021-07-17T19:38:05.4468017+02:00</CreationTime>
+  <LastChangeTime>2021-07-17T19:38:05.4468017+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Linear Fermi-Dirac transition
+
+This fit function implements the linearly scaled Fermi-Dirac transition:
+
+$$
+y(p) = y_1 + (y_0 -y_1) \times f(p)
+$$
+
+which assumes a value of $y_0$ for $p=0$ and $y_1$ for $p=1$.
+
+The core $f(p)$ of the Fermi-Dirac transition is the following function, defined in the interval $[0, 1]$, which assumes the values $f(p=0)=1$ and $f(p=1)=0$:
+
+$$
+  f(p) = \frac{\exp((1-p_c)/w)) - \exp((p-p_c)/w)}{\exp((1-p_c)/w) - \exp((0-p_c)/w)} \times
+  \frac{1 + \exp((0-p_c)/w)}{1 + \exp((p-p_c)/w)}
+$$
+
+in which:
+
+- $p_c$ : location of the transition (0..1)
+- $w$ : width parameter
+
+
+The domain of the function is $ 0 \leq x \leq 1 $. 
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: LinearFermiDiracTransition with $y_0=2$, $y_1=10$, $p_c=0.3$ and $w=0.01$.
+---
+References:
+
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

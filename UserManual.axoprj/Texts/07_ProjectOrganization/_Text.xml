@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>07_ProjectOrganization\_Text</Name>
+  <CreationTime>2018-05-17T22:02:46.6315915+02:00</CreationTime>
+  <LastChangeTime>2018-05-17T22:02:46.6315915+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="2" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+      <e>
+        <Key>8FBF38A4-E9ED-4C17-B6F0-F6E5E285FD33</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+  <StyleName />
+  <SourceText>## Project organization
+
+### Project items		{#ProjectItems}
+
+#### Item types
+
+At the time of writing, there are the following item types in an Altaxo project:
+
+* Data tables / worksheets
+* 2D graphs
+* 3D graphs
+* Property bags
+* Text (Markdown annotated)
+
+#### Item names		{#NamesOfProjectItems}
+
+Items (for instance graphs, tables, data columns used by the table) can have arbitrary names. Even the length of the name is unlimited (at least for any practical purpose). But please keep in mind:
+
+* longer names are harder to read and to remember.
+* when you refer to an item with a long name inside a script, you have to type more text. 
+* in the project explorer or in other views, probably only part of such a long name is shown. 
+* you can use leading or trailing spaces in a name, but then it can be hard to find out the name from the project explorer's list.
+* the character `\` (backslash) is interpreted by the project explorer as directory separator char (but besides this it is a fully valid character for a name). Thus, if your graph is named `Foo\Graph1`, it is shown in the project explorer in the folder `Foo`. Many operations in project explorer are based on this naming convention. 
+
+You can use the backslash character for organizing your project items. For example: 
+
+Your data of measurements at 20°C, 30°C and 40°C are put into separate worksheets. Then you can name the worksheets for example:
+
+* `T=20°C\WData1`
+* `T=20°C\WData2`
+* `T=30°C\WData1`
+* `T=40°C\WData1`
+
+and so on.
+
+In the project explorer, the worksheets will appear in different folders named `T=20°C`, `T=30°C` and `T=40°C`. If you plot some columns from one of the worksheets, the newly created graph will be placed in the same folder as this worksheet. This is achieved by naming the new graph in such a way that the first part (the folder part) is the same as for the worksheet.
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

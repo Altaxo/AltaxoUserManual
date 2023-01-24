@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Retardation\Modulus\_Text</Name>
+  <CreationTime>2023-01-18T15:05:16.2459216+01:00</CreationTime>
+  <LastChangeTime>2023-01-18T15:05:16.2459216+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Modulus retardation fit functions
+
+&gt; Note:  
+&gt; The quantity `modulus` generally corresponds with relaxation, not retardation!
+&gt; Therefore the fit functions in this folder primarily model susceptibility, which is afterwards converted into a modulus (by inverting the complex value).
+
+
+```{Altaxo child="HavriliakNegamiComplexFrequency\Description"}
+HavriliakNegamiComplexFrequency
+```
+
+```{Altaxo child="HavriliakNegamiComplexOmega\Description"}
+HavriliakNegamiComplexOmega
+```
+
+```{Altaxo child="HavriliakNegamiMultiComplexFrequency\Description"}
+HavriliakNegamiMultiComplexFrequency
+```
+
+```{Altaxo child="HavriliakNegamiMultiComplexOmega\Description"}
+HavriliakNegamiMultiComplexOmega
+```
+
+```{Altaxo child="KohlrauschComplexFrequency\Description"}
+KohlrauschComplexFrequency
+```
+
+```{Altaxo child="KohlrauschComplexOmega\Description"}
+KohlrauschComplexOmega
+```
+
+```{Altaxo child="Lg10HavriliakNegamiComplexFrequency\Description"}
+Lg10HavriliakNegamiComplexFrequency
+```
+
+```{Altaxo child="Lg10HavriliakNegamiComplexOmega\Description"}
+Lg10HavriliakNegamiComplexOmega
+```
+
+
+```{Altaxo child="Lg10KohlrauschComplexFrequency\Description"}
+Lg10KohlrauschComplexFrequency
+```
+
+```{Altaxo child="Lg10KohlrauschComplexOmega\Description"}
+Lg10KohlrauschComplexOmega
+```
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>03_2DGraphs\Preliminary</Name>
+  <CreationTime>2018-05-23T22:47:17.4875318+02:00</CreationTime>
+  <LastChangeTime>2018-05-23T22:47:17.4875318+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>## 2D Graphs
+
+### Quick start
+
+#### Create a line, a scatter, or a line-scatter plot
+
+#### Create a bar / column graph
+
+#### Create a density plot
+
+### A detailed look at graphs
+
+#### The layer system
+
+##### Link layers
+
+A layer can be linked to another layer by layer position and layer size, and by the scales.
+
+##### Link layer by position and size
+
+#### Different types of layers
+
+##### The root layer
+
+##### The plot layer
+
+###### The content of the plot layer, by example of the plot layer dialog
+
+####### Scales
+
+####### The coordinate system
+
+####### Axes
+
+####### Major and minor labels
+
+####### The grid
+
+#### Plot items
+
+##### Plot item data
+
+##### Plot item styles and substyles
+
+##### Custom scatter symbol sets
+
+##### Custom dash styles and dash style sets
+
+##### Custom plot color sets
+
+#### Colors and color sets
+
+#### Brushes
+
+#### Pens
+
+### The graph tools
+
+#### The pointer tool
+
+#### Shape tools
+
+#### Data reader
+
+#### Zoom tool
+
+### Using a graph template 
+
+
+
+
+
+
+
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Kinetics\KineticsNthOrder\Description</Name>
+  <CreationTime>2021-07-06T14:11:17.2520561+02:00</CreationTime>
+  <LastChangeTime>2021-07-06T14:11:17.2520561+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Kinetics of n^th^ order
+
+This fit function represents the solution of the differential equation for a kinetics of n^th^ order, namely:
+
+$$
+\frac{dy}{dx} = -k y^n \\ \\ y(0)=y_0
+$$
+
+in which 
+
+- $y$ is the dependent variable,
+- $x$ is the independent variable (for a kinetics, $x$ represents the time),
+- $k$ is a rate parameter,
+- $n$ is the order of the kinetic process,
+- $y_0$ is the value of $y$ at $x=0$.
+
+The values of $y$ and $y_0$ is assumed to be positive.
+
+The solution of this differential equation is:
+
+
+$$
+y(x) = \cases { \left \[  y_0^{1-n} -k x (1-n) \right \]^{\frac{1}{1-n}} \thickspace \mathrm{if} \thickspace n \neq 1 \cr
+                 y_0 \exp(-k x) \thickspace \mathrm{if} \thickspace n=1} 
+$$
+
+The domain of the function is: 
+
+$$
+\cases{-\infty \leq x \leq \infty \thickspace \mathrm{for} \thickspace n = 1 \cr
+       \frac{y_0^{1-n}}{k(n-1)} &lt; x \leq \infty \thickspace \mathrm{for} \thickspace n \thinspace \mathrm{sign}(k)&gt; -1 \cr
+       -\infty \leq x &lt; \frac{y_0^{1-n}}{k(n-1)} \thickspace \mathrm{for} \thickspace n\thinspace \mathrm{sign}(k) &lt; -1
+}
+$$
+
+
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: KineticsNthOrder (with $y_0=1$, $k=1$). The values for $n$ are indicated in the legend.
+---
+
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\02_UserSettings\_Text</Name>
+  <CreationTime>2018-10-24T10:11:17.0338902+02:00</CreationTime>
+  <LastChangeTime>2018-10-24T10:11:17.0338902+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>### Save / restore Altaxo's user settings
+
+#### Save your settings
+
+Your user settings are stored in a special subfolder of your user account. The easiest way to get there is to open Altaxo, and then choose from the main menu `Help → Open settings directory`. This will open an explorer window which shows Altaxo's settings directory.
+
+At the time of writing, in this directory resides one folder, named `Altaxo4`. It is this folder that you must save if you want to restore your settings later or if you want to transfer them to another computer or to another user account.
+
+#### Restore your settings
+
+To restore your settings on another computer, it is very important that you use the following order of actions:
+
+- open Altaxo on the computer on which you want to restore the settings
+- use from the main menu `Help → Open settings directory` to open the explorer window with the settings directory.
+- Now **important: close all instances of Altaxo** on this computer (but leave the explorer window open)
+- Delete the current settings in the settings directory
+- Copy your saved settings into the settings directory
+
+Why it is important to close all instances of Altaxo before you can restore your settings? That is because in the very moment you close Altaxo, Altaxo writes its current settings into the settings directory. If you first restore your settings and then close Altaxo, Altaxo would overwrite your restored settings again.</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

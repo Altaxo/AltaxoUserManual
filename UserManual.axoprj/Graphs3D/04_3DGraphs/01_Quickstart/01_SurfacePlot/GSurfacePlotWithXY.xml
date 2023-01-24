@@ -1,0 +1,1972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Graph Type="AltaxoBase,Altaxo.Graph.Graph3D.GraphDocument,0">
+  <Name>04_3DGraphs\01_Quickstart\01_SurfacePlot\GSurfacePlotWithXY</Name>
+  <GraphIdentifier />
+  <CreationTime>2018-10-25T22:26:40.1632506+02:00</CreationTime>
+  <LastChangeTime>2018-10-25T22:26:40.1632506+02:00</LastChangeTime>
+  <Notes />
+  <RootLayer Type="AltaxoBase,Altaxo.Graph.Graph3D.HostLayer,0">
+    <CachedParentSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+      <X>283.46456692913387</X>
+      <Y>283.46456692913387</Y>
+      <Z>283.46456692913387</Z>
+    </CachedParentSize>
+    <CachedSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+      <X>362.83464566929132</X>
+      <Y>272.12598425196853</Y>
+      <Z>272.12598425196853</Z>
+    </CachedSize>
+    <CachedPosition Type="AltaxoCore,Altaxo.Geometry.PointD3D,2">
+      <X>0</X>
+      <Y>0</Y>
+      <Z>0</Z>
+    </CachedPosition>
+    <LocationAndSize Type="AltaxoBase,Altaxo.Graph.Graph3D.ItemLocationDirect,0">
+      <ParentSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+        <X>283.46456692913387</X>
+        <Y>283.46456692913387</Y>
+        <Z>283.46456692913387</Z>
+      </ParentSize>
+      <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>362.83464566929132</Value>
+      </SizeX>
+      <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>272.12598425196853</Value>
+      </SizeY>
+      <SizeZ Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>272.12598425196853</Value>
+      </SizeZ>
+      <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>0</Value>
+      </PositionX>
+      <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>0</Value>
+      </PositionY>
+      <PositionZ Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>0</Value>
+      </PositionZ>
+      <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </LocalAnchorX>
+      <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </LocalAnchorY>
+      <LocalAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </LocalAnchorZ>
+      <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </ParentAnchorX>
+      <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </ParentAnchorY>
+      <ParentAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </ParentAnchorZ>
+      <RotationX>0</RotationX>
+      <RotationY>0</RotationY>
+      <RotationZ>0</RotationZ>
+      <ShearX>0</ShearX>
+      <ShearY>0</ShearY>
+      <ShearZ>0</ShearZ>
+      <ScaleX>1</ScaleX>
+      <ScaleY>1</ScaleY>
+      <ScaleZ>1</ScaleZ>
+    </LocationAndSize>
+    <Grid Type="AltaxoBase,Altaxo.Graph.Graph3D.GridPartitioning,0">
+      <XPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+        <Partitioning Count="0" />
+      </XPartitioning>
+      <YPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+        <Partitioning Count="0" />
+      </YPartitioning>
+      <ZPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+        <Partitioning Count="0" />
+      </ZPartitioning>
+    </Grid>
+    <GraphObjects Type="AltaxoBase,Altaxo.Graph.Graph3D.GraphicCollection,0">
+      <GraphObjects Count="1">
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Graph3D.XYZPlotLayer,0">
+          <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.HostLayer,0</BaseType>
+          <CachedParentSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+            <X>362.83464566929132</X>
+            <Y>272.12598425196853</Y>
+            <Z>272.12598425196853</Z>
+          </CachedParentSize>
+          <CachedSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+            <X>249.44881889763778</X>
+            <Y>249.44881889763781</Y>
+            <Z>204.09448818897641</Z>
+          </CachedSize>
+          <CachedPosition Type="AltaxoCore,Altaxo.Geometry.PointD3D,2">
+            <X>56.69291338582677</X>
+            <Y>11.338582677165361</Y>
+            <Z>54.425196850393711</Z>
+          </CachedPosition>
+          <LocationAndSize Type="AltaxoBase,Altaxo.Graph.Graph3D.ItemLocationDirect,0">
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+              <X>362.83464566929132</X>
+              <Y>272.12598425196853</Y>
+              <Z>272.12598425196853</Z>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.6875</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.91666666666666663</Value>
+            </SizeY>
+            <SizeZ Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.75</Value>
+            </SizeZ>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.15625</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.041666666666666685</Value>
+            </PositionY>
+            <PositionZ Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0.2</Value>
+            </PositionZ>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <LocalAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorZ>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <ParentAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorZ>
+            <RotationX>0</RotationX>
+            <RotationY>0</RotationY>
+            <RotationZ>0</RotationZ>
+            <ShearX>0</ShearX>
+            <ShearY>0</ShearY>
+            <ShearZ>0</ShearZ>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+            <ScaleZ>1</ScaleZ>
+          </LocationAndSize>
+          <Grid Type="AltaxoBase,Altaxo.Graph.Graph3D.GridPartitioning,0">
+            <XPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+              <Partitioning Count="0" />
+            </XPartitioning>
+            <YPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+              <Partitioning Count="0" />
+            </YPartitioning>
+            <ZPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+              <Partitioning Count="0" />
+            </ZPartitioning>
+          </Grid>
+          <GraphObjects Type="AltaxoBase,Altaxo.Graph.Graph3D.GraphicCollection,0">
+            <GraphObjects Count="0" />
+          </GraphObjects>
+          <CoordinateSystem Type="AltaxoBase,Altaxo.Graph.Graph3D.CS.G3DCartesicCoordinateSystem,0">
+            <XReverse>false</XReverse>
+            <YReverse>false</YReverse>
+            <ZReverse>false</ZReverse>
+            <XYInterchanged>false</XYInterchanged>
+          </CoordinateSystem>
+          <Scales Type="AltaxoBase,Altaxo.Graph.Scales.ScaleCollection,1">
+            <Members Count="3">
+              <e Type="AltaxoBase,Altaxo.Graph.Scales.LinearScale,4">
+                <Org>-17.96875</Org>
+                <End>17.46875</End>
+                <Bounds Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                  <NumberOfItems>64</NumberOfItems>
+                  <MinValue>-16</MinValue>
+                  <MaxValue>15.5</MaxValue>
+                </Bounds>
+                <Rescaling Type="AltaxoBase,Altaxo.Graph.Scales.Rescaling.LinearScaleRescaleConditions,0">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Rescaling.NumericScaleRescaleConditions,2</BaseType>
+                  <DataBoundsOrg>-16</DataBoundsOrg>
+                  <DataBoundsEnd>15.5</DataBoundsEnd>
+                  <OrgRescaling>Auto</OrgRescaling>
+                  <EndRescaling>Auto</EndRescaling>
+                  <OrgRelativeTo>Absolute</OrgRelativeTo>
+                  <EndRelativeTo>Absolute</EndRelativeTo>
+                  <UserProvidedOrg>0</UserProvidedOrg>
+                  <UserProvidedEnd>0</UserProvidedEnd>
+                  <ResultingOrg>-16</ResultingOrg>
+                  <ResultingMinOrg>-INF</ResultingMinOrg>
+                  <ResultingEnd>15.5</ResultingEnd>
+                  <ResultingMaxEnd>INF</ResultingMaxEnd>
+                </Rescaling>
+                <TickSpacing Type="AltaxoBase,Altaxo.Graph.Scales.Ticks.LinearTickSpacing,0">
+                  <ZeroLever>0.25</ZeroLever>
+                  <MinGrace>0.0625</MinGrace>
+                  <MaxGrace>0.0625</MaxGrace>
+                  <SnapOrgToTick>SnapToNothing</SnapOrgToTick>
+                  <SnapEndToTick>SnapToNothing</SnapEndToTick>
+                  <TargetNumberOfMajorTicks>4</TargetNumberOfMajorTicks>
+                  <TargetNumberOfMinorTicks>2</TargetNumberOfMinorTicks>
+                  <UserDefinedMajorSpan />
+                  <UserDefinedMinorTicks />
+                  <TransformationOffset>0</TransformationOffset>
+                  <TransformationDivider>1</TransformationDivider>
+                  <TransformationIsMultiply>false</TransformationIsMultiply>
+                  <SuppressedMajorTicks Type="UndefinedValue" />
+                  <SuppressedMinorTicks Type="UndefinedValue" />
+                  <AdditionalMajorTicks Type="UndefinedValue" />
+                  <AdditionalMinorTicks Type="UndefinedValue" />
+                </TickSpacing>
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Scales.LinearScale,4">
+                <Org>-17.96875</Org>
+                <End>17.46875</End>
+                <Bounds Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                  <NumberOfItems>64</NumberOfItems>
+                  <MinValue>-16</MinValue>
+                  <MaxValue>15.5</MaxValue>
+                </Bounds>
+                <Rescaling Type="AltaxoBase,Altaxo.Graph.Scales.Rescaling.LinearScaleRescaleConditions,0">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Rescaling.NumericScaleRescaleConditions,2</BaseType>
+                  <DataBoundsOrg>-16</DataBoundsOrg>
+                  <DataBoundsEnd>15.5</DataBoundsEnd>
+                  <OrgRescaling>Auto</OrgRescaling>
+                  <EndRescaling>Auto</EndRescaling>
+                  <OrgRelativeTo>Absolute</OrgRelativeTo>
+                  <EndRelativeTo>Absolute</EndRelativeTo>
+                  <UserProvidedOrg>0</UserProvidedOrg>
+                  <UserProvidedEnd>0</UserProvidedEnd>
+                  <ResultingOrg>-16</ResultingOrg>
+                  <ResultingMinOrg>-INF</ResultingMinOrg>
+                  <ResultingEnd>15.5</ResultingEnd>
+                  <ResultingMaxEnd>INF</ResultingMaxEnd>
+                </Rescaling>
+                <TickSpacing Type="AltaxoBase,Altaxo.Graph.Scales.Ticks.LinearTickSpacing,0">
+                  <ZeroLever>0.25</ZeroLever>
+                  <MinGrace>0.0625</MinGrace>
+                  <MaxGrace>0.0625</MaxGrace>
+                  <SnapOrgToTick>SnapToNothing</SnapOrgToTick>
+                  <SnapEndToTick>SnapToNothing</SnapEndToTick>
+                  <TargetNumberOfMajorTicks>4</TargetNumberOfMajorTicks>
+                  <TargetNumberOfMinorTicks>2</TargetNumberOfMinorTicks>
+                  <UserDefinedMajorSpan />
+                  <UserDefinedMinorTicks />
+                  <TransformationOffset>0</TransformationOffset>
+                  <TransformationDivider>1</TransformationDivider>
+                  <TransformationIsMultiply>false</TransformationIsMultiply>
+                  <SuppressedMajorTicks Type="UndefinedValue" />
+                  <SuppressedMinorTicks Type="UndefinedValue" />
+                  <AdditionalMajorTicks Type="UndefinedValue" />
+                  <AdditionalMinorTicks Type="UndefinedValue" />
+                </TickSpacing>
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Scales.LinearScale,4">
+                <Org>-0.29330572222648121</Org>
+                <End>1.076076807189793</End>
+                <Bounds Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                  <NumberOfItems>4096</NumberOfItems>
+                  <MinValue>-0.21722891503668823</MinValue>
+                  <MaxValue>1</MaxValue>
+                </Bounds>
+                <Rescaling Type="AltaxoBase,Altaxo.Graph.Scales.Rescaling.LinearScaleRescaleConditions,0">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Scales.Rescaling.NumericScaleRescaleConditions,2</BaseType>
+                  <DataBoundsOrg>-0.21722891503668823</DataBoundsOrg>
+                  <DataBoundsEnd>1</DataBoundsEnd>
+                  <OrgRescaling>Auto</OrgRescaling>
+                  <EndRescaling>Auto</EndRescaling>
+                  <OrgRelativeTo>Absolute</OrgRelativeTo>
+                  <EndRelativeTo>Absolute</EndRelativeTo>
+                  <UserProvidedOrg>0</UserProvidedOrg>
+                  <UserProvidedEnd>0</UserProvidedEnd>
+                  <ResultingOrg>-0.21722891503668823</ResultingOrg>
+                  <ResultingMinOrg>-INF</ResultingMinOrg>
+                  <ResultingEnd>1</ResultingEnd>
+                  <ResultingMaxEnd>INF</ResultingMaxEnd>
+                </Rescaling>
+                <TickSpacing Type="AltaxoBase,Altaxo.Graph.Scales.Ticks.LinearTickSpacing,0">
+                  <ZeroLever>0.25</ZeroLever>
+                  <MinGrace>0.0625</MinGrace>
+                  <MaxGrace>0.0625</MaxGrace>
+                  <SnapOrgToTick>SnapToNothing</SnapOrgToTick>
+                  <SnapEndToTick>SnapToNothing</SnapEndToTick>
+                  <TargetNumberOfMajorTicks>4</TargetNumberOfMajorTicks>
+                  <TargetNumberOfMinorTicks>2</TargetNumberOfMinorTicks>
+                  <UserDefinedMajorSpan />
+                  <UserDefinedMinorTicks />
+                  <TransformationOffset>0</TransformationOffset>
+                  <TransformationDivider>1</TransformationDivider>
+                  <TransformationIsMultiply>false</TransformationIsMultiply>
+                  <SuppressedMajorTicks Type="UndefinedValue" />
+                  <SuppressedMinorTicks Type="UndefinedValue" />
+                  <AdditionalMajorTicks Type="UndefinedValue" />
+                  <AdditionalMinorTicks Type="UndefinedValue" />
+                </TickSpacing>
+              </e>
+            </Members>
+          </Scales>
+          <GridPlanes Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.GridPlaneCollection,0">
+            <GridPlanes Count="1">
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.GridPlane,0">
+                <ID Type="AltaxoBase,Altaxo.Graph.CSPlaneID,0">
+                  <Axis>2</Axis>
+                  <Logical>0</Logical>
+                  <UsePhysical>false</UsePhysical>
+                </ID>
+                <Grid1 Type="UndefinedValue" />
+                <Grid2 Type="UndefinedValue" />
+                <Background Type="UndefinedValue" />
+              </e>
+            </GridPlanes>
+          </GridPlanes>
+          <AxisStyles Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyleCollection,0">
+            <AxisStyles Count="12">
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>0</Axis>
+                  <Logical1>0</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>0</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>false</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>true</Major2Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>false</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>true</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLabelStyle,0">
+                  <Font Type="AltaxoBase,Altaxo.Drawing.D3D.FontX3D,0">
+                    <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 12world</Font>
+                    <Depth>0.75</Depth>
+                  </Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                    <Smoothness>0.5</Smoothness>
+                    <Metalness>0.5</Metalness>
+                    <IndexOfRefraction>1.5</IndexOfRefraction>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                  </Brush>
+                  <Background Type="UndefinedValue" />
+                  <AutoAlignment>true</AutoAlignment>
+                  <AlignmentX>Near</AlignmentX>
+                  <AlignmentY>Near</AlignmentY>
+                  <AlignmentZ>Near</AlignmentZ>
+                  <RotationX>90</RotationX>
+                  <RotationY>0</RotationY>
+                  <RotationZ>0</RotationZ>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <OffsetZ>0</OffsetZ>
+                  <SuppressedLabels Type="UndefinedValue" />
+                  <LabelFormat Type="AltaxoBase,Altaxo.Graph.Graph3D.LabelFormatting.NumericLabelFormattingAuto,0">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.LabelFormatting.LabelFormattingBase,0</BaseType>
+                    <Prefix />
+                    <Suffix />
+                  </LabelFormat>
+                  <LabelSide>SecondDown</LabelSide>
+                </MajorLabelStyle>
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="AltaxoBase,Altaxo.Graph.Graph3D.Shapes.TextGraphic,0">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.Shapes.GraphicBase,0</BaseType>
+                  <Location Type="AltaxoBase,Altaxo.Graph.Graph3D.ItemLocationDirectAutoSize,0">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.ItemLocationDirect,0</BaseType>
+                    <ParentSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+                      <X>249.44881889763778</X>
+                      <Y>249.44881889763781</Y>
+                      <Z>204.09448818897641</Z>
+                    </ParentSize>
+                    <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>32.6015625</Value>
+                    </SizeX>
+                    <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>13.58203125</Value>
+                    </SizeY>
+                    <SizeZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0.75</Value>
+                    </SizeZ>
+                    <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0</Value>
+                    </PositionX>
+                    <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0</Value>
+                    </PositionY>
+                    <PositionZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>-22.4</Value>
+                    </PositionZ>
+                    <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </LocalAnchorX>
+                    <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>1</Value>
+                    </LocalAnchorY>
+                    <LocalAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </LocalAnchorZ>
+                    <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </ParentAnchorX>
+                    <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0</Value>
+                    </ParentAnchorY>
+                    <ParentAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0</Value>
+                    </ParentAnchorZ>
+                    <RotationX>90</RotationX>
+                    <RotationY>0</RotationY>
+                    <RotationZ>0</RotationZ>
+                    <ShearX>0</ShearX>
+                    <ShearY>0</ShearY>
+                    <ShearZ>0</ShearZ>
+                    <ScaleX>1</ScaleX>
+                    <ScaleY>1</ScaleY>
+                    <ScaleZ>1</ScaleZ>
+                  </Location>
+                  <Tag />
+                  <Text>X axis</Text>
+                  <Font Type="AltaxoBase,Altaxo.Drawing.D3D.FontX3D,0">
+                    <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 12world</Font>
+                    <Depth>0.75</Depth>
+                  </Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                    <Smoothness>0.5</Smoothness>
+                    <Metalness>0.5</Metalness>
+                    <IndexOfRefraction>1.5</IndexOfRefraction>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                  </Brush>
+                  <BackgroundStyle Type="UndefinedValue" />
+                  <LineSpacing>1.25</LineSpacing>
+                </AxisTitle>
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>0</Axis>
+                  <Logical1>0</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>1</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>false</Major1Dw>
+                  <Major2Up>true</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>false</Minor1Dw>
+                  <Minor2Up>true</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>0</Axis>
+                  <Logical1>1</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>0</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>false</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>true</Major2Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>false</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>true</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>0</Axis>
+                  <Logical1>1</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>1</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>false</Major1Dw>
+                  <Major2Up>true</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>false</Minor1Dw>
+                  <Minor2Up>true</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>1</Axis>
+                  <Logical1>0</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>0</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>true</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>true</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLabelStyle,0">
+                  <Font Type="AltaxoBase,Altaxo.Drawing.D3D.FontX3D,0">
+                    <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 12world</Font>
+                    <Depth>0.75</Depth>
+                  </Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                    <Smoothness>0.5</Smoothness>
+                    <Metalness>0.5</Metalness>
+                    <IndexOfRefraction>1.5</IndexOfRefraction>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                  </Brush>
+                  <Background Type="UndefinedValue" />
+                  <AutoAlignment>true</AutoAlignment>
+                  <AlignmentX>Near</AlignmentX>
+                  <AlignmentY>Near</AlignmentY>
+                  <AlignmentZ>Near</AlignmentZ>
+                  <RotationX>90</RotationX>
+                  <RotationY>0</RotationY>
+                  <RotationZ>0</RotationZ>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <OffsetZ>0</OffsetZ>
+                  <SuppressedLabels Type="UndefinedValue" />
+                  <LabelFormat Type="AltaxoBase,Altaxo.Graph.Graph3D.LabelFormatting.NumericLabelFormattingAuto,0">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.LabelFormatting.LabelFormattingBase,0</BaseType>
+                    <Prefix />
+                    <Suffix />
+                  </LabelFormat>
+                  <LabelSide>FirstDown</LabelSide>
+                </MajorLabelStyle>
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="AltaxoBase,Altaxo.Graph.Graph3D.Shapes.TextGraphic,0">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.Shapes.GraphicBase,0</BaseType>
+                  <Location Type="AltaxoBase,Altaxo.Graph.Graph3D.ItemLocationDirectAutoSize,0">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.ItemLocationDirect,0</BaseType>
+                    <ParentSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+                      <X>249.44881889763778</X>
+                      <Y>249.44881889763781</Y>
+                      <Z>204.09448818897641</Z>
+                    </ParentSize>
+                    <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>32.6015625</Value>
+                    </SizeX>
+                    <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>13.58203125</Value>
+                    </SizeY>
+                    <SizeZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0.75</Value>
+                    </SizeZ>
+                    <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>-17.6</Value>
+                    </PositionX>
+                    <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0</Value>
+                    </PositionY>
+                    <PositionZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0</Value>
+                    </PositionZ>
+                    <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>1</Value>
+                    </LocalAnchorX>
+                    <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </LocalAnchorY>
+                    <LocalAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </LocalAnchorZ>
+                    <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0</Value>
+                    </ParentAnchorX>
+                    <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.4</Value>
+                    </ParentAnchorY>
+                    <ParentAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0</Value>
+                    </ParentAnchorZ>
+                    <RotationX>90</RotationX>
+                    <RotationY>0</RotationY>
+                    <RotationZ>0</RotationZ>
+                    <ShearX>0</ShearX>
+                    <ShearY>0</ShearY>
+                    <ShearZ>0</ShearZ>
+                    <ScaleX>1</ScaleX>
+                    <ScaleY>1</ScaleY>
+                    <ScaleZ>1</ScaleZ>
+                  </Location>
+                  <Tag />
+                  <Text>Y axis</Text>
+                  <Font Type="AltaxoBase,Altaxo.Drawing.D3D.FontX3D,0">
+                    <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 12world</Font>
+                    <Depth>0.75</Depth>
+                  </Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                    <Smoothness>0.5</Smoothness>
+                    <Metalness>0.5</Metalness>
+                    <IndexOfRefraction>1.5</IndexOfRefraction>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                  </Brush>
+                  <BackgroundStyle Type="UndefinedValue" />
+                  <LineSpacing>1.25</LineSpacing>
+                </AxisTitle>
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>1</Axis>
+                  <Logical1>0</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>1</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>true</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>true</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>1</Axis>
+                  <Logical1>1</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>0</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>true</Major1Up>
+                  <Major1Dw>false</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>true</Minor1Up>
+                  <Minor1Dw>false</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>1</Axis>
+                  <Logical1>1</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>1</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>true</Major1Up>
+                  <Major1Dw>false</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>true</Minor1Up>
+                  <Minor1Dw>false</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>2</Axis>
+                  <Logical1>0</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>0</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>true</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>true</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>2</Axis>
+                  <Logical1>0</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>1</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>false</Major1Up>
+                  <Major1Dw>true</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>false</Minor1Up>
+                  <Minor1Dw>true</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>2</Axis>
+                  <Logical1>1</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>0</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>true</Major1Up>
+                  <Major1Dw>false</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>true</Minor1Up>
+                  <Minor1Dw>false</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLabelStyle,0">
+                  <Font Type="AltaxoBase,Altaxo.Drawing.D3D.FontX3D,0">
+                    <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 12world</Font>
+                    <Depth>0.75</Depth>
+                  </Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                    <Smoothness>0.5</Smoothness>
+                    <Metalness>0.5</Metalness>
+                    <IndexOfRefraction>1.5</IndexOfRefraction>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                  </Brush>
+                  <Background Type="UndefinedValue" />
+                  <AutoAlignment>true</AutoAlignment>
+                  <AlignmentX>Near</AlignmentX>
+                  <AlignmentY>Near</AlignmentY>
+                  <AlignmentZ>Near</AlignmentZ>
+                  <RotationX>90</RotationX>
+                  <RotationY>0</RotationY>
+                  <RotationZ>0</RotationZ>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <OffsetZ>0</OffsetZ>
+                  <SuppressedLabels Type="UndefinedValue" />
+                  <LabelFormat Type="AltaxoBase,Altaxo.Graph.Graph3D.LabelFormatting.NumericLabelFormattingAuto,0">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.LabelFormatting.LabelFormattingBase,0</BaseType>
+                    <Prefix />
+                    <Suffix />
+                  </LabelFormat>
+                  <LabelSide>FirstUp</LabelSide>
+                </MajorLabelStyle>
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="AltaxoBase,Altaxo.Graph.Graph3D.Shapes.TextGraphic,0">
+                  <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.Shapes.GraphicBase,0</BaseType>
+                  <Location Type="AltaxoBase,Altaxo.Graph.Graph3D.ItemLocationDirectAutoSize,0">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Graph3D.ItemLocationDirect,0</BaseType>
+                    <ParentSize Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+                      <X>249.44881889763778</X>
+                      <Y>249.44881889763781</Y>
+                      <Z>204.09448818897641</Z>
+                    </ParentSize>
+                    <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>31.927734375</Value>
+                    </SizeX>
+                    <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>13.58203125</Value>
+                    </SizeY>
+                    <SizeZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0.75</Value>
+                    </SizeZ>
+                    <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>17.6</Value>
+                    </PositionX>
+                    <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0</Value>
+                    </PositionY>
+                    <PositionZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>false</IsRelative>
+                      <Value>0</Value>
+                    </PositionZ>
+                    <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0</Value>
+                    </LocalAnchorX>
+                    <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </LocalAnchorY>
+                    <LocalAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.5</Value>
+                    </LocalAnchorZ>
+                    <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>1</Value>
+                    </ParentAnchorX>
+                    <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0</Value>
+                    </ParentAnchorY>
+                    <ParentAnchorZ Type="AltaxoCore,Altaxo.RADouble,2">
+                      <IsRelative>true</IsRelative>
+                      <Value>0.40000000000000008</Value>
+                    </ParentAnchorZ>
+                    <RotationX>90</RotationX>
+                    <RotationY>0</RotationY>
+                    <RotationZ>0</RotationZ>
+                    <ShearX>0</ShearX>
+                    <ShearY>0</ShearY>
+                    <ShearZ>0</ShearZ>
+                    <ScaleX>1</ScaleX>
+                    <ScaleY>1</ScaleY>
+                    <ScaleZ>1</ScaleZ>
+                  </Location>
+                  <Tag />
+                  <Text>Z axis</Text>
+                  <Font Type="AltaxoBase,Altaxo.Drawing.D3D.FontX3D,0">
+                    <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 12world</Font>
+                    <Depth>0.75</Depth>
+                  </Font>
+                  <Brush Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                    <Smoothness>0.5</Smoothness>
+                    <Metalness>0.5</Metalness>
+                    <IndexOfRefraction>1.5</IndexOfRefraction>
+                    <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </Color>
+                  </Brush>
+                  <BackgroundStyle Type="UndefinedValue" />
+                  <LineSpacing>1.25</LineSpacing>
+                </AxisTitle>
+              </e>
+              <e Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisStyle,0">
+                <StyleID Type="AltaxoBase,Altaxo.Graph.CSLineID,0">
+                  <Axis>2</Axis>
+                  <Logical1>1</Logical1>
+                  <UsePhysical1>false</UsePhysical1>
+                  <Is3DIdentifier>true</Is3DIdentifier>
+                  <Logical2>1</Logical2>
+                  <UsePhysical2>false</UsePhysical2>
+                </StyleID>
+                <TickSpacing Type="UndefinedValue" />
+                <AxisStyle Type="AltaxoBase,Altaxo.Graph.Graph3D.Axis.AxisLineStyle,0">
+                  <AxisPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </AxisPen>
+                  <MajorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MajorPen>
+                  <MinorPen Type="AltaxoBase,Altaxo.Drawing.D3D.PenX3D,0">
+                    <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithUniformColor,0">
+                      <Smoothness>0.5</Smoothness>
+                      <Metalness>0.5</Metalness>
+                      <IndexOfRefraction>1.5</IndexOfRefraction>
+                      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                        <Color>{#FF000000}</Color>
+                        <Name>Black</Name>
+                        <SetName>KnownColors</SetName>
+                      </Color>
+                    </Material>
+                    <CrossSection Type="AltaxoBase,Altaxo.Drawing.D3D.CrossSections.Rectangular,0">
+                      <Size1>1.1</Size1>
+                      <Size2>1.1</Size2>
+                    </CrossSection>
+                    <LineJoin>Miter</LineJoin>
+                    <MiterLimit>10</MiterLimit>
+                    <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
+                  </MinorPen>
+                  <MajorLength>5.6000000000000005</MajorLength>
+                  <MinorLength>2.8000000000000003</MinorLength>
+                  <AxisPosition1 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition1>
+                  <AxisPosition2 Type="AltaxoCore,Altaxo.RADouble,2">
+                    <IsRelative>false</IsRelative>
+                    <Value>0</Value>
+                  </AxisPosition2>
+                  <Major1Up>true</Major1Up>
+                  <Major1Dw>false</Major1Dw>
+                  <Major2Up>false</Major2Up>
+                  <Major2Dw>false</Major2Dw>
+                  <Minor1Up>true</Minor1Up>
+                  <Minor1Dw>false</Minor1Dw>
+                  <Minor2Up>false</Minor2Up>
+                  <Minor2Dw>false</Minor2Dw>
+                </AxisStyle>
+                <MajorLabelStyle Type="UndefinedValue" />
+                <MinorLabelStyle Type="UndefinedValue" />
+                <AxisTitle Type="UndefinedValue" />
+              </e>
+            </AxisStyles>
+          </AxisStyles>
+          <DataClipping Type="AltaxoBase,Altaxo.Graph.LayerDataClipping,0">StrictToCS</DataClipping>
+          <Plots Type="AltaxoBase,Altaxo.Graph.Graph3D.Plot.PlotItemCollection,1">
+            <GroupStyles Type="AltaxoBase,Altaxo.Graph.Graph3D.Plot.Groups.PlotGroupStyleCollection,0">
+              <BaseType>AltaxoBase,Altaxo.Graph.Plot.Groups.PlotGroupStyleCollectionBase,1</BaseType>
+              <Styles Count="0" />
+              <Strictness>Normal</Strictness>
+              <InheritFromParent>true</InheritFromParent>
+              <DistributeToChilds>false</DistributeToChilds>
+              <TransformingStyle Type="UndefinedValue" />
+            </GroupStyles>
+            <PlotItems Count="1">
+              <PlotItem Type="AltaxoBase,Altaxo.Graph.Graph3D.Plot.DataMeshPlotItem,0">
+                <Data Type="AltaxoBase,Altaxo.Graph.Plot.Data.XYZMeshedColumnPlotData,3">
+                  <MatrixProxy Type="AltaxoBase,Altaxo.Data.DataTableMatrixProxy,0">
+                    <Table Type="AltaxoBase,Altaxo.Data.DataTableProxy,1">
+                      <BaseType>AltaxoBase,Altaxo.Main.DocNodeProxy,1</BaseType>
+                      <Path Type="AltaxoBase,Altaxo.Main.AbsoluteDocumentPath,0">
+                        <Path Count="2">
+                          <e>Tables</e>
+                          <e>04_3DGraphs\01_Quickstart\01_SurfacePlot\WAdvanced</e>
+                        </Path>
+                      </Path>
+                    </Table>
+                    <Group>0</Group>
+                    <RowHeaderColumn Type="AltaxoBase,Altaxo.Data.ReadableColumnProxy,2">
+                      <BaseType>AltaxoBase,Altaxo.Main.DocNodeProxy2ndLevel,1</BaseType>
+                      <Path Type="AltaxoBase,Altaxo.Main.AbsoluteDocumentPath,0">
+                        <Path Count="4">
+                          <e>Tables</e>
+                          <e>04_3DGraphs\01_Quickstart\01_SurfacePlot\WAdvanced</e>
+                          <e>DataCols</e>
+                          <e>X-values</e>
+                        </Path>
+                      </Path>
+                    </RowHeaderColumn>
+                    <ColumnHeaderColumn Type="AltaxoBase,Altaxo.Data.ReadableColumnProxy,2">
+                      <BaseType>AltaxoBase,Altaxo.Main.DocNodeProxy2ndLevel,1</BaseType>
+                      <Path Type="AltaxoBase,Altaxo.Main.AbsoluteDocumentPath,0">
+                        <Path Count="4">
+                          <e>Tables</e>
+                          <e>04_3DGraphs\01_Quickstart\01_SurfacePlot\WAdvanced</e>
+                          <e>PropCols</e>
+                          <e>Y-values</e>
+                        </Path>
+                      </Path>
+                    </ColumnHeaderColumn>
+                    <UseAllAvailableColumnsOfGroup>true</UseAllAvailableColumnsOfGroup>
+                    <UseAllAvailableDataRows>true</UseAllAvailableDataRows>
+                  </MatrixProxy>
+                  <XBoundaries Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                    <NumberOfItems>64</NumberOfItems>
+                    <MinValue>-16</MinValue>
+                    <MaxValue>15.5</MaxValue>
+                  </XBoundaries>
+                  <YBoundaries Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                    <NumberOfItems>64</NumberOfItems>
+                    <MinValue>-16</MinValue>
+                    <MaxValue>15.5</MaxValue>
+                  </YBoundaries>
+                  <VBoundaries Type="AltaxoBase,Altaxo.Graph.Scales.Boundaries.FiniteNumericalBoundaries,2">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Scales.Boundaries.NumericalBoundaries,2</BaseType>
+                    <NumberOfItems>4096</NumberOfItems>
+                    <MinValue>-0.21722891503668823</MinValue>
+                    <MaxValue>1</MaxValue>
+                  </VBoundaries>
+                </Data>
+                <Style Type="AltaxoBase,Altaxo.Graph.Graph3D.Plot.Styles.DataMeshPlotStyle,0">
+                  <ClipToLayer>true</ClipToLayer>
+                  <Colorization Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.ColorProvider.ColorProviderBGRY,0">
+                    <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Plot.ColorProvider.ColorProviderBase,0</BaseType>
+                    <ColorBelow Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FF000000}</Color>
+                      <Name>Black</Name>
+                      <SetName>KnownColors</SetName>
+                    </ColorBelow>
+                    <ColorAbove Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#FFFFFAFA}</Color>
+                      <Name>Snow</Name>
+                      <SetName>KnownColors</SetName>
+                    </ColorAbove>
+                    <ColorInvalid Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                      <Color>{#00FFFFFF}</Color>
+                      <Name>Transparent</Name>
+                      <SetName>KnownColors</SetName>
+                    </ColorInvalid>
+                    <Transparency>0</Transparency>
+                    <ColorSteps>0</ColorSteps>
+                  </Colorization>
+                  <ColorScale Type="UndefinedValue" />
+                  <Material Type="AltaxoBase,Altaxo.Drawing.D3D.Material.MaterialWithoutColorOrTexture,0">
+                    <Smoothness>0.5</Smoothness>
+                    <Metalness>0.5</Metalness>
+                    <IndexOfRefraction>1.5</IndexOfRefraction>
+                  </Material>
+                </Style>
+              </PlotItem>
+            </PlotItems>
+          </Plots>
+        </GraphicsObject>
+      </GraphObjects>
+    </GraphObjects>
+  </RootLayer>
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="1" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>8D245305-B64F-4B51-ACB4-A30B5C7C20FE</Key>
+        <Value Type="AltaxoBase,Altaxo.Drawing.D3D.FontX3D,0">
+          <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Microsoft Sans Serif, 12world</Font>
+          <Depth>0.75</Depth>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+  <Lighting Type="AltaxoBase,Altaxo.Graph.Graph3D.LightSettings,0">
+    <AmbientLight Type="AltaxoBase,Altaxo.Graph.Graph3D.Lighting.HemisphericAmbientLight,0">
+      <IsAffixedToCamera>false</IsAffixedToCamera>
+      <LightAmplitude>0.8</LightAmplitude>
+      <ColorBelow Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+        <Color>{#FFD3D3D3}</Color>
+        <Name>LightGray</Name>
+        <SetName>KnownColors</SetName>
+      </ColorBelow>
+      <ColorAbove Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+        <Color>{#FFFFFFFF}</Color>
+        <Name>White</Name>
+        <SetName>KnownColors</SetName>
+      </ColorAbove>
+      <DirectionBelowToAbove Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </DirectionBelowToAbove>
+    </AmbientLight>
+    <DiscreteLight0 Type="AltaxoBase,Altaxo.Graph.Graph3D.Lighting.DirectionalLight,0">
+      <IsAffixedToCamera>false</IsAffixedToCamera>
+      <LightAmplitude>0.2</LightAmplitude>
+      <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+        <Color>{#FFFFFFFF}</Color>
+        <Name>White</Name>
+        <SetName>KnownColors</SetName>
+      </Color>
+      <DirectionToLight Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+        <X>-0.5</X>
+        <Y>-0.5</Y>
+        <Z>0.70710678118654757</Z>
+      </DirectionToLight>
+    </DiscreteLight0>
+    <DiscreteLight1 Type="UndefinedValue" />
+    <DiscreteLight2 Type="UndefinedValue" />
+    <DiscreteLight3 Type="UndefinedValue" />
+  </Lighting>
+  <Camera Type="AltaxoBase,Altaxo.Graph.Graph3D.Camera.OrthographicCamera,0">
+    <UpVector Type="AltaxoCore,Altaxo.Geometry.VectorD3D,1">
+      <X>0.092770184332698957</X>
+      <Y>0.17961512832890625</Y>
+      <Z>0.979352897874034</Z>
+    </UpVector>
+    <EyePosition Type="AltaxoCore,Altaxo.Geometry.PointD3D,2">
+      <X>-2186.8070413429377</X>
+      <Y>-4454.2689623393035</Y>
+      <Z>1276.7188347320114</Z>
+    </EyePosition>
+    <TargetPosition Type="AltaxoCore,Altaxo.Geometry.PointD3D,2">
+      <X>190.27778775948795</X>
+      <Y>148.0760658513544</Y>
+      <Z>207.46852374007779</Z>
+    </TargetPosition>
+    <ZNear>132.22946029255485</ZNear>
+    <ZFar>11636.192505744826</ZFar>
+    <Width>1061.3141040328624</Width>
+  </Camera>
+</Graph>

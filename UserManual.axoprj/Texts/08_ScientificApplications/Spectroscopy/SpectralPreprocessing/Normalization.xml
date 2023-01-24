@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>08_ScientificApplications\Spectroscopy\SpectralPreprocessing\Normalization</Name>
+  <CreationTime>2023-01-18T23:51:38.0516879+01:00</CreationTime>
+  <LastChangeTime>2023-01-18T23:51:38.0516879+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText />
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

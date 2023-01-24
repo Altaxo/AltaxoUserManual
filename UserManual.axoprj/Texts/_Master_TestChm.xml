@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>_Master_TestChm</Name>
+  <CreationTime>2018-10-25T21:43:00.673293+02:00</CreationTime>
+  <LastChangeTime>2018-10-25T21:43:00.673293+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="3" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+      <e>
+        <Key>8FBF38A4-E9ED-4C17-B6F0-F6E5E285FD33</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+      <e>
+        <Key>0E223CE7-2845-48A1-BFB1-7642849F5A3A</Key>
+        <Value Type="AltaxoBase,Altaxo.Text.MamlExportOptions,0">
+          <SplitLevel>3</SplitLevel>
+          <ImageFolderName>HelpContent\Images</ImageFolderName>
+          <EnableRemoveOldContentsOfImageFolder>true</EnableRemoveOldContentsOfImageFolder>
+          <EnableAutoOutline>true</EnableAutoOutline>
+          <EnableHtmlEscape>true</EnableHtmlEscape>
+          <EnableLinkToPreviousSection>true</EnableLinkToPreviousSection>
+          <LinkToPreviousSectionLabelText>Previous section: </LinkToPreviousSectionLabelText>
+          <EnableLinkToNextSection>true</EnableLinkToNextSection>
+          <LinkToNextSectionLabelText>Next section: </LinkToNextSectionLabelText>
+          <ExpandChildDocuments>true</ExpandChildDocuments>
+          <BodyTextFontFamily>Segoe UI</BodyTextFontFamily>
+          <BodyTextFontSize>15.000000000000002</BodyTextFontSize>
+          <IsIntendedForHtmlHelp1File>false</IsIntendedForHtmlHelp1File>
+          <OpenHelpFileBuilder>true</OpenHelpFileBuilder>
+          <OutputFileName>V:\C\Altaxo\Manual\ManualTesting\Level1\Level1.1\AltaxoClassRef-Chm.shfbproj</OutputFileName>
+          <ContentFolderName>HelpContent</ContentFolderName>
+          <EnableRemoveOldContentsOfContentFolder>true</EnableRemoveOldContentsOfContentFolder>
+          <ContentFileNameBase />
+          <RenumerateFigures>false</RenumerateFigures>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+  <StyleName />
+  <SourceText>```{Altaxo child="_Master"}
+Master
+```
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

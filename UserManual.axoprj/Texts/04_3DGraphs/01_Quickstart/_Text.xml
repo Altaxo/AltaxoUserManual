@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>04_3DGraphs\01_Quickstart\_Text</Name>
+  <CreationTime>2018-10-23T21:24:07.2792899+02:00</CreationTime>
+  <LastChangeTime>2018-10-23T21:24:07.2792899+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>### Quickstart
+
+```{Altaxo child="01_SurfacePlot\_Text"}
+Create a surface plot
+```
+
+```{Altaxo child="02_LinePlot\_Text"}
+Create a line plot
+```
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

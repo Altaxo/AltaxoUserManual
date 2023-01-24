@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Kinetics\ConversionAutocatalytic\Description</Name>
+  <CreationTime>2021-07-07T11:21:39.7393827+02:00</CreationTime>
+  <LastChangeTime>2021-07-07T11:21:39.7393827+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Conversion of an autocatalytic reaction
+
+This fit function represents the solution of the differential equation for the conversion of an autocatalytic reaction (e.g. epoxy curing), namely:
+
+$$
+\frac{dc}{dx} = (k_1 + k_2 c^m)(1-c)^n \\ \\ c(t \le t_0)=0
+$$
+
+in which 
+
+- $c$ is a value in the range [0, 1], e.g. the chemical conversion,
+- $x$ is the independent variable (for a reaction, $x$ represents the time),
+- $k_1$ and $k_2$ are a rate parameter,
+- $m$ and $n$ are exponents,
+- $t_0$ is the point (time) of the start of the reaction, i.e. $c(t_0)=0$.
+
+&gt; **Important**: In this fit function, the **dependent variable $y$ is not the conversion** $c(x)$, but a scaled value of the conversion $y(x)=A_0 c(x)$, in which $A_0$ is an additional parameter!
+
+The values of $y$, $k_1$ and $k_2$ are assumed to be positive. The value of $y$ before the start of reaction ($x \le t_0$) is assumed to be 0.
+
+Since there is no general analytical solution of this differential equation, the solution must be calculated using an ordinary differential equation solver. This could make fits to a large data set somewhat slow.
+
+The domain of the function is $-\infty \leq x \leq \infty$. 
+
+&gt; Tip #1:  
+&gt; To fit conversion data that are in the range [0,1], set the parameter $A_0$ fixed to a value of 1.
+
+&gt; Tip #2:  
+&gt; To fit conversion data that are in percent, i.e. in a range of [0, 100], set the parameter $A_0$ fixed to a value of 100.
+
+&gt; Note:  
+&gt; This kinetic equation assumes that the conversion finally reaches 1 (100%). This assumption may be wrong if the glass temperature of the finally cured material exceeds the curing temperature.
+
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: ConversionAutocatalytic (with $t_0=1$, $A_0=1$, $k_1=1$ and $k_2$=1). The values for $m$ and $n$ are indicated in the legend.
+---
+References:  
+- J. M. Kenny, Determination of Autocatalytic Kinetic Model Parameters Describing Thermoset Cure, Journal of Applied Polymer Science, Vol. 51, 761-764 (1994) 
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

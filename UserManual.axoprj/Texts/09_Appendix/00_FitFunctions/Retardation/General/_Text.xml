@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Retardation\General\_Text</Name>
+  <CreationTime>2023-01-18T15:05:16.2459216+01:00</CreationTime>
+  <LastChangeTime>2023-01-18T15:05:16.2459216+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### General retardation fit functions
+
+
+```{Altaxo child="HavriliakNegamiComplexFrequency\Description"}
+HavriliakNegamiComplexFrequency
+```
+
+```{Altaxo child="HavriliakNegamiComplexOmega\Description"}
+HavriliakNegamiComplexOmega
+```
+
+```{Altaxo child="KohlrauschComplexFrequency\Description"}
+KohlrauschComplexFrequency
+```
+
+```{Altaxo child="KohlrauschComplexOmega\Description"}
+KohlrauschComplexOmega
+```
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

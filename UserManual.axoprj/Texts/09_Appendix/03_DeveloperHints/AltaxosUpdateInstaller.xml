@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\03_DeveloperHints\AltaxosUpdateInstaller</Name>
+  <CreationTime>2020-02-16T12:13:05.941634+01:00</CreationTime>
+  <LastChangeTime>2020-02-16T12:13:05.941634+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>## Altaxo's AutoUpdateInstaller
+
+### Requirements
+
+1. Take into account that instances of Altaxo may be running on the same computer from the same user or from different users, and may be running on different computers (via network).
+1. Take into account that instances of the Updater may be running on the same computer from the same user or from different users, and even on different computers
+
+This results in:
+
+1. no Altaxo instance must be executing from the directory, which should be updated
+1. instances of Altaxo from other directories may be running on this computer or on other computers
+1. it must be possible to detect if instances of Altaxo are running on other computers (via network) from the directory to update
+1. Lock mechanism: only one instance of the updater should be running for one Altaxo directory. The updater instances may be running on the same computer or on other computers.
+1. Elevated privileges: the request for elevated privileges should be issued only when an Altaxo update is possible (see below).
+
+
+
+
+### Detection of the moment when it is possible to update Altaxo
+
+1. Try to open all .exe files and all .chm files in exclusive write mode
+2. If this succeeds, try to open and close all other files in write mode
+3. If this succeeds, it is possible to update Altaxo. Elevated privileges may be necessary to update Altaxo.
+
+
+### Locking of updater instances
+
+1. if possible (no elevated privileges required), create a lock file in the installation directory. This prevents instances on the same computer or on other computers to run simultaneously.
+
+2. If using a lock file is not possible, create a semaphore. This prevents at least instances of the updater on the same computer from running simultaneously.
+
+### Updating process
+
+1. The updater starts with normal privileges and ensures that no other instance of the updater is running for the directory-to-update. If it detects that another instance is running, it immediately ends itself.
+It then locks the directory-to-update.
+
+1. The updater creates a temporary directory, and makes a safety copy of the directory-to-update
+
+1. The updater creates a 2nd temporary directory, and unpacks the new installation files in this directory. It then copies the files from the existing installation that are not on the packing list, or are modified with respect to the packing list.
+
+1. The updater detects (in a loop) the moment when it is possible to update (see above).
+
+1. The updater detects if elevated privileges are required, and requests those.
+
+1. The updater moves files from the directory-to-update to the temporary directory. If any error occurs, it immediately copies the already moved files back to the directory-to-update, and then ends itself.
+
+1. The updater moves the new files to the directory-to-update. If any error occurs, the user must be informed that the old installation directory still exists, and where it is to find.
+
+1. The updater removes the temporary directories.
+
+
+
+
+
+
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

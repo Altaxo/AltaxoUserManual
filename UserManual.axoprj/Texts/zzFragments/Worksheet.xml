@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>zzFragments\Worksheet</Name>
+  <CreationTime>2018-05-18T12:47:16.2112785+02:00</CreationTime>
+  <LastChangeTime>2018-05-18T12:47:16.2112785+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>## Worksheets
+### Main concept
+A worksheet is the view of a table. The table consists of (vertical) data columns. Although there are different types of data columns (numerical columns, text columns, date-time columns), the data in a column are all of the same type. This is in contrast to programs like Excel®, where you can have an arbitrary type for each cell.
+
+To have some information for the data columns, lets say a long name, the physical unit or so, there are also "horizontal" columns containing that information. In Altaxo they are called "property columns". As for data columns, property columns can also be of type numeric, text or date-time. If you have property columns, you will find them right below the column header.
+
+### Column selection
+You can select arbitrary areas in the worksheet. To select more than one column, use the same selection rules than in Windows explorer. That means, shift-click selects all columns between the last selected column and the clicked column, control-click toggles the selection of a single column.
+If you select only data columns, all of the data rows are selected implicitly. If you select only data rows, all of the data columns are implicitly selected.
+
+To select both columns and rows, first select the appropriate columns. Then select the first row by shift-click (or control-click) into the row header. Now you can select additional rows by either shift-click or control-click the rows.
+
+The selection of property columns (don't forget - they appear "horizontally", i.e. as rows in the worksheet) is done by the same procedure described above.
+
+### Copy, paste, delete from / to selected regions.
+Deletion - You can delete columns by first selecting them, and then choose "Delete" from the "Edit" menu. You can also delete rows by first selecting them, and then choose "Delete" from the edit menu. But if you have both column and rows selected, deletion is obviously not possible. 
+Copy - the copy of data into the clipboard is possible in all situations a selection is available. 
+Paste - pasting data from the clipboard follows very special rules:
+If the selected area fits the data in the clipboard, the data are pasted "as is" in the selected area. Example: you copy one column into another column, or one row into another row. 
+If the selected area fits the transposed data in the clipboard, the data are pasted transposed. Example: You copy one column, then you select a single row and paste. The column now is pasted into the row. 
+If the selected area does not fit the data into the clipboard:
+If you have columns selected, the data are pasted into the selected columns (beginning on row 0), and then into the columns right of the selected columns. 
+If you have rows selected, the data are pasted into the selected rows (beginning on the leftmost column), and then into the rows below the selected rows. 
+If nothing is selected, the data are pasted into newly created columns after the rightmost column. 
+ 
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

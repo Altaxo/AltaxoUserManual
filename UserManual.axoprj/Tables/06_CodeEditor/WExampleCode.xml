@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table Type="AltaxoBase,Altaxo.Data.DataTable,5">
+  <Name>06_CodeEditor\WExampleCode</Name>
+  <TableScript Type="AltaxoBase,Altaxo.Scripting.TableScript,1">
+    <Text>#region ScriptHeader
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Altaxo;
+using Altaxo.Calc.LinearAlgebra;
+using Altaxo.Data;
+
+namespace Altaxo.Calc
+{
+    public class SetTableValues : Altaxo.Calc.TableScriptExeBase
+    {
+        public override void Execute(Altaxo.Data.DataTable mytable, IProgressReporter reporter)
+        {
+            Altaxo.Data.DataColumnCollection col = mytable.DataColumns;
+            Altaxo.Data.DataColumnCollection pcol = mytable.PropertyColumns;
+            Altaxo.Data.DataTableCollection table = Altaxo.Data.DataTableCollection.GetParentDataTableCollectionOf(mytable);
+            #endregion
+            // ----- add your script below this line -----
+
+            int len = 100000;
+            for (int i = 0; i &lt; len; i++)
+            {
+                Foo(); // method foo runs moderately long (&lt; 1 s)
+
+                if (reporter.CancellationPending)
+                    break; // or: return
+
+                if (reporter.ShouldReportNow)
+                    reporter.ReportProgress(string.Format("{0} of {1}", i, len), i / (double)len);
+            }
+
+            // ----- add your script above this line -----
+            #region ScriptFooter
+        } // Execute method
+        
+        void Foo()
+        {
+            System.Threading.Thread.Sleep(1);
+        }
+    } // class
+} //namespace
+#endregion
+</Text>
+  </TableScript>
+  <Properties Type="UndefinedValue" />
+  <Notes />
+  <CreationTime>2018-10-11T22:00:23.1578905+02:00</CreationTime>
+  <LastChangeTime>2018-10-11T22:00:23.1578905+02:00</LastChangeTime>
+  <PropCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>0</NumberOfRows>
+    <ColumnArray Count="0" />
+    <ColumnScripts Count="0" />
+  </PropCols>
+  <DataCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>0</NumberOfRows>
+    <ColumnArray Count="0" />
+    <ColumnScripts Count="0" />
+  </DataCols>
+</Table>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Transitions\SmoothedPercolation\Description</Name>
+  <CreationTime>2020-11-26T22:39:02.644082+01:00</CreationTime>
+  <LastChangeTime>2020-11-26T22:39:02.644082+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Smoothed percolation
+
+The base of this function are the two percolation equations valid below and above the percolation threshold $p_c$ :
+
+- $y \approx  y_0 \left ( \frac{p_c-p}{p_c} \right )^{-s}$ for $p &lt; p_c$ (left side equation)}
+
+- $y \approx y_1 \left ( \frac{p-p_c}{1-p_c} \right )^{t}$ for $p &gt; p_c$ (right side equation)
+
+in which:
+- $p_c$ : critical percolation threshold (location of the transition (0..1))
+- $p$ : volume concentration of the filler particles (0..1)
+- $s, t$ : exponents ($s&gt;0$, $t&gt;0$)
+- $y_{0}$ : property of the matrix (e.g. electrical conductivity of the matrix, $y_0&gt;0)$)
+- $y_{1}$ : property of the filler particles (e.g. electrical conductivity of the filler, $y_1&gt;0$)
+- $y$ : resulting property of the compound (e.g. electrical conductivity of the matrix with filler particles)
+
+
+Because both equations diverge at $p=p_c$, we need to smooth that location.
+For this we use somewhat stricter boundaries:
+
+- Calculate the approximate logarithmic step height of the transition by
+$$
+\ln(y_h/y_l) = \ln(y_1/y_0) - s - t
+$$
+
+- Find a $p_1 &lt; p_c$ such that the quotient of the function values of right side and left side approximately match this step height:
+
+$$
+ \ln \left ( \frac{ y_1 \left ( \frac{p_2-p_c}{1-p_c} \right )^{t} }{ y_0 \left ( \frac{p_c-p_1}{p_c} \right )^{-s}} \right ) \approx \ln(y_h/y_l)
+$$
+
+in which $p_2 = p_c + (p_c-p_1)\frac{t}{s}$ (obviously: $p_2&gt;p_c$).
+
+
+The value of $p_1$ is then used as the upper boundary of the left side percolation equation:
+
+$y \approx y_0 \left ( \frac{p_c-p}{p_c} \right )^{-s}$ for $p &lt; p_1$
+
+
+and the value of $p_2$ is used as the lower boundary of the right side percolation equation:
+
+$y \approx y_1 \left ( \frac{p-p_c}{1-p_c} \right )^{t}$ for $p &gt; p_2$
+
+In the interval between $p_1$ and $p_2$, the function values are approximated by a logarithmic function:
+
+$\ln(y) = \ln(y_1) + (\ln(y_2)-\ln(y_1))\frac{p-p_1}{p_2-p_1}$
+
+in which 
+
+- $y_1$ value of $y$ as evaluated by the left side equation at $p=p_1$
+- $y_2$ value of $y$ as evaluated by the right side equation at $p=p_2$
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: SmoothedPercolation transition with $y_0=10^{-14}$, $y_1=10^{-2}$, $p_c=0.2$, $s=0.87$ and $t=2$.
+---
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

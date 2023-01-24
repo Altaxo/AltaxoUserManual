@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FolderProperty Type="AltaxoBase,Altaxo.Main.Properties.ProjectFolderPropertyDocument,0">
+  <Name />
+  <CreationTimeUtc>2018-05-18T11:06:08.8566705Z</CreationTimeUtc>
+  <ChangeTimeUtc>2018-05-18T11:06:08.8566705Z</ChangeTimeUtc>
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="1" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+</FolderProperty>

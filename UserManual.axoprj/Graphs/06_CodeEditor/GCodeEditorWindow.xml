@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Graph Type="AltaxoBase,Altaxo.Graph.Gdi.GraphDocument,4">
+  <Name>06_CodeEditor\GCodeEditorWindow</Name>
+  <GraphIdentifier />
+  <CreationTime>2018-10-11T21:05:28.5305891+02:00</CreationTime>
+  <LastChangeTime>2018-10-11T21:05:28.5305891+02:00</LastChangeTime>
+  <Notes />
+  <RootLayer Type="AltaxoBase,Altaxo.Graph.Gdi.HostLayer,0">
+    <CachedParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+      <X>283.46456692913387</X>
+      <Y>283.46456692913387</Y>
+    </CachedParentSize>
+    <CachedSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+      <X>622.00000000000011</X>
+      <Y>302</Y>
+    </CachedSize>
+    <CachedPosition Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+      <X>0</X>
+      <Y>0</Y>
+    </CachedPosition>
+    <LocationAndSize Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+      <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+        <X>283.46456692913387</X>
+        <Y>283.46456692913387</Y>
+      </ParentSize>
+      <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>622.00000000000011</Value>
+      </SizeX>
+      <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>302</Value>
+      </SizeY>
+      <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>0</Value>
+      </PositionX>
+      <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>false</IsRelative>
+        <Value>0</Value>
+      </PositionY>
+      <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </LocalAnchorX>
+      <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </LocalAnchorY>
+      <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </ParentAnchorX>
+      <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+        <IsRelative>true</IsRelative>
+        <Value>0</Value>
+      </ParentAnchorY>
+      <Rotation>0</Rotation>
+      <ShearX>0</ShearX>
+      <ScaleX>1</ScaleX>
+      <ScaleY>1</ScaleY>
+    </LocationAndSize>
+    <Grid Type="AltaxoBase,Altaxo.Graph.GridPartitioning,0">
+      <XPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+        <Partitioning Count="0" />
+      </XPartitioning>
+      <YPartitioning Type="AltaxoBase,Altaxo.Graph.LinearPartitioning,0">
+        <Partitioning Count="0" />
+      </YPartitioning>
+    </Grid>
+    <GraphObjects Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicCollection,1">
+      <GraphObjects Count="10">
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.EmbeddedImageGraphic,1">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.ImageGraphic,3</BaseType>
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirectAspectPreserving,1">
+            <OriginalSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>621.83682944848863</X>
+              <Y>302.292210214404</Y>
+            </OriginalSize>
+            <AspectPreserving>None</AspectPreserving>
+            <BaseType>AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1</BaseType>
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>621.83682944848863</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>302.292210214404</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>0</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>0</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <SizeBasedOnSourceSize>true</SizeBasedOnSourceSize>
+          <Image Type="AltaxoBase,Altaxo.Drawing.MemoryStreamImageProxy,2">
+            <Url>image://D41D8CD98F00B204E9800998ECF8427E.png</Url>
+            <Name>D41D8CD98F00B204E9800998ECF8427E.png</Name>
+            <Hash>D41D8CD98F00B204E9800998ECF8427E</Hash>
+            <Extension>.png</Extension>
+            <Stream Length="18709">iVBORw0KGgoAAAANSUhEUgAAAz0AAAGTCAYAAAAC4XzCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAEiqSURBVHhe7d0LlBzlfef9PjEOHPvYhpP3rC+sN/uG3c2arG1kUDSJXxAva0O8yRtDHMBhsREgbiIkcrIR2InNcBHowgGpQViGcDEeSegCBqxBEhghhGFAEneEJMSAEIPuFwSSAAnxf+upeqrreaqe6u5npluq7vl+zvkduuve1ZKo3zzVPaVvf/vbQgghhBBCCCHtmpIAAAAAQBuj9AAAAABoa5QeAAAAAG2N0gMAAACgrVF6AAAAALQ1Sg8AAACAtla99OydI7LnJyIf/pO88MyZsmb13wWPzxD54G+C/K8g/6/I+38WZEiQr4js/r+DfCHIocFyZ+mNAAAAAMCBU7307JkQ5Mqw+Fx7zV/IhHHfDsrM2UGC8vPBKUG+kyo+/z0oPP85KT4AAAAAcIDVGOkph8Vnbe8Yue3Wv5XrJnxHtm8aGRWfD8zic3xQeDqCHGUUn8/rjQAAAADAgVOj9NwSFp/ypO/L+HEnyzVj/1JumfrXQem5SBef7wc5OchfpIrPHwel5w/1RgAAAAA0Q6lUqitFo45p2bJl+lmWmtfI465Reu6SfR/+Qn7yk5Nl/m/OE9lzhVxyyQny8Qc/CkrPhUFG2MXnfVV8hgX5elR8AAAAADRNPcWgiKVHlZpPHnyIs/hUm9df1c/AR7OC4vPLIL+QRb/9R5l0w+ly5pnHyhWd35EHf32aTPvZd4ICZBafk4KyMzwpPgAAAACaplVLj+IqN80oPEqN0nN/kJlh8Vn48M3y4fs9csP1p8mWDZfJU7/+obz42x/K6qfOFPVNbR+/r4rPd+3iAwAAAKBpWrn0KGbJaVbhUWqUngVh8Xn+2Ttk0aLFsu7tt+Xaay8NSs/lMuuav5GVT5wv95fPkp07gmIUfsbndKP4HKc3AgAAAKAZWr30KHHZaVbhUaqfgX2PBaVnvvQ8dI38buEk2bL5JRk//p/kpSfHyHMPXS7vbFsnm9evkfff3yk7tnYFxeeHQeE5LchfBzlRbwQAAAAoPlUO6kmR1HM8RTvmtAKUnqeCLJI9u7vlkYeny44db8uCB34qzy+8VDauf1Zefel5Wd+3VnZs3ybr1qyQne9MsosPAAAAgKZp9dITFx71X/Nxo9UoPc+HxWfXeyvltw89IPv2dMv7O+6Ue6//B+lb87rcP+VaWT53ujzXVZbnp98oL997i+zZ9TNdfE7VGwEAAADQDK1celwlp1nFp0bpWSk731slW7dskcWLbhX5aJ68v+t38sLvFsptY0ZK3xu9suTmTtm4caNs3bpFXrjzavlo598Hpee8ID/QGwEAAADQDK1aeqqVm2YUn+pn4OM1smvX5qDQrJee390qu95bJrt375Inft0ld197qbz42AJ5+tZr5fXeN2Rd33OyYsY5smv9T+Wj3T+Jig8AAACAplGFpp4UjTqmaqVGzWvkcdcoPetl+7YtsmXLZlkw7wHZtnWrrH5hqSz45RRZ0/u6TBv7L7Lo2tHy7KJHZflTj8qT142W995dJbJnTFB6LtEbAQAAAIADp2rpWb19m/zTY2/Lvz+7Tsp33y/L+zbJ8heek961fbLijTdlSc8ymTd3njzyq5vlgaAI/fzxoPxsvE127r46KD7/orcCAAAAAAdOjTGjD2XTrm3yxLr1MufJxXL73Htl7MzZ8vd3zJEf/XKWXPqrafLTab+Uq+++XSbMnir3z71U9r4/MSg8Y0X2ztLbAAAAAIADp3g3+AEAgAH5whf/qzz19DP6GQCA0gMAQJtRped//s+/pvgAgEbpAQCgzajSo1B8ACBC6QEAoM3EpUeh+AAApQcAgLZjlh6F4gNgsKP0AADQZtKlR6H4ABjMKD0AALQZV+lRKD4ABitKDwAAbSav9CgUHwCDUWnOnDlCCCGk/fLOO+9YcS1D2jOHHvZl/b/5rA8+3Ctf+9qfybXjrnOuSwhpzaT/zf/444/133oopfQJIoQQ0vpx/Q/QNY20Zz7/hf+i/zfv9s4778nw4f9LfvvIY5l1CSGtF0pPbaXt27cLIYSQ9kpe6XEtS9ov/+HzR+j/zefbsGFTWHwe/u0i5zYIIa0TSk9tdZUedeJ27twpu3btCh+7liGEEFKcUHoGd+opPcqbb74VFh/XNgghrRNKT22lbdu2SbWok6YKzxuPTQmjHqtprmUJIYQUI3mlx7Usab+kS8/One/rRxKWnHRc2yCEtE4oPbVVLT3qhKmS89qCcbL4p18Kox5TfAghpNgZSOmJl3fNI60Rs/SowvOpT31efjP3t+Hz44//S5kxgwJMSDuF0lNbaevWreKKOoHpwmMWH3Wrm1omXjZ+TAgh5MAnr/S4lo2jllH/7r+5ar289OTrlVuaXcuSYicuPXHheejhR+XII4eG09Qtbeqxaz1CSGuG0lObs/RUKzzp0hMva5YgK/ecK6VSSedcuSc9v1qWTpBjKusaOWaCLM1bvj/zdO45tyTn3pOevlQmHHOMTFianq6jXt+597jnEULIAYpP6VH3g8dlp+vq38rD056Rnrkvy61jHpTVz78VzlPru9a184yUj/t969/r/z1jnWM50uyo0mMWHjXtpJP+RhYvfjr8n796PH367Mx6hJDWDKWnttKWLVskHfU/OPX5HVfhWfXAv8ru3butxJ/3UcVHnfjKtpao0nKOzDGeT5ijH+dmjpxjrqMz55ySnFNrXbW/oNgs8Z0XZ845Ujpnjj2t1nqudQghpAlZuHCh9fz555+3npvJKz2uZdW/+XNuWCzTxy2UN19dL+9s3xFm87qtsujeF+W2H88Ll3Gta+cZmXzcMXLVExsc85qbZyYfJ8dc9YRscMwbjDnuuO+EhWfBQ8mfGfX4v/63b4T/83/llZXyP/7HMGsdQkixMtB/8yk9ttLmzZslHVVe8kZ5qiUeAapsa7YqBLOtbdfO7LD0zE5Nn61Kz2x7WiZPjw8Kynh52ndeJdl9Pz3+GDlm/NPGMqn06zUSQoh/zj333PB/gurxa6+9JpdccklmmTh5pce1rCo0P//RXJl9/WL59c1PyNrXNoSl56Une+UXY+bKhBGzwmVc69pZFpWe3613zGtuloWl53ey3jGPJDnxxFPCwqMcddT/41yGEFKMDPTffEqPzVl6VGNU5UWN6sSFxhzhUc/jEZ54fryMVXrCElHKKQ1Py/hjklsgokITLR9PM9ezSo8qMMZy1vSg2MwOikrevLj0qDITL2OWFrtcqWM8RsY/HTxW5SZevqSnqWWM0pMuSPZz1+sNYr2WbNkjhJA46n9qI0eOlHnz5slPfvITmTlzpnM5Fd/Sc/tP54dFZ9Wzb8rMiYvktsselPunBgWod4Pc/m/zB1R6VCH5/TOmy9vh8wfk4k9/vbLMAxd/uvLv4tfN0vLAxfLp+N/Gr18lv1uf3nbyPNx+vGzpDJn+djw/udXujOlv6/UGd156eXk42nPGGSNl4aOLncsQQoqRgf6bX2/pGT16dEunXqVNmzaJK+oExsXHLDNm6UmXongZe1tPyfijo//pnD3bnHa0jH8qfj5bzi6dLbMzj5PMPttc38hT4+Xoo8fLU/HjYD9Hj38qmRdvy1juqfFHJ8sEsbY9+2wpnT07u20z5jLG4/R2k+f5rzf3dRFCiCOPPvqojBkzRpYsWeKcHyev9LiWVYXmV1f9tnJbm8rsGx6rPI5Lj2tdO0tl0rHmZ3q+Llc+vk5PPzp8fP+oT8sZ0/rC5c3H5jKblk6SY3//DJnWl962nu94vnTSsXL0lY/LOuey98uoT6e3Rwghxc9A/s33KT29vb0tmYaUHpW4+Jhlxiw9cfFRUY/V53nS20iiLvTjC/zocfI/RpW4FNRXetTzZN1sscmsZ8yz142SlJVk/3aJScpbmHg/dZWe/NerlkleOyGENCa+pWfKj34ja1Yln+e5p7w4/O+mdVtl6j/P9Sg9ZtkwEhaZ4N++M6ZJX2VZ+0sPVFQJsgtMHJ/So0qOvd2kgJnbJISQ9gilp7bSxo0bpVrUiVSFJ36eLj0q5hcZqOXN9a3MUgVhVvB4VlgsZrmWyZk3S5WXWcnjo8f16HnG8j3jgmIzTnr0OtZ6xjxzW65E83tk3NHxcajHxjrmfiqvaaP0jAtKTuW4zOfVXq9KtH1V3vKXIYSQ+pNXelzLqm9v6+vdKD//52554jcvybYt28PSs2blOvnVFQ/LK0vWyI4dO5zr2lkiN4RF5G3HvPuiInJGl7xVY9n71AhQ11up6enl7edLbohKz9vhPLWvM6TrLXN9Qghp31B6aitt2LBBfBKXHlfUFxmonwZWlp85QkbMTNZ9MigBpREzg8dPhhf5R497Mlm2kpkyojRCZqamzxxR0tuK1q1sN9hHKV7+yaCMlI6WcU/qeeFzY15QVJ4MHofHoR+b+6hEbfPooLCEx6qmqWNKtmutr5aNlwvXi7drvsZqrzdJ8hoJIWRgySs9rmVV1Gc5VbF57J4XwtvZrv3BLLntX+fJts3RLyl1rZPN02ERuWJxX+50VWj+rmttOF09Lv1dl6y1lg1y3yj5dOnvpGutPV0t/7UrFkufev70DXLsJ79W2dfTqvTE88L9fTJZlhBC2jyUntr6VXripL/hLf72tmT56GK/cnuBVTRUkXDPUxf/appZEqxCEBYdvd6IoFhZxSZ4XtlnqgA59pFZLkx0bJnCppc/OthnZVtm6bFe79EyYoQa6Ylfg/v1WsdR2Q4hhAwsvqVHRf20UI36bNm4XZY+tLJyS5trWXeislH5Ny2IKh5zzHJjlZX08knRUSXmk/H0r10hi/videNpP5ARw4yCVZkXb0OPLKW3UTlWQghpn1B6aiutX79efKP+J/juu+9mvshATVO3wrnWIYQQsv+SV3pcy6ajyk88uuOaTwghpFgpROl5drqM/LLxw6bPf1/uWJLMf3zcn8tXL3/YXmeAaXrpUTGLT1x41DTXsoQQQvZvBlJ6CCGEtFYOeOkJC8/n5ft3LEmmPT5O/rz0Vbn84ej5AS8969atk/5GnWR1+0N8S5trGUIIIfs/eaXHtSwhhJDWzoEtPc/K9JFfdhaaZ6ePlCHfv0OWBI9buvQQQggpZig9hBAyeHJgS8/jMu7PkxEdK2q056uXy8PBY7P0qMclYxSov/EqPW+//bYQQghpr+SVHteyhBBCWjsHtPSoW9uG2J/fcc2LS48a/fmyLkKZ5T3jVXrUSSKEENJ+Sf8P0LUMIYSQ9kj63/xCjPSo0vOtZKTn80OGNKzwqHiVnvQJIoQQQgghhLR2iviZnrD0pL7VbSDxKj36v97efPNN2bdvn342cNOmTZNHH32UeGb+/PkyadIkfRYBAADQ6lwlxjf1GnjpCRJ+U5v97W3hbWyOb28Lpzeo+OyX0tNo6uId/tQvEqT0AAAAtA9XifFNvRpSelTUrWx1/p6eqBClvuK6H9kvpefxxx+XvXv36meJqVOnSmdnZ11RX3kda1bp2b50hkwcd5c8sVlPaDOUHgAAgPbiKjG+qVfDSs8BSMNKz45Ft4Xl5OpbHpE+Pa0WVXrMMpMnvVxYevoWyM1GKZo89zU9t//8S0+fLLh5sqR33bfgZvt41LFOnisDP0LFvc96UHoAAADai6vE+KZeg7z0vC8v33uDjJvzQlh8XKWn2khPuvQcf/zx4edPTJnSM3e2zJjYvwv/xqL0AAAA4MBxlRjf1IuRHi2v9ORxlZ6jjjpKnnvuOf0s4l16ti8N5sejQOPkLj10E5aR2d3JvEoRUUVCT0uN9PQtuE3u6r63Mqo07q4nRM1W24q2b0Rvr3rpMfZlHFtw0LJ0xsRkW9ZxpOZ1Gq/deq2p6eW7pPve+DjHye2P9FJ6AAAA2oirxPimXpQerREjPXWVnvnzk9KRGUFRpcIsE4lwnUqZUEWibC+ni4I5yV4nvW33qEt+IUrtMyws7vKmbrUrGwUrLlv2PlP7V+UqPlZdhirlK5h30w33yHWUHgAAgLbhKjFx1F0+b7zxhmzdutU5P069VHFo5dSraSM9quhUvr0hFVWAXKUnFhcM8+I+71Yytaw1ApOWU3rMdezn+aXH2k98TLqI2IUoWT9+LXGiopPeh/FcbddYPoxZelKvhdvbAAAA2ourxKio6z41wrF8+XJZvXp1+Ny1nApshRrpsZgjHE0tPdFtZgMqPantV4QFJtlWMtJTo/TkvFZKDwAAQPtzlRiVNWvWyCuvvCLr1q2TFStWhAUor/jAVpzP9KRKj/Wta+FoSv7tbQMqPeG20wUku6/c0pMpTQa1jHUbXTzSY6+jtp2MDrn3H6L0AAAAtD1Xienr6wtHeDZs2BA+37RpU1iAVBFKL6sCW27pUWXHusWq82q55ZGk+jT829vun5G6rcssIoFw1CSel5SC3NITlhlze0H0CEpUMuLp2YIRFi7HOu7SE0jvqzJSE5WbaPpkmd2dfKbHfD2T5/bYIz/Wa02+aIHSAwAA0P5cJUYVHlV8zGnqWlpNN6fFga3mSI8vV+lxqTXS00y5RakFUXoAAADai6vE5I3opItQHNj6XXqqjfTEIxS1QukZOEoPAABAe3GVGN/A1vCRnv6aNm1aeAsc8Ysqi5QeAACA9uEqMb6BreEjPf21dOlS50U9qZ2enh59FgEAANDqXCXGN7AVZqQHAAAAAKWnGQoz0gNgP1oyWg7uPF8e5K+wvzdukeFXDJXJq/fpCc3ymtxy0ydk6G9WSLP3BAAoFleJ8Q1sQenpka7wiwXK0t2rp2o9XcmXDpTTM1Fc6qKsPFlWOK6UXps3XDoGzUXUQhl9Zc6Fvbrov+tBGbTX/N6lR12Ad3hd6C+cfrCc/4TnGQ6PqySlIM2/2Hf/+aj5d6RhpScqNeq1lpzvBaUHAAYrV4nxDWylcmdXUHtU8bFLT293WTq74s+K9Ep32Z7PSE9x5V9sVikBbYnS0zj7qfRo+6ec97P0NNxg+3sJAKjFVWJ8A5u+vS1betQoT6XzBFQJYrSnBQyKUR51kRiNBoSxyov50/PUT9DDn9DnreegitFk81yq/SY/4VcX9a5t2Rf75gWtLg7dl/iNZqSO2yoS1rzk2KL3eopcEp+nyuvIH11Q61w4d0qyPf2a1PRPhMsbsc6LW3gejO1Zr9U67jqLh/O1ugpD7RJhvXdxjNdrnbvUexstnx3psbZZx/lJOI43d8RLvX8Xyo3dyXti/nmw3qtaf74BAIXlKjG+ga1q6UlKTnQLnFl6GOkpJufFYsj/J/WtwiwZ6nFykWheTKrHxoVqXSM9qXNmrBNeXKYuhuP9msdjH4MuHJX1al+cK/b2TKnXZIgufpNtZ7eR3be9TnSsyTr+f37UPpOLf/NYU/vOlMvoWOw/x6nXGhYgtQ11XBeG26qso+blFH9b9hwo0XkwjzV9jh3nou59uriPQ8meh9SfIfPcpf5Mm38mAQCtxVVifANbbumJi070mZ4u6WakpwXkXzzVd5FvUMvHPzG2fqqtL7pcP022fhJf5SfQ1k/21TEn69R3kZY6hiDRvtKv33iefv11ng/zonPh9G9WzkOmRBjbs+eZx+S4WK5DfO4y56bKa8heLKdl/6yk17Gf+x97+hxVnlt/tnRqlZ5MqYiP59Xkv9O+KR2/Cs6HWlb9Vy+ZL3sOlNqv2zVNbUu9luz2anMfh5J9H1P7Ns6LOr/WOQ1Sz98ntQ/vv5vWezjwfx8AADZXifENbFVKjy19uxsjPcWTvUCKuS7SWld4kWZcJCcX1+mLR+N5uiBUKQy2YBs3qn0F/+1Klk9f0Jvbs+eZxzSw9yG+OK1cfFZ5Dfl/FmLpc5VdR72O5ELX/9jt82CsX8e5zxx/bunZp/fzUPj+PDR9lDzYM1q+WfW1x7LnQLH37Xrd1c6F2qa6qM9uN5/7OJTs+5jad6r0UCQAoD24SoxvYKuv9PR0SWe5WxjnKbIqF2KZC8bWpi4EK7eW6Z8eRxd76hwkt2Spi8DKxWe4XHxhqS9M6yo9ajvfDD+HM8q4oLSOQe83LghmWbCOoerFcp3MwhC+pvStV5HsxXJardKj5md/gu9zUW1dhGfOv/u4Y9njT62jzoM+r+GyvxolNz65N3pc7qjx2mPu47D37XrPar2Pvu9z9r2IZc9Datvm3211TlIjZgCA1uQqMb6BrZTcwqYTl5vebimnpxkY6SmYKj89b7+fAKuLRH2bTHCRN2Wa8frCi+H49pmHrIvJqIDon8L35J+vDOMCOxGVgPhWnbzbeIaGH4iP1/W9GFZS+0l/gN54vea87MVyzDh3cfSFslonuc3JcfuRua86Lq6T861S7biT0av0Mai43ltre+F0/Vyf+3r/vFv70++hfe7M9yz9Xqjo9zb1euor1PW/FyrRa0r9GTJLT6DqOQcAtAxXifENbHqkB62tysV06qII/uyL4PY1WF4nAABF5yoxvoGt36WHkR60u8pP2+sdEWpxlB4AAIrBVWJ8AxsjPQAAAECBuEqMb+o1evTolk69GOkBAAAACsRVYnxTL1Ucent7WzL7pfQAAAAAaDxXifFNvSg9NTDSAwAAADSeq8T4pl6Dp/So38GT89XUvd3lyrxytd9cCgAAAKAhXCXGN/UaNKWnu9wlPeHDXukuG+XG+oWk0byuaMEQIz0AAABA47lKjG/qNXhGegxqZCcuPT1dZsnpkfCXmJqtBwAAAEDDuUqMb+qVKT2Lr5cTPlWSUinKd6e+aM9vVsL9flemvqgfDxkjc1eklkmln6XHHM1Rj8sS9p/ebil3Bo+7u6zSw0gPAAAA0HiuEuObepmlZ/H1J8inSrp46Glzrr2iZvloeJpZetTITlJqdOnpUYVH3/6mbndjpAcAAABoKleJ8U29ktIzRy7+A7vwHLA0q/SEhSf1JQbhtLjwBMIvNWCkBwAAAGgqV4nxTb0qpWfOxfIH350qL6aKhZk5F/9B5ba30leSUqJGiIaM+Xe59oRPhfO+MmaurFDbS98ip8vMv1+rRpTc88JtpkpPNAKl92sco1fpCctMqvCErJGd6DM9DPQAAAAAzeUqMb6pV1x6ouISlBVdKNIJC49ROMIiop9HpeQrMmbuimCeGjEyyokqP3FBUmXmU7oUqXnhc8fneIzH6eNSxxEXJa/SU9ZfSZ0kGd2JRnuipL+ympEeAAAAoPFcJcY39apvpGexXH/Cqalb35Lb4exiopYdogtQ8DynzMTbqZSYnOWs0SWduDR5lR79XwAAAAAF4CoxvqlXpfSoohGPuuhCkuTAlp7KLXCp7JfSw0gPAAAA0HiuEuObelVKT5BwVMX4rE5YYEb+a6V8VLu9re7S86n4Nrj4ee3b2z5lHVMSRnoAAACAFuUqMb6pl1l6VMKSUbmVzCgoYZmJvqggTOaLDOod6TlVzvyzeDupAuQoPWqefYtbsg4jPQAAAECLcpUY39QrXXqamlSZGWgY6QEAAABalKvE+KZelJ4aGOkZLFbKjcecILe9qZ9qM04O/vAEf3rm1P93qn9evl6+VvoL+eXb+nnTvCG3Di9Jx5RX9XMcOK/IDUeV5MQ7+/TzAdg2W079T1fKUv0UAIBW4CoxvqnX4Ck96vfxxF9Xnf59PfE81+/xQSHdMjwqIypDJ4vs09P7Z6PMu+BLckK68QS8S89akZM/I3L6HP28Xr6lZ99KKf+pvufz946Vqav19Jr2R+l5XC49VB/bN66Tl/boyVU9K9ccoddRObJTluzUs/ottc1T7pbNek5j9cmc0zuk0/uAG1h6Attmnyqf+95M9UcQAICW4CoxvqnXfi09DY5X6ekux7+Xp1e6y8nv4wl/aan6baSq+DhKDyM9BbRQ5OCgiExeoZ8P0MZ5F8iXTrhNspWnH/pberx8FJS035NjddPZt7Isf/rJf5BHwmcDtU7uO7ND/q3nXf18AF6/U07s8Ck9p8jdYStRJeIwObJzifS/90SFZ2DbqFd/S0+jbZPZp35OvjeT2gMAaA2uEuObeqni0MqpV3CJnFBFJ/1LSPNKD4rntVtEPhG8ow+mu6guQyWduBTFy48alZ0XjfJ0yD8v2qafa0tEDtfLqpgjPWr056tni3wrKDfh/NODv7R6erx8JXpevvXym7P/Q7CsGo2oc6Tno3lygVFyPgpKW6n0SfmHSuvZJcuu+hMp/eGVskxPUbYuHC3/OdxP3kjPCzLhv5fkj/+tR6zKo8pLcGKjY/yGXFdpMcaITpARD+zW07V+l56gRsw5XQ4zRmaeveaIyn7iERu1TEeq1FSmPXuNHJE7WmSPAJ0S7zR1DMFO5Yj4GILHJ3VOkcvi9fS2w+OMjyuOtd93ZPGY4NiPmiSv6CnKhu5z5Qt6eedIz5ou+auOcfL8B/q5YU3XX0nHuOfFMUt2L7tKOhjtAQC0CFeJ8Q1sweVnLBrpUYM7FkZ6iu81keGfSJWKIGH50fPOfzBaNLi+r8yLS098G1x4a9z5IuG7ujEoEB3/LOnOE1vSGW0nXXrUtLHPBk90OQofK/0e6XlZrv+aXXrW/Oovja9SjPL18c/L7pVl6Th2qqwOXs3K8p/K7x07RW66oHbpib1x63BH6YkKz/83bYN+HlPFxiw6sdflzhMPNoqOY7kBjvTEZcRVgMIRnLCIqNKTrKvmqfVchShibzva75F6lKZ66TmiFC+X3ka1kR536Ym9csNRDS094Wd7Pvc9YbAHANAKXCXGN7AFl6WRnq7O6Ha2NEZ6WoZrpCczzbgFLndkSOlv6YlHcJpYevKo29k6jv25zA8KzyfDpqNudzNLT3WZ0rPuPjnz//pj9y1tj18qh454QFJjOAFVckaIObjz+KWH2qM93qUnKXfmbWlxkamIy4jx35M6fiATgtLx7DUnheWjUoz0KolUsQkk269RelLFq77SU1269KhC82l9DpJ8XcY9/6p0/dWnU9ODfD1VjHYvk6s6KD0AgNbgKjG+gS24LNWFJ6/YMNLTMgZL6ckb6flA3d4WPI4KTyD8UoMBlJ5QzkjPfi09unCoglEZVUkXjEBcQPrmyOkdnXLfnZfJhPvulMsm3Cd3nv6DcBvp0aFEsUtPxUBGevgWNwBAi3CVGN/AVgq/sKDaSA4jPS3DWWJ0ybFubxsqsmJfjdKT95kerYgjPemRnfAzPdYXGejb2z73tzLrLT3J4C49iuMzPeHneeq4vc21XF7p2fyw/P2XS/KfghewRU+yC0d0+5j52Z2kwETzolGcaJ1RE6bIkp3B45M6pOMwvQ1ViA4zP68Ti9avTA+XM29vMx8HRbPu0mPe7mbSt7d94VzpTt85GGh06eEzPQCAVuIqMb6BrVSOv666Ev1tbqrspOaZX3LASE/x5JWYeLoqKSrx/OqlRw32ZL+9be0Mkc8Y2wpjfmFBXukJxEXJXCefKjv2aE7pv1wmv6v1d1iP9oTLO76yetusU4N5n5O/NVqPKjvWfkr/UUYtSF+oO769TY32VNYxik1YdJLt2QUomR7GHC2qWXoCYRlJlaB4W6kCFD9XRcT6EgFdfDLrpaabZSX5YoKg/Ey5rM6RnoCaH+8n9QUKb91xYjD9C3Ku0XpU2akcV5gjZMzjA/2Hm29vAwC0FleJ8Q1sweUnkCf/9/S0rG2z5NSckR7sZ2/dISfmjPQ0Er+nBwDQalwlxjew9bv0MNIzWKyUG485QVq/9+hb20p/KFe6vroN+5G+ta10lExyfXVbI/FZHgBAC3KVGN/AxkgPAAAAUCCuEuMb2BjpAQAAAArEVWJ8AxsjPQAAAECBuEqMb2BjpAcAAAAoEFeJ8Q1sJeurqVO/jyf8paWOr6sG1HdXn/wZ9ZXCp1u/qwcAAAAD4yoxvoGt1F3Wv5cnqDvdZaPc9HZLuSuaEz7uLIvZexjpGdyWdB4up9N2AAAAGs5VYnwDm3V7W293OWdERxUiu/RgcFvS+S0Z++z7+hkAAAAaxVVifAObUXqikZ54cMcSjvTEI0IRRnoGs7Uy4+QOSg8AAEATuEqMb2CrlJ7w8zvOxtMjXZ05ZQiDz5JOObz0VQoPAABAk7hKjG9gC0tPWHhSX2IQiQqP65Y3RnoGM0Z6AAAAmsVVYnwDW0l9jsddeFJfbAAY+EwPAABAc7hKjG9gK5X1V1IniT67E5ah9DzjHjdGegY3Sg8AAEBzuEqMb2Dr9y8nxeDGV1YDAAA0h6vE+KZeo0ePbunUq9+lh5GeQY5fTgoAANAUrhLjm3qp4tDb29uS2S+lBwAAAEDjuUqMb+pF6amBkR4AAACg8Vwlxjf1ovQAAAAA2O9cJcY39aL01MBIDwAAANB4rhLjm3oNntLT05V8JbX5+3p6u8X8Omt+Xw+y1sqMWztk7MuOr67umyEnl8dKfd9qvUQ6x5ekdNscyf0r+kKnHJ4zf8mcw+X0RfX/5W5pVc5DXbzeFwAAcCC4Soxv6uUqPctv+Z589oKZ1rRV834sQ46bKIuMaXVl1Tz58ZDjZOIix7wBxqv0dJej38tT/ZeR9khXZ1nMWYz0oGFFJNjOt+79jdx+69n53wRH6YlQegAAaHuuEuObehWj9KySeT8eIsdNXOSYlx+/kR6D+oWkztITjvrE5QhQGjXKo0rLt8LtZMqL2s7VJSl16hgX+2sfOVk+E08PUqv0qG1/9d5npXJIqjzcEB+jei2fqWwrWU6NQBlfyW0WDv0ap9x9uF7vq+5zkaFHtTLHnXcMgXrPQz1lKHPc9leOq/MU7yc5Bv1ed/8fOTwzrx/HAAAAqnKVGN/UaxCWnmikp8tsNsatb9b0ACM9g1yVYqMugjvMi/aqghJws96ONYqhyoFRJMx5VmGJLtRrjvSkjtdcxy5EUfmI5tUoPUERqezXOvY85rZt1Y+hynkw9mlvI4c+7ng5cx37fTOPIXqcFBrjvPTnGAAAQFWuEuObevWn9ESPx8rtP/4TKZVKQT4rF8y014+ml+SzZ1+RlB5VgP4kmh7OC/ehCk+8nSCfvUBmqu0sv0W+F0872F2a+lV6erqCcpNuNhXq9rZs8cHgpS5uXRfv1gVxPayL5vyLafN5et/5x2JSF+7xyFSwn7hoWdMjycV/6rWYx1Sl9OXKXafKMdQ4D/GoTJy6So9xDMlr1cUmtb2k9LhH9fp1DAAAoCpXifFNvfpbev6kdHBlZCZ8rstK+NgoKWEBcpUWawQoNdKjCk9cfoKY+za34V16wsJjfomBg1rGvPWNkZ5BrMoFv98oj/uiObzQbnjpCQTb+JYuEqMqy7d26anrdZuqlh53sXEdX6xfxwAAAKpylRjf1Kv/Iz1mCVkut3wvGu1Zfsv37dvUUre3maNAyQiRXXrC4lRZRscoQXG8So/6HE+twhON9NhfZIDBK7/YVLtwdsmOClW2rS7Or47nqeWCP+z6Yl8t85m4CKgSEBelmqIRnil3j7L2qS7ck9GJaF/R9tTj+NYy+xj6VXqsbdtyj6HKeQhfu3GbX11yS0/qvFqqvK/9OQYAAFCVq8T4pl6u0uMaWamv9Dg+m2OUHlV4Dq6slxQlV+lJ798Vr9Jjfi11FP2FBeZXWTsKDyM9g5W68LaLSkV6VKIW1wWzcVGuikA0+hPsr8fctr74V/OCaQ95jDaE28wco7G9IObtWWERCKcH5Ud9kD9et1+lJxCWmGRfyXHnH0P+eTDnqdTxZQpVSk9Ubsxb3OL3uXqZ9T4GAABQlavE+KZertITfZ7G+JxO+Fmc1O1sxi1r4XPz9jZjVCa5vS367E5lBMnah+P2ttTnhFzxKj36v0Bd7Itkk+8oz4HQCscIAAAGO1eJ8U29nKUnSFhejNvLzNvdwpGYYWfK9+MvJbA+sxOVm8p65hcZmF9O8Nkz5czKSI+xP7M8xcsGSd9up7JfSg8jPWgdyQhGvSNCAAAAB4qrxPimXnmlp1rC0lPH7WfNDiM9AAAAQItylRjf1IvSUwMjPQAAAEDjuUqMb+pF6QEAAACw37lKjG/q1Z/SU5Qw0gMAAAC0KFeJ8U29VHFo5dSrZH01tev39fR2S/i11l3hF1lj0FsinYerb9H4qozll7MAAAA0nKvE+Aa2UndZ/16eoO50lzulbP1CnmhaV1dQjFKlh5GewW3tjJPlM6d7/E4eAAAA1MVVYnwDm3V7W2932So96nlYdtRoECM9MC3plMMpPQAAAA3nKjG+gc0oPXpUJ+424W1tehTIUXoY6Rnk1s6QkzuS3+wPAACAxnCVGN/AVik9PV3m53ZSBYiRHrio4vOZkpw+h79YAAAAjeIqMb6BLSw9YeExv8Qg/vKCTOLP/zDSM+gx0gMAANAUrhLjG9hK4ed2XN/aZmKkB2l8pgcAAKApXCXGN7CVsiM6yWhOBZ/pQRqlBwAAoClcJcY3sPX7l5NicOMrqwEAAJrDVWJ8A1u/Sw8jPYMVv5wUAACgmVwlxjewMdIDAAAAFIirxPgGNkZ6AAAAgAJxlRjfwMZIDwAAAFAgrhLjG9gY6QEAAAAKxFVifANbKfw66vjrqqv+glLHV1kDAAAAaChXifENbKXuclxmeqW73Cnlbl17VOmp8ktLGekBAAAAGs9VYnwDm3V7W293ue7SAwAAAKDxXCXGN7AZpSca6emK72FL3d5WKUMaIz0AAABA47lKjG9gq5Senq6g3FQaT1qPdAXFJ3c2AAAAgIZwlRjfwBaWnrDw1LiVTS1jlh5GegAAAIDGc5UY38BWUp/jqVV4olvdypK6ww0AAABAg7lKjG9gK9lfS62iv83N/CprR+FhpAcAAABoPFeJ8Q1s/f7lpAAAAAAaz1VifANbv0sPIz0AAABA47lKjG9gY6QHAAAAKBBXifENbIz0AAAAAAXiKjG+gY2RHgAAAKBAXCXGN7Ax0gMMRktGy8Gd58uD/BX298YtMvyKoTJ59T49oVlek1tu+oQM/c0KafaeAADF4ioxvoGtZH01deb39fRKdzn/a6tRUOqirDxZVjiulF6bN1w6Bs1F1EIZfWXOhb266L/rQRm01/zepUddgHc06EK/yvuyX7mPo+bfkYaVnqjUlDpLQVzng9IDAIOVq8T4BrZSd1n/Xh5dcMqVZhM974pmZjDSU1wLpx8s5z/hem+KcrG5v1B6GofS0zyD7e8lAKAWV4nxDWzW7W293eWk9KgRoLzGg+IaFKM86iJR/XRcxyov5k/PUz9BD39Cn7eegypGk81zqfab/IRflUvXtuzSaV7Q6uLQfYkcrNer66f4qeO2Cq01Lzm26L2eIpfE56nyOvJHF9Q6F86dkmxPvyY1/RPh8kas85IjHE1K1kmfkxu74+2aoyb2+1c5P5n3wi5h1jHWUWat9y61Xubcpd7baPnsSI+1zXrOT4Wj9Bjnzv4zol73hca5s/88+J4HAEAxuUqMb2AzSo89shMVoG7pyrn1jZGeYoou2FwX0vZFYjsxS4Z6nFwkmheTdmGpb6Qndc6MdcKLy9TFcLxf83jsY9AX9JX1HBe7Dvb2TKnXZIgufpNtZ7eR3be9TnSsyToD/fNj7k89dhca+/0zjyG1f7Pcp95LexvVuM9/dB7i8+o6x45zUeWHDbW5j0PJ/n2Ozknlz5Bx7vp/HgAAReMqMb6BrVJ6erqCYmOM7ITPO+Nb36Lnya1vKKb8i6f0BVFNavn4J8ZVfhJv/TS5yohEdCEZzzOPMboAjtep7yItdQxBon2lX7/xPP366zwf5kXnwunfrJyHTIkwtmfPM4/JcbFch/jcZc5NldeQvVhOy/5ZSa9jP+/Hsaf+PCTve977lN2HeQx5j9X5Nv8sqAy09FR/3a5palvma/ThPg7FPhYltW+jbPX3PKh9eP/dbPC/DwAAm6vE+Aa2sPSEBSc1kmPd6qakbndjpKd4shdIMddFWusKL9KM24eSkpG+eDSe97P0hNu4Ue0r+G9Xsvz+LD2x+OK0cvHZ5NKjXkdyoet77NHFb7K+ub/UvisX7tl92McUrBe+F2q5CyvrZ96LumXPgWLv0/W6q50LtU11UZ/dbj73cSjZ9zG171TpoUgAQHtwlRjfwFZS5Sb7rW0BVXKM6Yz0FF2VCzHjwqgdqAvByq1l+qfH0cWeOgfJLVnqIrBy8RkuF19Y6gvTukqP2s43w8/hjDIuKK1j0PuNL/DNsmAdQ9WL5TqZRSd8Tfm3tw2s9Kj52Z/g139RbS8fnq/KebD3bZ5L89xFy9kjAuF78eTPZfivjPdOnROvz9DE0q8xYp8H13tW6330fZ+z70Us+z6mtm3+3e73eQAAFI2rxPgGtlI5/sxOJcktbWEhiqenvtSAkZ6CqfJT//b7CXB0MRzeJhNc5E2ZZrw+dR4qt888ZF1MRgVE/xS+J/98ZYTbTF+URhf18a06ebfxDA0/EB+v63sxrKT2k/4AvfF6zXnZi+WYce7i6AvlqJgk0zN/Zsx91XNxbSxvn4fUMVjbsuclBUjT20wfW/LeqriLoIv1mvV7mF960u+Fin5N1vsQpK4/W/W/FyrRa079GTJLT6C/5wEAUCyuEuMb2Pr9y0lRJFUuplMXRfCXXyDay2B5nQAAFJ2rxPgGtn6XHkZ60O4qP22vd0SoxVF6AAAoBleJ8Q1shRnpWbp0qTz66KOkH+npsW89BAAAQOtylRjfwFaYkZ5p06Y5L+hJ9cyfP18mTZqkzyIAAABanavE+Aa2woz0qIt3+Nu+fTulBwAAoI24SoxvYGv4SM/UqVONb4KrnvXr1+u1mld6ti+dIRPH3SVPbNYT2gylBwAAoL24SoxvYCuFv48nLiKp38tjFhSVen5Pjyo9ZpnJk14uLD19C+RmY3+T576m5/aff+npkwU3T5bMrrcvlRkTzfMxTu4aYJPqW3DzgF8jpQcAAKC9uEqMb2ArdZfj38vTK93l/GKjSpD5q3qqjfSkS8/xxx8ffv7ElCk9c2cHpcJRNva7KqWn3NgRI0oPAAAA0lwlxjewWbe3qV9G6iw9vd1SNkaBqnGVnqOOOkqee+45/SziXXqskZZklCUsDrO7k3mT50q0CVVe9LTUSE/fgtvkru57K6NK4+56QtRsta1o+0bi7VUrPTnHpoQjTfG24uNIjWhFMV67tb3U9OAYuu+Nj3Oc3P5IL6UHAACgjbhKjG9gM0pPNNJjjubE0qM8is9IT12lZ/78pHRUiktMFRj37WThOpVSs12WzijbyznKir1Oetv13t4WL5NaP1xOz1PlxihcYQEyXltY2DI7Su3f3IY+hso6wbybbrhHrqP0AAAAtA1XifENbJXSE36Gx9V41ChPZ3wLXG1xmVFFp1QqOaMKkKv0xOLyY17c35wpQhF3cTDklB5zHft5ldLjGunJTE+Klyo5ZT2KFEot6zx21yiQWXpSx8DtbQAAAO3FVWJ8A1tYesLCk3P7mprnuuWtGSM9FnOEo6mlR5WUicUqPTmv1XUMlB4AAID24ioxvoGtpD7Hk1d4fEd5lEaVHutb19TF/sT829sGVHrCbZslJ3W7WsyxnUhq+XCkxn17m9qveeueeh5/niiRs3+F0gMAAND2XCXGN7CVyulbqYySkzfKozT829vun5G6rSs12hKWiXheUgpyS09YZsztBdGFIywfjm3FrC8fiEtKbukJ5BybYu3LKEAh6xiN12ttL/miBUoPAABA+3OVGN/A1u9fTprHVXpcao30NFNuUWpBlB4AAID24ioxvoGt36Wn2khPZWSjRig9A0fpAQAAaC+uEuMb2Bo+0tNf06ZNC2+BI35RZZHSAwAA0D5cJcY3sDV8pKe/li5d6ryoJ7XT0+PzVRMAAAAoMleJ8Q1shRnpAQAAAEDpaYbCjPQAAAAAoPQ0AyM9AAAAQIG4SoxvYCt1l41vVEv9klL1e3rieenf18NIDwAAANB4rhLjG9iskR7rl5H2dku5S39AXj3uLEvO7ykFAAAA0CCuEuMb2IzS0ytq1CfuOTY1zy49jPQAAAAAjecqMb6BLSg9PdIV397mbjx6pKcrWBIAAABAM7lKjG9gy9zeli0+USlKT2akBwAAAGg8V4nxDWz2t7f1dKW+zCAqPOkvMQAAAADQHK4S4xvY8r/IQH/GJ6/wMNIDAAAANJ6rxPgGtlLl8zypEZ3e7nJleiV5n/kBAAAA0BCuEuMb2Ozb2zww0gMAAAA0nqvE+Aa2fpceAAAAAI3nKjG+gY2RHgAAAKBAXCXGN7Ax0gMAAAAUiKvE+AY2RnoAAACAAnGVGN/AxkgPAAAAUCCuEuMb2BjpAQAAAArEVWJ8AxsjPQAAAECBuEqMb2BjpAcAAAAoEFeJ8Q1sjPQAAAAABeIqMb6BjZEeAAAAoEBcJcY3sDHSAwAAABSIq8T4BjZGegAAAIACcZUY38DGSA8AAABQIK4S4xvYGOkBAAAACsRVYnwDGyM9AAAAQIG4SoxvYGOkBwAAACgQV4nxDWyM9AAAAAAF4ioxvoGNkR4AAACgQFwlxjewMdIDAAAAFIirxPgGNkZ6AAAAgAJxlRjfwMZIDwAAAFAgrhLjG9gY6QEAAAAKxFVifAMbIz0AAABAgbhKjG9gY6QHAAAAKBBXifENbIz0AAAAAAXiKjG+gY2RHgAAAKBAXCXGN7Ax0gMAAAAUiKvE+AY2RnoAAACAAnGVGN/AxkgPAAAAUCCuEuMb2BjpAQAAAArEVWJ8AxsjPQAAAECBuEqMb2BjpAcAAAAoEFeJ8Q1sjPQAAAAABeIqMb6BjZEeAAAAoEBcJcY3sDHSAwAAABSIq8T4BjZGegAAAIACcZUY38DGSA8AAABQIK4S4xvYGOkBAAAACsRVYnwDGyM9AAAAQIG4SoxvYGOkBwAAACgQV4nxDWyM9AAAAAAF4ioxvoGNkR4AAACgQFwlxjewMdIDAAAAFIirxPgGNkZ6AAAAgAJxlRjfwMZIDwAAAFAgrhLjG9gY6QEAAAAKxFVifAMbIz0AAABAgbhKjG9gY6QHAAAAKBBXifENbIz0AAAAAAXiKjG+gY2RHgAAAKBAXCXGN7Ax0gMAAAAUiKvE+AY2RnoAAACAAnGVGN/AxkgPAAAAUCCuEuMb2BjpAQAAAArEVWJ8AxsjPQAAAECBuEqMb2BjpAcAAAAoEFeJ8Q1sjPQAAAAABeIqMb6BjZEeAAAAoEBcJcY3sDHSAwAAABSIq8T4BjZGegAAAIACcZUY38DGSA8AAABQIK4S4xvYGOkBAAAACsRVYnwDGyM9AAAAQIG4SoxvYGOkBwAAACgQV4nxDWyM9AAAAAAF4ioxvoGNkR4AAACgQFwlxjewMdIDAAAAFIirxPgGNkZ6AAAAgAJxlRjfwMZIDwAAAFAgrhLjG9gY6QEAAAAKxFVifAMbIz0AAABAgbhKjG9gY6QHAAAAKBBXifENbIz0AAAAAAXiKjG+gY2RHgAAAKBAXCXGN7Ax0gMAAAAUiKvE+AY2RnoAAACAAnGVGN/AxkgPAAAAUCCuEuMb2BjpAQAAAArEVWJ8AxsjPQAAAECBuEqMb2BjpAcAAAAoEFeJ8Q1sjPQAAAAABeIqMX19fc7p69evd06HjZEeAAAAoEBcJWb58uWZgrNp0yZ55ZVXrGlxYGOkBwAAACgQV4lZs2ZNWHBU0VHPt2zZIitWrJDe3t7MsiqwMdIDAAAAFIirxKiogqOKzsaNG2XVqlWyevVq2b59u3NZ2BjpAQAAAArEVWJUVMFRRUfd6qZKz7Zt25zLqcDGSA8AAABQIK4SE2fr1q1h8VG3t7nmx4GNkR4AAACgQFwlxjewMdIDAAAAFIirxPgGNkZ6AAAAgAJxlRjfwMZIDwAAAFAgrhLjG9gY6QEAAAAKxFVifANbyXWSCCGEEEIIIQcmO3bscE73yccff6wv96FQegghhBBCCClQKD2NR+khhBBCCCGkQKH0NB6lhxBCCCGEkAKF0tN4lB5CCCGEEEIKFEpP41UtPZs3b5ZXXnlFent7nfMJIYQQQgghtbNmzRpZvny5bNiwwTnfDKWn8XJLz5YtW2TFihWyevVq2b59u3MZQgghhBBCSH1RxUcNKGzatMk5Pw6lp/GcpWfr1q2yatUqCg8hhBBCCCENirquVndQqeKjBhhcy6hQehrPWXpU2VHDb9XeDEIIIYQQQohftm3bFpaelStXOuerUHoaz1l64lvbVBNlpIcQQgghhJDGJP5sT7Vb3Cg9jZf7mR71RvAlBoQQQgghhDQmb731Vlh41q9f75wfh9LTeLmlR2Xjxo3hG6MaqWs+IYQQQgghpHb6+vrC6+p169Y555uh9DRe1dJDCCGEEEII2b+h9DQepYcQQgghhJAChdLTeJQeQgghhBBCChRKT+NRegghhBBCCClQKD2NR+khhBBCCCGkQHnvvffk3XffHVD27dunL/ehUHoIIYQQQghpszDSY6P0EEIIIYQQ0mah9NgoPYQQQgghhLRZKD22kuseQEIIIYQQQkjrhs/02ErXl2+VK6+dRAghhBBCCGnxXDfpF/LUkmf1pT5ipc1btumHAAAAAFqZura/ZuJN+hliJf3fkGtojBBCCCGEENIaUZ/lUSM+sFmlZ39QH6xqB636Otrl/AMAAMCN0pO130vP9u3b9aPW1qqvo13OPwAAANwoPVn7vfRs3bpVP2ptrfo62uX8AwAAwI3Sk7XfS8+WLVv0o9bWqq+jXc4/AAAA3Cg9WTml51WZ0tEhU17VT2MPjZJSx5Rgbv9t2rRJP8rat2KyDC2VpBTmEBm9UM/ItU9WTO6Q4be8pp/vP/br2C0PjIiPuySHXvq4nt4se+Sl677Rr/1UO/8AAABta+cS6TyyJEdc4/o6581y9yl581oPpSfLr/Q0wMaNG/UjkyovQ6V0yGhJes5emT/lFqleZw5c6UleR7qABM+D42527THteek66TjpTnldP6/Gff4BAADanCo9wfVtx0nXSLra7FzSKR3BvJMoPW1rv5ee9evX60eGvQ/KeVbhqdeBKz3J61CjPIdK0wd3qvApPc7zDwAA0O7C0nOSjPpBh5w+p09PVHbKks6T5LIpnZSeNuZ/e9uoh8KHr04JmvKUh4Ll9G1d1m1vav3kdi+9SmjdunX6UWLvg+fJIVXvZdsrD56XbO+g4fEIkFF69q2QyR3DpdJ/zOf68c/n69vnDlLTjW1WCpfe3s/ny+Sh6X3ZzNex+4ERwTZOkjsdrUMVkm/o4y4deqk87rg1zSwt2eWVqFiNnqLmHSIn3flqsI2O4L+v28uXDpVRo0bIIWYB2v2AjDCOzXX+AQAA2l5Yek6XO+/rlI7T50il9my+W0454hp56O5TrNvbNgfPo+urkhwWL69vkYumHyHR4tGtcdG0w3ShMqcZ6ytqf3p66YjLZEqnUcKc2/dH6cmySo/6ZUZRVslNQem5aVX8XGeBKj0LwserbuoI3ox4GbV8UG4WxI/NdRfIqNIoWaC30dfXp6fH+UhemRQUjV+sTk2Ps0e6g3JyyOhH9HO1/FD93Fj3o1dkUlBsfrFar2c+V4+DEnPQ8F/I6mDenu7zgmM/REY/Em//IL3/aNuqFCXrxcvZSb+OD1+cGJWPoKgsNqZ1nHSH9Ornu+4fEZSdxfLxrvtlRGW5D+XFiUGBuaM3f/mPd8n9I4JzUJmXrJPZz4cvysSOk+SO3vQ2oufZ808IIYQQMgjy3tNyeVB6Zr+1SWaccoSMfSaavmnGD+T02W8F/w1Kz9hn9LTk8ccfvydPXx4Uk9Qycd57+vKgRM2Wt4xpdoz9qWM4MihGwbbCeZtmBAVIP68cn15PzTtirDxjbat2FEpPllV69u37WEcXl5Xxcx1Vei5aED5eGZSejptWVeYlzxfIRXF7rSTZ1ltvvVVZJ86HQQk55B8fyUwPszcoHt8cLY+Y0z7slpGHqGkfyXJdesLlVMl51Vgvfp6at3f5JOkICtCr4faMbViP0/OideO4XofKzqBkqOLzWPw4dS4OOfEOeW1fUGLOOlTGPBas80FQUoZ7LB/u50N5ISg9JwalRz3/4IWg9ITLpeel18s/bkIIIYSQts67ulSs/Vg26vLinLbvPXnq8iMz12Rq3rtPXS5HBiXltKCkVLa7cYacrOeb+4uWjdfX66hlgyKzrLKc2ldHMq+yvM5h0bGZ260VhdKTlSo9+3RW6tITP9dZcJEuPft0yVlZmZc8V6XnIlkQr5PKm2++mZmmSsjQQ/4xKDH29DB7lwelJzUvLD1q2l5dSl6NlguLjbFe/Dw1Lyk96rmxDetxel60bhzX64iyUxeNfUGJOUsOHfOYY5lknrlM/vLJNqPnH+hi81r4PCk9ev7O+2Wkeh7/N54eJP+4CSGEEELaOO8+FRSc04ISkTy+49eXy4ljl4XzN844OSgu6vG7uoistdevRM1XpegIGbssma7Wj8rN2qjwhOUmXj7anprecdpsWWttS++rUoiSbfYnCqUnyyo9H320T2el3DisQ25cET/XmR+VHvV4xY0dMuzGlZV5yXO1bsmaZ2bNmjWO6R/K3JElOei4X8iqeNqe5TL579XzaJ4aCYqW3Ssv3zBUP1ePO+S4qa/qbRykH++TPS9PkmMOGi5TV0XbumGYfqznDavsy9yG+Tg9L1o3TvI6dsp9F42Rx+J5778gE4ZEBeX9oIwMOeREuX11sl4larnjLpKLRibz85cP9qFLT/Q8KD0TgtJz+2vhc7XesKDcrDaXD7Z74/UjK8vEcZ9/QgghhJA2z46n5GfDTpNZb6rnQdn4WVRcrg6Ki5q/YXpQeq5eVnlcUgXEXD8Vc/k4O4JSMywoNc8F8w4L/vummq72e2RQhmat1Y+TfX60QY3umPP0Y2ObvlEoPVlW6dm79yOdFWFxMYfXht24QvbOC0rPhfPDZVbcOCyaptexn8+XC411S8NulBV6uddff72yjp09QcE4JlnnoOOCkqLnffiy3HBMsr2DjpsqqyrrDAtKyapwuQ9fvkGOiZf584vk/GF6G2r9+LFebphzG/b2ss+TmK9j9/MTZIjer/qs0Im3ra7Me/fXZ1WO2573vjw/YYgccuLtslovm7/8e/LrHx4q/7IoXk6tOyzZ1m5VtNTyyTLhdg4dI4v0duPkn39CCCGEkDbOO1HpmblGP18/Xc48bZas0fPXTztZ/igoMdHyO6QnLEXxNVlQVJZGy1Sm/dHVsjRY9p2en8lX4mmH6e2rfX0lnnaiXHjmMDlt5pvhtq3l/+hSufFnyTx1TOYtbocZx1dvFEpPllV69gQnqtnp7e11Tm+1FP117AhKz6H/8lhmerucf0IIIYSQ1s8GmXbyEXJVUKjc8/2jUHqyrNLz4Z69Tc/q1aud01sthX4du56X8UMOlf/zaHZeu5x/QgghhJBWz7YnfyZf+aOr5WnHvP5GofRk2aXnwz1Nz6uvvuqc3mop6ut4594firot7tv/7j6+djn/hBBCCCGtl3XS9d3k9rXSYafK3W+4lut/FEpPllV6PghOVLOzcuVK5/RWS6u+jnY5/4QQQgghJBuF0pNllZ73P/iw6VmxYoVzequlVV9Hu5x/QgghhBCSjfpNPZSeLKv0qFufCCGEEEIIIa2ZPXv2UHocrNIDAAAAoLVRerIoPQAAAEAbofRkUXoAAACANkLpyaL0AAAAAG2E0pNF6QEAAADaCKUni9IDAAAAtBFKTxalBwAAAGgjlJ4sSg8AAADQRig9WZQeAAAAoI1QerIoPQAAAEAbofRkUXoAAACANkLpyaL0AAAAAG2E0pNF6QEAAADaCKUni9IDAAAAtBFKTxalBwAAAGgjlJ4sSg8AAADQRig9WZQeAAAAoI1QerIoPQAAAEAbofRkUXoAAACANkLpyaL0AAAAAG2E0pNF6QEAAADaCKUni9IDAAAAtBFKTxalBwAAAGgjlJ4sSg8AAADQRig9WZQeAAAAoI1QerIoPQAAAEAbofRkUXoAAACANkLpyaL0AAAAAG2E0pNF6QEAAADaCKUni9IDAAAAtBFKTxalBwAAAGgjPqVn9OjRLZ16UXoAAACANuJbenp7e1sylB4AAABgkKL0ZFF6AAAAgDZC6cmi9AAAAABthNKTRekBAAAA2gilJ4vSAwAAALSRxpaeZ6TrrC9JqVSK8o2r5FHnco3PM11nyZAf3iXLHPNUKD0AAADAINWw0vNMl5z1pZJ846pHk2mLynLFXcvs5ZoUSg8AAAAAp0aVnkVjh9qFZz+H0gMAAADAqTGlZ5GMHfoNuepR1zwVNV/f8hbki3E5UaNDQ34o5fJZ8qVw3hflh8bIkCoy0XTzVjlzW8nylB4AAAAATg0pPbq83LXMMS8ToyDpW+LiEhSWnLjcLBorQ7+Y3maqXBn7pfQAAAAAcNo/Iz2pUZt4hCZdloznztvldEmKR4yiRPul9AAAAABwakzpib61Le8zPdYITrjskBqlx1jG2E5meSOUHgAAAABOjfoig/B2tMxncn4ko4PnatTG+hzPl2qP9IRFyXl7W+ob4nQoPQAAAACcGlZ6VMJCk9x6ZhcdPf2LJ8mZf1FrpCd6rspS5Ta2eKQotY94OqUHAAAAgFNDS0+BQ+kBAAAABilKTxalBwAAAGgjlJ4sSg8AAADQRig9WZQeAAAAoI34lp5WTr0oPQAAAEAb8Sk9gwWlBwAAAGgjlJ4sSg8AAADQRig9WZQeAAAAoI1QerIoPQAAAEAbofRkUXoAAACANkLpyaL0AAAAAG2E0pNF6QEAAADaCKUnq/Tezl36IQAAAIBWpq7trx5f1s8QK10z8aawDRJCCCGEEEJaO6rwPLzwcX2pj1jp29/+thBCCCGEEEJIu6Z08cUXy6hRo+TCCy+UCy64QM4///ww5513nowcOVLOPffcMOeccw4hhBBCCCGEFDJxb1EdRnUZ1WlUv7nwwgvl/wd/+qX99v3NgQAAAABJRU5ErkJggg==</Stream>
+          </Image>
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.LineShape,2">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.OpenPathShapeBase,0</BaseType>
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-43.213864594555673</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-130.11647141657409</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>167.72308645012444</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>162.16343153805047</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <LinePen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+            <Configured>329760</Configured>
+            <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </Color>
+            <Width>0.9100000262260437</Width>
+            <MiterLimit>0</MiterLimit>
+            <EndCap>ArrowF10</EndCap>
+            <EndCapAbsSize>7.28</EndCapAbsSize>
+            <EndCapRelSize>4</EndCapRelSize>
+          </LinePen>
+          <OutlinePen Type="UndefinedValue" />
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.LineShape,2">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.OpenPathShapeBase,0</BaseType>
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-22.794126379545837</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-50.337029088163725</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>42.8302689955295</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>196.82949874027651</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <LinePen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+            <Configured>329760</Configured>
+            <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </Color>
+            <Width>0.9100000262260437</Width>
+            <MiterLimit>0</MiterLimit>
+            <EndCap>ArrowF10</EndCap>
+            <EndCapAbsSize>7.28</EndCapAbsSize>
+            <EndCapRelSize>4</EndCapRelSize>
+          </LinePen>
+          <OutlinePen Type="UndefinedValue" />
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.TextGraphic,3">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirectAutoSize,1">
+            <BaseType>AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1</BaseType>
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>85.355995178222656</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>32.21999914646149</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>131.15750871626958</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>162.63830917095774</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <Text>Class name you
+are currently in</Text>
+          <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Frutiger LT Com 55 Roman, 12world</Font>
+          <Brush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
+            <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
+            <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </ForeColor>
+          </Brush>
+          <BackgroundStyle Type="UndefinedValue" />
+          <LineSpacing>1.25</LineSpacing>
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.LineShape,2">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.OpenPathShapeBase,0</BaseType>
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-50.337029088163696</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-141.98841223925422</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>70.848049337054576</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>195.40486584155485</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <LinePen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+            <Configured>329760</Configured>
+            <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </Color>
+            <Width>0.9100000262260437</Width>
+            <MiterLimit>0</MiterLimit>
+            <EndCap>ArrowF10</EndCap>
+            <EndCapAbsSize>7.28</EndCapAbsSize>
+            <EndCapRelSize>4</EndCapRelSize>
+          </LinePen>
+          <OutlinePen Type="UndefinedValue" />
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.TextGraphic,3">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirectAutoSize,1">
+            <BaseType>AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1</BaseType>
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>111.35999298095703</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>14.219999623298644</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>12.438100489468397</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>197.77925400609087</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <Text>Toggle folding here</Text>
+          <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Frutiger LT Com 55 Roman, 12world</Font>
+          <Brush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
+            <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
+            <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </ForeColor>
+          </Brush>
+          <BackgroundStyle Type="UndefinedValue" />
+          <LineSpacing>1.25</LineSpacing>
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.LineShape,2">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.OpenPathShapeBase,0</BaseType>
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-66.00799097410146</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>81.204075227132051</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>281.69371834785346</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>183.53292501887466</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <LinePen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+            <Configured>329760</Configured>
+            <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </Color>
+            <Width>0.9100000262260437</Width>
+            <MiterLimit>0</MiterLimit>
+            <EndCap>ArrowF10</EndCap>
+            <EndCapAbsSize>7.28</EndCapAbsSize>
+            <EndCapRelSize>4</EndCapRelSize>
+          </LinePen>
+          <OutlinePen Type="UndefinedValue" />
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.TextGraphic,3">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirectAutoSize,1">
+            <BaseType>AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1</BaseType>
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>132.01199340820313</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>50.219998669624331</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>240.37936428492674</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>144.1180814875768</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <Text>Compile errors and
+warnings will be shown
+here</Text>
+          <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Frutiger LT Com 55 Roman, 12world</Font>
+          <Brush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
+            <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
+            <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </ForeColor>
+          </Brush>
+          <BackgroundStyle Type="UndefinedValue" />
+          <LineSpacing>1.25</LineSpacing>
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.TextGraphic,3">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirectAutoSize,1">
+            <BaseType>AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1</BaseType>
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>103.343994140625</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>32.21999914646149</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>388.54118575197458</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>157.88953284188574</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <Text>Method name you
+are currently in</Text>
+          <Font Type="AltaxoBase,Altaxo.Drawing.FontX,2">Frutiger LT Com 55 Roman, 12world</Font>
+          <Brush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
+            <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
+            <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </ForeColor>
+          </Brush>
+          <BackgroundStyle Type="UndefinedValue" />
+          <LineSpacing>1.25</LineSpacing>
+        </GraphicsObject>
+        <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.LineShape,2">
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.OpenPathShapeBase,0</BaseType>
+          <BaseType>AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicBase,5</BaseType>
+          <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+            <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+              <X>622.00000000000011</X>
+              <Y>302</Y>
+            </ParentSize>
+            <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-43.213864594555673</Value>
+            </SizeX>
+            <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>-130.11647141657409</Value>
+            </SizeY>
+            <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>420.83286478966454</Value>
+            </PositionX>
+            <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>false</IsRelative>
+              <Value>158.83928810770004</Value>
+            </PositionY>
+            <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorX>
+            <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </LocalAnchorY>
+            <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorX>
+            <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+              <IsRelative>true</IsRelative>
+              <Value>0</Value>
+            </ParentAnchorY>
+            <Rotation>0</Rotation>
+            <ShearX>0</ShearX>
+            <ScaleX>1</ScaleX>
+            <ScaleY>1</ScaleY>
+          </Location>
+          <LinePen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+            <Configured>329760</Configured>
+            <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+              <Color>{#FFFF0000}</Color>
+              <Name>Red</Name>
+              <SetName>KnownColors</SetName>
+            </Color>
+            <Width>0.9100000262260437</Width>
+            <MiterLimit>0</MiterLimit>
+            <EndCap>ArrowF10</EndCap>
+            <EndCapAbsSize>7.28</EndCapAbsSize>
+            <EndCapRelSize>4</EndCapRelSize>
+          </LinePen>
+          <OutlinePen Type="UndefinedValue" />
+        </GraphicsObject>
+      </GraphObjects>
+    </GraphObjects>
+  </RootLayer>
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="5" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>2CFD57CF-25D5-456E-9E45-D7D8823F4A54</Key>
+        <Value Type="AltaxoBase,Altaxo.Drawing.FontX,2">Frutiger LT Com 55 Roman, 12world</Value>
+      </e>
+      <e>
+        <Key>90BB0E83-D1A4-40B7-9607-55D4B9C272C3</Key>
+        <Value Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+          <Color>{#FFFEEFD6}</Color>
+          <Name>LightBeige (FhG_Fond)</Name>
+        </Value>
+      </e>
+      <e>
+        <Key>2F138FDD-B96A-4C03-9BEF-83FC412E50B2</Key>
+        <Value Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+          <Color>{#FF000000}</Color>
+          <Name>Black</Name>
+          <SetName>KnownColors</SetName>
+        </Value>
+      </e>
+      <e>
+        <Key>D5DB4695-2630-4B7D-83E3-71CA3873B362</Key>
+        <Value Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+          <Color>{#FF000000}</Color>
+          <Name>Black</Name>
+          <SetName>FraunhoferPlotColorsDark</SetName>
+        </Value>
+      </e>
+      <e>
+        <Key>22F853C9-A011-46FA-8021-8668AB4EE1C6</Key>
+        <Value Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1">
+          <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
+            <X>0</X>
+            <Y>0</Y>
+          </ParentSize>
+          <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
+            <IsRelative>false</IsRelative>
+            <Value>425.1968503937008</Value>
+          </SizeX>
+          <SizeY Type="AltaxoCore,Altaxo.RADouble,2">
+            <IsRelative>false</IsRelative>
+            <Value>283.46456692913392</Value>
+          </SizeY>
+          <PositionX Type="AltaxoCore,Altaxo.RADouble,2">
+            <IsRelative>false</IsRelative>
+            <Value>0</Value>
+          </PositionX>
+          <PositionY Type="AltaxoCore,Altaxo.RADouble,2">
+            <IsRelative>false</IsRelative>
+            <Value>0</Value>
+          </PositionY>
+          <LocalAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+            <IsRelative>true</IsRelative>
+            <Value>0</Value>
+          </LocalAnchorX>
+          <LocalAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+            <IsRelative>true</IsRelative>
+            <Value>0</Value>
+          </LocalAnchorY>
+          <ParentAnchorX Type="AltaxoCore,Altaxo.RADouble,2">
+            <IsRelative>true</IsRelative>
+            <Value>0</Value>
+          </ParentAnchorX>
+          <ParentAnchorY Type="AltaxoCore,Altaxo.RADouble,2">
+            <IsRelative>true</IsRelative>
+            <Value>0</Value>
+          </ParentAnchorY>
+          <Rotation>0</Rotation>
+          <ShearX>0</ShearX>
+          <ScaleX>1</ScaleX>
+          <ScaleY>1</ScaleY>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+</Graph>

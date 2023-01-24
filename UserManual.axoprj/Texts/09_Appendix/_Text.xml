@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\_Text</Name>
+  <CreationTime>2018-10-24T10:09:18.5020902+02:00</CreationTime>
+  <LastChangeTime>2018-10-24T10:09:18.5020902+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>## Appendix
+
+```{Altaxo child="00_FitFunctions\_Text"}
+Fit functions
+```
+
+```{Altaxo child="01_CommandLine\_Text"}
+Command line
+```
+
+```{Altaxo child="02_UserSettings\_Text"}
+User settings
+```
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>
