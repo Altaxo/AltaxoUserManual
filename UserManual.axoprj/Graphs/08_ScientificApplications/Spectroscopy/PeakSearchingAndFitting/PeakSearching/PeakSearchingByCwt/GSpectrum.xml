@@ -188,8 +188,8 @@
                 <Location Type="AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirectAutoSize,1">
                   <BaseType>AltaxoBase,Altaxo.Graph.Gdi.ItemLocationDirect,1</BaseType>
                   <ParentSize Type="AltaxoCore,Altaxo.Geometry.PointD2D,2">
-                    <X>208.75963311317759</X>
-                    <Y>133.66133484127019</Y>
+                    <X>283.46456692913392</X>
+                    <Y>188.7874015748032</Y>
                   </ParentSize>
                   <SizeX Type="AltaxoCore,Altaxo.RADouble,2">
                     <IsRelative>false</IsRelative>

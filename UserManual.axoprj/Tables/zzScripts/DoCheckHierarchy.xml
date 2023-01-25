@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Table Type="AltaxoBase,Altaxo.Data.DataTable,5">
+  <Name>zzScripts\DoCheckHierarchy</Name>
+  <TableScript Type="UndefinedValue" />
+  <Properties Type="UndefinedValue" />
+  <Notes>Contains a script which checks the hierarchy of the text files
+- The folder level should match the hierarchy level of the first caption line in the document
+- Subsequent caption lines in a document should have a higher level than the first</Notes>
+  <CreationTime>2023-01-25T11:13:32.4660839+01:00</CreationTime>
+  <LastChangeTime>2023-01-25T11:16:31.0069613+01:00</LastChangeTime>
+  <PropCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>0</NumberOfRows>
+    <ColumnArray Count="0" />
+    <ColumnScripts Count="0" />
+  </PropCols>
+  <DataCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
+    <NumberOfRows>0</NumberOfRows>
+    <ColumnArray Count="0" />
+    <ColumnScripts Count="0" />
+  </DataCols>
+</Table>

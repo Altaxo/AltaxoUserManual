@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
-  <Name>02_TablesAndWorksheets\_Text</Name>
-  <CreationTime>2018-05-17T22:02:46.6265926+02:00</CreationTime>
-  <LastChangeTime>2018-05-17T22:02:46.6265926+02:00</LastChangeTime>
+  <Name>02_TablesAndWorksheets\WorksheetNotes\_Text</Name>
+  <CreationTime>2023-01-25T20:45:45.8651712+01:00</CreationTime>
+  <LastChangeTime>2023-01-25T20:45:45.8651712+01:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
     <Properties Count="3" AssemblyVersion="4.8.2881.0">
@@ -30,47 +30,19 @@
     </Properties>
   </Properties>
   <StyleName />
-  <SourceText>## Tables and Worksheets   {#Worksheets}{#Tables}
+  <SourceText>### Worksheet Notes
 
-```{Altaxo child="DataColumnsAndPropertyColumns\_Text"}
-DataColumnsAndPropertyColumns
-```
+To every worksheet belongs notes text. You can view and edit the notes
+text.
 
-```{Altaxo child="ColumnHeaders\_Text"}
-ColumnHeaders
-```
+To do this, make the worksheet the current document. Then make sure,
+that the Notes tool window is shown. If it is not shown, make it visible
+by choosing View→Notes from the main menu or pressing CTRL+ALT+N at
+the keyboard. You can then visit, add or edit the text in the notes
+window.
 
-```{Altaxo child="CreatingANewWorksheet\_Text"}
-CreatingANewWorksheet
-```
-
-```{Altaxo child="CreatingAdditionalDataOrPropertyColumns\_Text"}
-CreatingAdditionalDataOrPropertyColumns
-```
-
-```{Altaxo child="SelectionOfColumnsOrRows\_Text"}
-SelectionOfColumnsOrRows
-```
-
-```{Altaxo child="CopyPasteOfData\_Text"}
-CopyPasteOfData
-```
-
-```{Altaxo child="ImportingAscii\_Text"}
-Importing Ascii Data
-```
-
-```{Altaxo child="ChangingTheStructureOfAWorksheet\_Text"}
-Changing the structure of a worksheet
-```
-
-```{Altaxo child="WorksheetNotes\_Text"}
-Worksheet Notes
-```
-
-```{Altaxo child="WorksheetScripts\_Text"}
-Worksheet Scripts and Column Scripts
-```
+Some operations, for instance importing ASCII text into a worksheet,
+will add some information to the notes text automatically.
 </SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />

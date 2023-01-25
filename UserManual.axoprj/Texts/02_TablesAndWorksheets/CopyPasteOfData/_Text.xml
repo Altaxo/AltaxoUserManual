@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>02_TablesAndWorksheets\CopyPasteOfData\_Text</Name>
+  <CreationTime>2023-01-25T20:45:45.8621725+01:00</CreationTime>
+  <LastChangeTime>2023-01-25T20:45:45.8621725+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="3" AssemblyVersion="4.8.2881.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+      <e>
+        <Key>8FBF38A4-E9ED-4C17-B6F0-F6E5E285FD33</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+      <e>
+        <Key>648D76D1-401F-4955-881A-716FFB4C6106</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+  <StyleName />
+  <SourceText>### Copy/paste of worksheet data
+
+**Copying** of worksheet **data** is easy: just select the portion of
+data you want to copy in your worksheet, and then press CTRL-C or choose
+Edit→Copy from the main menu. The data are copied to the clipboard.
+
+To **paste data** into another worksheet (or the same worksheet) press
+CTRL-V or choose Edit→Paste from the main menu. Pasting is a more
+subtle operation, and the result depends on which columns/rows/property
+columns are currently selected in the destination worksheet. The
+following list is processed in order to decide where to paste the data
+into the destination worksheet:
+
+1.  If nothing is selected: the new data are pasted to the right of the
+    last data column of the worksheet
+2.  If some data columns are selected and the number of selected data
+    columns matches the number of data columns to paste: paste the
+    clipboard data into the selected data columns. If in addition data
+    rows are selected, then first fill the selected data rows, and, if
+    there are more data rows on the clipboard, fill the data rows after
+    the last selected data row.
+3.  If some data columns are selected and the number of selected data
+    columns matches the number of data rows to paste: paste the
+    clipboard data transposed into the selected data columns.
+    Transposing means that data columns become data rows and vice versa.
+    If in addition data rows are selected, then first fill the selected
+    data rows, and if there are still more data available, fill the data
+    rows after the last selected data row.
+4.  If any data rows are selected and the number of selected data rows
+    matches the number of data rows to paste: paste the clipboard data
+    into the selected data rows. If in addition data columns are
+    selected, then first fill the data into the selected data columns,
+    and if there are still more data columns available, fill the columns
+    to the right of the last selected data column.
+5.  If any data rows are selected and the number of selected data rows
+    matches the number of data columns to paste: paste the clipboard
+    transposed data into the selected data rows. If in addition data
+    columns are selected, then first fill the data into the selected
+    data columns, and if there are still more data columns available,
+    fill the columns to the right of the last selected data column.
+6.  If any property columns are selected and the number of selected
+    property columns matches the number of data columns to paste: paste
+    the clipboard data into the selected property columns. If in
+    addition any data columns are selected, then put the data only in
+    those property cells, which are selected both by the property column
+    selection and the data column selection.
+7.  If any data columns are selected (non-exact match): paste into the
+    selected data columns, and, if there are more columns on the
+    clipboard, paste them to the right of the rightmost selected
+    data column. If in addition data rows are selected, then first fill
+    the selected data rows, and, if there are more data rows on the
+    clipboard, fill the data rows after the last selected data row.
+8.  If any data rows are selected (non-exact match): past the clipboard
+    data rows into the selected data rows, and, if there are more rows
+    to paste, paste them below the lowest selected data row. If in
+    addition data columns are selected, then first fill the data into
+    the selected data columns, and if there are still more data columns
+    available, fill the columns to the right of the last selected
+    data column.
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

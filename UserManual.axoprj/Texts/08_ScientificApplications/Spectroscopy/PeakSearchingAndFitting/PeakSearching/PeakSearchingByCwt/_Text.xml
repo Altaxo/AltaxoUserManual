@@ -25,7 +25,7 @@ The algorithm starts with a very narrow Ricker wavelet (which has a width of 1 p
 
 
 ^^^
-![](local:8F1F1377757AB229329C78A23FA4D534)  {#Screenshot_PeakSearchingByCwt}
+![](local:8F1F1377757AB229329C78A23FA4D534){width=16cm}  {#Screenshot_PeakSearchingByCwt}
 ^^^ Fig. 3: Options for 'peaks searching by continuous wavelet transformation'.
 
 

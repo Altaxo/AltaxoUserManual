@@ -23,7 +23,7 @@ In order to import one or multiple spectra, first create an empty worksheet. Eit
 
 The next action depends on the file format to import:
 
-- For Ascii files, you can use the toolbar button ![](res:Icons.16x16.ImportAscii) for import, or the menu `File` → `Import` → `Ascii`. If multiple spectra needs to be imported into one worksheet (for instance for chemometric analysis), use `File` → `Import` → `Ascii (all into a single worksheet)`. Select all files that should be imported.
+- For Ascii files, you can use the toolbar button ![](res:Icons.16x16.ImportAscii) for import, or the menu `File` → `Import` → `Ascii`. If multiple spectra needs to be imported into one worksheet (for instance for chemometric analysis), use `File` → `Import` → `Ascii (all into a single worksheet)`. Select all files that should be imported. Further information can be found in the section ["Importing ASCII data"](#Section_Tables_ImportingAscii).
 
 - For all other files, use the menus `File` → `Import` → `Galactic SPC files`, `File` → `Import` → `JCamp-DX files`, or `File` → `Import` → `Renishaw .wdf files`. Here too, you can select multiple files.
 
@@ -31,7 +31,7 @@ The next action depends on the file format to import:
 ![](local:A09570BF5D0F36251993D8D16D7681AE)
 ^^^ Fig. 1: Example of a worksheet after import of three .spc files. Note that the first "row" is a property, designating the original file name of the column. Furthermore, all three spectra have a common x-column named "X".
 
-After successfull import of the data, the worksheet contains a data source that holds all information of the import: which file(s) were imported, and which options were used for import. You can open the dialog to edit these data by clicking on the question mark ![](res:Icons.16x16.DataSourceEditing) in the toolbar. If you simple want to reimport the data without changing the file names or the options (e.g. when you have accidentally deleted your data), you can click on the `Requery table data source` button ![](res:Icons.16x16.DataSourceRequery) in the toolbar.
+After successful import of the data, the worksheet contains a data source that holds all information of the import: which file(s) were imported, and which options were used for import. You can open the dialog to edit these data by clicking on the question mark ![](res:Icons.16x16.DataSourceEditing) in the toolbar. If you simple want to reimport the data without changing the file names or the options (e.g. when you have accidentally deleted your data), you can click on the `Requery table data source` button ![](res:Icons.16x16.DataSourceRequery) in the toolbar.
 
 ^^^
 ![](local:E7DF7242FE17E74F053E0BF066033F2C)

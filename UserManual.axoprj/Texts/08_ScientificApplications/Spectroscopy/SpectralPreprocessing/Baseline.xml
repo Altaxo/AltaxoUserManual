@@ -29,7 +29,10 @@ References:
 
 ###### PolynomialDetrending
 
-Strictly speaking, this is not a method to guess the baseline, since the entire  spectrum is used for evaluation. The method evaluates a polynomial fit of user-defined order of the entire spectrum. The resulting polynomial is then used as the baseline. The method may perform good if only very few and narrow peaks exist in the spectrum.
+Strictly speaking, this is not a method to guess the baseline, since the entire  spectrum is used for evaluation. The method evaluates a polynomial fit of user-defined order of the entire spectrum. The resulting polynomial is then used as the baseline. The method may perform good if only very few and narrow peaks exist in the spectrum. The method requires a user defined parameter: the detrending order. Choose a value of
+- 0 for subtracting a constant (in this case, the mean of the y-values)
+- 1 for subtracting a linear slope
+- 2 for subtracting a quadratic function
 
 ###### SNIP (linear and loglog)
 

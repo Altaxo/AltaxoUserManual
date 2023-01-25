@@ -24,7 +24,7 @@ In Altaxo, only two options can be chosen:
 - Maximum number of peaks: Designates the maximum number of resulting peaks. If more peaks than this number are found, the peaks with the lowest prominence values are dropped, and only this number of peaks is included in the output.
 
 ^^^
-![](local:352D67BEF89DB05D7BA8281FF5216B2E)
+![](local:352D67BEF89DB05D7BA8281FF5216B2E){width=15cm}
 ^^^ Fig. 1: Options for 'Peak searching by topology'.
 
 </SourceText>

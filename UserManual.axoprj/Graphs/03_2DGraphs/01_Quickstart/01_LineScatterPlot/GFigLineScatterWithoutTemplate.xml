@@ -588,16 +588,7 @@
                     <Style Type="AltaxoBase,Altaxo.Graph.Plot.Groups.DashPatternGroupStyle,0">
                       <StepEnabled>true</StepEnabled>
                       <Value Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0">
-                        <Set Type="AltaxoBase,Altaxo.Drawing.DashPatternManagement.DashPatternList,0">
-                          <Name>BuiltinDefault</Name>
-                          <Elements Count="5">
-                            <e Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Solid,0" />
-                            <e Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Dash,0" />
-                            <e Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Dot,0" />
-                            <e Type="AltaxoBase,Altaxo.Drawing.DashPatterns.DashDot,0" />
-                            <e Type="AltaxoBase,Altaxo.Drawing.DashPatterns.DashDotDot,0" />
-                          </Elements>
-                        </Set>
+                        <SetName>BuiltinDefault</SetName>
                       </Value>
                       <ListOfValues Type="AltaxoBase,Altaxo.Drawing.DashPatternManagement.DashPatternList,0">
                         <Name>BuiltinDefault</Name>
