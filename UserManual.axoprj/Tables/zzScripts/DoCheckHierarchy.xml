@@ -1,13 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Table Type="AltaxoBase,Altaxo.Data.DataTable,5">
   <Name>zzScripts\DoCheckHierarchy</Name>
-  <TableScript Type="UndefinedValue" />
+  <TableScript Type="AltaxoBase,Altaxo.Scripting.TableScript,1">
+    <Text>#region ScriptHeader
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Altaxo;
+using Altaxo.Calc.LinearAlgebra;
+using Altaxo.Data;
+
+namespace Altaxo.Calc
+{
+    public class SetTableValues : Altaxo.Calc.TableScriptExeBase
+    {
+        public override void Execute(Altaxo.Data.DataTable mytable, IProgressReporter reporter)
+        {
+            Altaxo.Data.DataColumnCollection col = mytable.DataColumns;
+            Altaxo.Data.DataColumnCollection pcol = mytable.PropertyColumns;
+            Altaxo.Data.DataTableCollection table = Altaxo.Data.DataTableCollection.GetParentDataTableCollectionOf(mytable);
+            #endregion
+            // ----- add your script below this line -----
+
+            Current.Console.WriteLine($"-------- {DateTime.Now} Beginn checking hierarchy --------");
+
+            bool success = true;
+
+            var blockedFolders = new HashSet&lt;string&gt;(new[] { "Foo", "zzFragments", "zzScripts" });
+
+            foreach (var td in Current.Project.TextDocumentCollection)
+            {
+                if (blockedFolders.Any(b =&gt; td.Name.StartsWith(b)))
+                    continue;
+
+                var folderparts = td.Folder.Split(new char[] { Altaxo.Main.ProjectFolder.DirectorySeparatorChar }, StringSplitOptions.None);
+
+                var level = folderparts.Length;
+
+                //Current.Console.WriteLine($"{level}: {td.Name}");
+
+                success &amp;= CheckDocument(td, level);
+
+
+            }
+            Current.Console.WriteLine($"-------- {DateTime.Now} End checking hierarchy {(success ? "Successful - Is OK" : "ERRORS !!!!!")} --------");
+            // ----- add your script above this line -----
+        } // Execute method
+
+        bool CheckDocument(Text.TextDocument td, int level)
+        {
+            var success = true;
+            var text = td.SourceText;
+
+            var lines = text.Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+
+            int? startlevel = null;
+            int? previousLevel = null;
+
+            foreach (var line in lines)
+            {
+                if (line.StartsWith("#"))
+                {
+                    if (line.StartsWith("# Heading 1") || line.StartsWith("## Heading 2")) // Ignore the example in 05_TextDocuments
+                        continue;
+                	
+                    int currentLevel;
+
+                    for (currentLevel = 0; currentLevel &lt; line.Length; ++currentLevel)
+                        if (line[currentLevel] != '#')
+                            break;
+
+                    if (startlevel is null)
+                    {
+                        startlevel = currentLevel;
+
+                        if (currentLevel != level)
+                        {
+                            Current.Console.WriteLine($"In {td.Name}: StartLevel of {currentLevel} is not the expected value of {level}: {line}");
+                            success = false;
+                        }
+                    }
+                    else
+                    {
+                        if (!(currentLevel &gt; startlevel.Value))
+                        {
+                            Current.Console.WriteLine($"In {td.Name}: Level of {currentLevel} must be greater than start level of {startlevel.Value}: {line}");
+                            success = false;
+                        }
+
+                        if (previousLevel.HasValue &amp;&amp; currentLevel &gt; previousLevel.Value &amp;&amp; currentLevel - 1 != previousLevel.Value)
+                        {
+                            Current.Console.WriteLine($"In {td.Name}: Level of {currentLevel} must be one greater than previous level {previousLevel.Value}: {line}");
+                            success = false;
+                        }
+                    }
+
+                    previousLevel = currentLevel;
+                }
+
+            }
+            return success;
+
+        }
+
+    } // class
+} //namespace
+</Text>
+  </TableScript>
   <Properties Type="UndefinedValue" />
-  <Notes>Contains a script which checks the hierarchy of the text files
-- The folder level should match the hierarchy level of the first caption line in the document
-- Subsequent caption lines in a document should have a higher level than the first</Notes>
+  <Notes />
   <CreationTime>2023-01-25T11:13:32.4660839+01:00</CreationTime>
-  <LastChangeTime>2023-01-25T11:16:31.0069613+01:00</LastChangeTime>
+  <LastChangeTime>2023-01-26T21:12:30.1012572+01:00</LastChangeTime>
   <PropCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
     <NumberOfRows>0</NumberOfRows>
     <ColumnArray Count="0" />
