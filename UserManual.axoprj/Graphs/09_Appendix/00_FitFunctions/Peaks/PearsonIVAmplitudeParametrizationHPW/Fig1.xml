@@ -135,7 +135,7 @@
             </YPartitioning>
           </Grid>
           <GraphObjects Type="AltaxoBase,Altaxo.Graph.Gdi.Shapes.GraphicCollection,1">
-            <GraphObjects Count="34">
+            <GraphObjects Count="35">
               <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+GridPlanesPlaceHolder,0" />
               <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleLinePlaceHolder,0">
                 <Index>0</Index>
@@ -185,6 +185,7 @@
               <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+AxisStyleTitlePlaceHolder,0">
                 <Index>3</Index>
               </GraphicsObject>
+              <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+PlotItemPlaceHolder,0" />
               <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+PlotItemPlaceHolder,0" />
               <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+PlotItemPlaceHolder,0" />
               <GraphicsObject Type="AltaxoBase,Altaxo.Graph.Gdi.XYPlotLayer+PlotItemPlaceHolder,0" />
@@ -1507,7 +1508,7 @@
               <DistributeToChilds>false</DistributeToChilds>
               <TransformingStyle Type="UndefinedValue" />
             </GroupStyles>
-            <PlotItems Count="3">
+            <PlotItems Count="4">
               <PlotItem Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.XYFunctionPlotItem,2">
                 <Data Type="AltaxoBase,Altaxo.Graph.Plot.Data.XYFunctionPlotData,1">
                   <Function Type="AltaxoBase,Altaxo.Scripting.FunctionEvaluationScript,0">
@@ -1636,14 +1637,76 @@ namespace Altaxo.Calc
                       <FillBrush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
                         <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
                         <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
-                          <Color>{#7FB1C800}</Color>
-                          <Name>AppleGreen (FhG_Secondary) 50.0%</Name>
+                          <Color>{#4CB1C800}</Color>
+                          <Name>AppleGreen (FhG_Secondary) 30.0%</Name>
                         </ForeColor>
                       </FillBrush>
                       <IndependentFrameColor>true</IndependentFrameColor>
                       <FramePen Type="UndefinedValue" />
                       <FillToPreviousItem>true</FillToPreviousItem>
                       <FillToNextItem>false</FillToNextItem>
+                    </e>
+                  </Styles>
+                </Style>
+              </PlotItem>
+              <PlotItem Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.XYFunctionPlotItem,2">
+                <Data Type="AltaxoBase,Altaxo.Graph.Plot.Data.XYFunctionPlotData,1">
+                  <Function Type="AltaxoBase,Altaxo.Scripting.FunctionEvaluationScript,0">
+                    <BaseType>AltaxoBase,Altaxo.Scripting.AbstractScript,1</BaseType>
+                    <Text>#region ScriptHeader
+using System;
+using Altaxo;
+using Altaxo.Calc;
+using Altaxo.Data;
+namespace Altaxo.Calc
+{
+	public class FunctionEvaluationScript : Altaxo.Calc.FunctionEvaluationScriptBase
+	{
+		public override double EvaluateFunctionValue(double x)
+		{
+            #endregion
+            // ----- add your script below this line -----
+
+            return 1;
+			
+			// ----- add your script above this line -----
+#region ScriptFooter
+		} // method
+	} // class
+} //namespace
+#endregion
+</Text>
+                  </Function>
+                </Data>
+                <Style Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.Styles.G2DPlotStyleCollection,2">
+                  <Styles Count="1">
+                    <e Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.Styles.LinePlotStyle,5">
+                      <IndependentSkipFreq>false</IndependentSkipFreq>
+                      <SkipFreq>1</SkipFreq>
+                      <IgnoreMissingDataPoints>false</IgnoreMissingDataPoints>
+                      <IndependentOnShiftingGroupStyles>true</IndependentOnShiftingGroupStyles>
+                      <ConnectCircular>false</ConnectCircular>
+                      <Connection Type="AltaxoBase,Altaxo.Graph.Gdi.Plot.Styles.LineConnectionStyles.StraightConnection,0" />
+                      <Pen Type="AltaxoBase,Altaxo.Drawing.PenX,5">
+                        <Configured>295968</Configured>
+                        <Color Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
+                          <Color>{#FF000000}</Color>
+                          <Name>Black</Name>
+                          <SetName>FraunhoferPlotColorsDark</SetName>
+                        </Color>
+                        <Width>0.91</Width>
+                        <LineJoin>Bevel</LineJoin>
+                        <DashPattern Type="AltaxoBase,Altaxo.Drawing.DashPatterns.Dash,0">
+                          <SetName>BuiltinDefault</SetName>
+                        </DashPattern>
+                      </Pen>
+                      <IndependentDashStyle>false</IndependentDashStyle>
+                      <IndependentColor>false</IndependentColor>
+                      <IndependentSymbolSize>false</IndependentSymbolSize>
+                      <SymbolSize>0</SymbolSize>
+                      <UseSymbolGap>false</UseSymbolGap>
+                      <SymbolGapOffset>0</SymbolGapOffset>
+                      <SymbolGapFactor>1.25</SymbolGapFactor>
                     </e>
                   </Styles>
                 </Style>
@@ -1714,8 +1777,8 @@ namespace Altaxo.Calc
                       <FillBrush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
                         <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
                         <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
-                          <Color>{#7FEB6A0A}</Color>
-                          <Name>Orange (FhG_Secondary) 50.0%</Name>
+                          <Color>{#4CEB6A0A}</Color>
+                          <Name>Orange (FhG_Secondary) 30.0%</Name>
                         </ForeColor>
                       </FillBrush>
                       <IndependentFrameColor>true</IndependentFrameColor>

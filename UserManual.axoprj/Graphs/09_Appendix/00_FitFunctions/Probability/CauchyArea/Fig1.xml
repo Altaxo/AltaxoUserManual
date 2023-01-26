@@ -1401,8 +1401,8 @@ namespace Altaxo.Calc
                       <FillBrush Type="AltaxoBase,Altaxo.Drawing.BrushX,5">
                         <Type Type="AltaxoBase,Altaxo.Drawing.BrushType,2">SolidBrush</Type>
                         <ForeColor Type="AltaxoBase,Altaxo.Drawing.NamedColor,3">
-                          <Color>{#7FB1C800}</Color>
-                          <Name>AppleGreen (FhG_Secondary) 50.0%</Name>
+                          <Color>{#4CB1C800}</Color>
+                          <Name>AppleGreen (FhG_Secondary) 30.0%</Name>
                         </ForeColor>
                       </FillBrush>
                       <IndependentFrameColor>true</IndependentFrameColor>
