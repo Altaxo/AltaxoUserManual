@@ -16,7 +16,7 @@
       &lt;/LayoutAnchorablePane&gt;
     &lt;/LayoutPanel&gt;
     &lt;LayoutAnchorablePane Id="be6895b6-fe1d-47b6-886c-ef96f21c3277" Name="DockRight" DockWidth="479"&gt;
-      &lt;LayoutAnchorable AutoHideWidth="354" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Project" IsSelected="True" ContentId="Altaxo.Gui.Pads.ProjectBrowser.ProjectBrowseController" LastActivationTimeStamp="01/25/2023 23:04:24" /&gt;
+      &lt;LayoutAnchorable AutoHideWidth="354" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Project" IsSelected="True" ContentId="Altaxo.Gui.Pads.ProjectBrowser.ProjectBrowseController" LastActivationTimeStamp="01/26/2023 21:24:52" /&gt;
     &lt;/LayoutAnchorablePane&gt;
   &lt;/RootPanel&gt;
   &lt;TopSide /&gt;
@@ -25,8 +25,8 @@
   &lt;BottomSide /&gt;
   &lt;FloatingWindows /&gt;
   &lt;Hidden&gt;
-    &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Files" IsSelected="True" ContentId="Altaxo.Gui.Pads.FileBrowser.FileBrowserController" LastActivationTimeStamp="01/25/2023 22:11:15" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
-    &lt;LayoutAnchorable AutoHideWidth="384" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Lighting" IsSelected="True" ContentId="Altaxo.Gui.Pads.LightingPad.LightingController" LastActivationTimeStamp="01/25/2023 22:11:15" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
+    &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Files" IsSelected="True" ContentId="Altaxo.Gui.Pads.FileBrowser.FileBrowserController" LastActivationTimeStamp="01/26/2023 21:23:54" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
+    &lt;LayoutAnchorable AutoHideWidth="384" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Lighting" IsSelected="True" ContentId="Altaxo.Gui.Pads.LightingPad.LightingController" LastActivationTimeStamp="01/26/2023 21:23:54" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
   &lt;/Hidden&gt;
 &lt;/LayoutRoot&gt;</CurrentLayoutConfiguration>
 </MainWindow>

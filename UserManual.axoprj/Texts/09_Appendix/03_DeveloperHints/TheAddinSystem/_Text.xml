@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
-  <Name>09_Appendix\03_DeveloperHints\TheAddinSystem</Name>
+  <Name>09_Appendix\03_DeveloperHints\TheAddinSystem\_Text</Name>
   <CreationTime>2019-03-17T11:57:28.3056343+01:00</CreationTime>
   <LastChangeTime>2019-03-17T11:57:28.3056343+01:00</LastChangeTime>
   <Notes />
@@ -8,9 +8,7 @@
     <Properties Count="0" AssemblyVersion="4.8.2881.0" />
   </Properties>
   <StyleName />
-  <SourceText>### Hints for developers
-
-#### The addin system
+  <SourceText>#### The addin system
 
 ##### The `AddIn` node (Level 1)  {#AddinSystem_Node_Level1_AddIn}
 

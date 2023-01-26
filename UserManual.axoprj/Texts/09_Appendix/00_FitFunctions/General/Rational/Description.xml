@@ -8,7 +8,7 @@
     <Properties Count="0" AssemblyVersion="4.8.2881.0" />
   </Properties>
   <StyleName />
-  <SourceText>###### Rational
+  <SourceText>##### Rational
 
 This function evaluates a rational polynom with one or multiple terms in the nominator and in the denominator according to
 

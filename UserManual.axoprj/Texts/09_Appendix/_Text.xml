@@ -22,6 +22,10 @@ Command line
 User settings
 ```
 
+```{Altaxo child="03_DeveloperHints\_Text"}
+Hints for developers
+```
+
 </SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />

@@ -16,7 +16,7 @@ Altaxo can be started using either `AltaxoStartup.exe` or `AltaxoStartup32.exe`,
 The following command line arguments can be used to start up Altaxo (both with `AltaxoStartup.exe` and `AltaxoStartup32.exe`:
 
 - `xyz.axoprj` :  
-	loads the Altaxo project named `xyz.axoprj`.
+	loads the Altaxo project named `xyz.axoprj`. This argument works both with Altaxo project files, and with Altaxo project folders.
 
 - `-nologo` :   
 	suppresses the show up of the Altaxo logo during startup.
@@ -25,10 +25,13 @@ The following command line arguments can be used to start up Altaxo (both with `
 	suppresses the show up of the exception box should an exception occur during startup or running of the application
 	
 - `-embedding` :  
-	runs Altaxo in COM local server mode (do not use this unless you know exactly what you do, currently working properly only when used with `AltaxoStartup32.exe`, i.e. in 32 bit mode).
+	runs Altaxo in COM local server mode (do not use this unless you know exactly what you do). This command is used internally when you embed a graph object in another application, for instance in Microsoft Word or Powerpoint.
 
 - `-executetablescript nameOfTheTable` :  
 	executes the table script of the table `nameOfTheTable`. This argument can be used multiple times. The scripts are executed in the order they are given at the command line.
+	
+- `-noAutoUpdate`  :  
+    Altaxo will not perform an auto update. Use this argument if you have more than one instance of Altaxo on your computer, and you want to keep that instance at a certain version, whereas the other instances should get updates.
 
 - `-exit` :  
 	if this argument is the last argument, Altaxo is exited before Altaxo's workbench is shown. All arguments before this argument are executed nevertheless (e.g. loading of a Altaxo project, executing a table script etc.). If this argument is not the last one, it is ignored.

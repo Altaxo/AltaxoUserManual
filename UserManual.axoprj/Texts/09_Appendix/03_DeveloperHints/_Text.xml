@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\03_DeveloperHints\_Text</Name>
+  <CreationTime>2020-02-16T12:13:05.941634+01:00</CreationTime>
+  <LastChangeTime>2020-02-16T12:13:05.941634+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>### Hints for developers
+
+The following sections are not intended for the users of Altaxo, but rather for developers wanting to contribute to Altaxo.
+
+```{Altaxo child="AltaxosUpdateInstaller\_Text"}
+Altaxo's update installer
+```
+
+```{Altaxo child="TheAddinSystem\_Text"}
+The addin system
+```
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

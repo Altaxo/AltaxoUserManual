@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
-  <Name>09_Appendix\03_DeveloperHints\AltaxosUpdateInstaller</Name>
-  <CreationTime>2020-02-16T12:13:05.941634+01:00</CreationTime>
-  <LastChangeTime>2020-02-16T12:13:05.941634+01:00</LastChangeTime>
+  <Name>09_Appendix\03_DeveloperHints\AltaxosUpdateInstaller\_Text</Name>
+  <CreationTime>2023-01-26T20:53:55.4303559+01:00</CreationTime>
+  <LastChangeTime>2023-01-26T20:53:55.4303559+01:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
     <Properties Count="0" AssemblyVersion="4.8.2881.0" />
   </Properties>
   <StyleName />
-  <SourceText>## Altaxo's AutoUpdateInstaller
+  <SourceText>#### Altaxo's AutoUpdateInstaller
 
-### Requirements
+##### Requirements
 
 1. Take into account that instances of Altaxo may be running on the same computer from the same user or from different users, and may be running on different computers (via network).
 1. Take into account that instances of the Updater may be running on the same computer from the same user or from different users, and even on different computers
@@ -26,20 +26,20 @@ This results in:
 
 
 
-### Detection of the moment when it is possible to update Altaxo
+##### Detection of the moment when it is possible to update Altaxo
 
 1. Try to open all .exe files and all .chm files in exclusive write mode
 2. If this succeeds, try to open and close all other files in write mode
 3. If this succeeds, it is possible to update Altaxo. Elevated privileges may be necessary to update Altaxo.
 
 
-### Locking of updater instances
+##### Locking of updater instances
 
 1. if possible (no elevated privileges required), create a lock file in the installation directory. This prevents instances on the same computer or on other computers to run simultaneously.
 
 2. If using a lock file is not possible, create a semaphore. This prevents at least instances of the updater on the same computer from running simultaneously.
 
-### Updating process
+##### Updating process
 
 1. The updater starts with normal privileges and ensures that no other instance of the updater is running for the directory-to-update. If it detects that another instance is running, it immediately ends itself.
 It then locks the directory-to-update.

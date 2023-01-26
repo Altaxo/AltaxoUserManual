@@ -8,7 +8,7 @@
     <Properties Count="0" AssemblyVersion="4.8.2881.0" />
   </Properties>
   <StyleName />
-  <SourceText>#### GeneralizedLogisticDecreasing
+  <SourceText>##### GeneralizedLogisticDecreasing
 
 This function evaluates a sum of generalized logistic terms (decreasing steps), plus a background polynomial with one or multiple terms, according to
 
