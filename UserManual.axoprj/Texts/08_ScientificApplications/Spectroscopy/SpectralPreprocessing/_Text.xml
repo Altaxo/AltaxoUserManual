@@ -57,27 +57,27 @@ Additionally, when the original data have changed, you can re-apply the preproce
 
 In the following sections, the various preprocessing steps are described in more detail.
 
-```{Altaxo child="SpikeRemoval"}
+```{Altaxo child="SpikeRemoval\_Text"}
 SpikeRemoval
 ```
 
-```{Altaxo child="Calibration"}
+```{Altaxo child="Calibration\_Text"}
 Calibration
 ```
 
-```{Altaxo child="Smoothing"}
+```{Altaxo child="Smoothing\_Text"}
 Smoothing
 ```
 
-```{Altaxo child="Baseline"}
+```{Altaxo child="Baseline\_Text"}
 Baseline
 ```
 
-```{Altaxo child="Cropping"}
+```{Altaxo child="Cropping\_Text"}
 Cropping
 ```
 
-```{Altaxo child="Normalization"}
+```{Altaxo child="Normalization\_Text"}
 Normalization
 ```
 
