@@ -13,6 +13,10 @@
 ```{Altaxo child="CalibrationWithNeonAndSi\_Text"}
 CalibrationWithNeonAndSi
 ```
+
+```{Altaxo child="IntensityCalibration\_Text"}
+IntensityCalibration
+```
 </SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />

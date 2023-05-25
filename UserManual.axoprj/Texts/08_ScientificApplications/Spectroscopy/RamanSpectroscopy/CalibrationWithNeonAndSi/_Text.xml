@@ -15,7 +15,7 @@
 A Raman device consists of two, at first uncalibrated, parts:
 
 - The spectrometer. The spectrometer pixels need to be attributed to their corresponding absolute wavelengths.
-- The laser. The wavelength of the laser is approximately known, but it is neccessary to determine the exact wavelength.
+- The laser. The wavelength of the laser is approximately known, but it is necessary to determine the exact wavelength.
 
 The **objective** of the calibration is to calibrate both the spectrometer and determine the absolute laser wavelength. With that information, the x-axis of all spectra measured subsequently could be adjusted to calibrated values.
 
@@ -24,7 +24,7 @@ The **objective** of the calibration is to calibrate both the spectrometer and d
 For that, two measurements are needed: 
 
 1) A measurement without laser (to exclude the influence of the laser wavelength). This measurement calibrates the spectrometer. Usually, the light of a small Neon lamp is directed into the Raman instrument, and a spectrum of the Neon light is taken. The position of the Neon bands is known, and with that information the wavelength of the spectrometer pixels can be calibrated.
-2) A measurement with laser. In this measurement, a sample with a well defined peak, for which the Raman shift is known, is measured. Usually, a polished Silicon wafer is used for this measurement. In combination with the absolute wavelength calibration of the spectromenter with Neon light, the exact wavelength of the Laser light can be calculated.
+2) A measurement with laser. In this measurement, a sample with a well defined peak, for which the Raman shift is known, is measured. Usually, a polished Silicon wafer is used for this measurement. In combination with the absolute wavelength calibration of the spectrometer with Neon light, the exact wavelength of the Laser light can be calculated.
 
 &gt; **Tips for measuring the Neon spectrum**  
 &gt; Use exactly the same optical path that is used afterwards for measuring the Silicon. Block the laser light. Shine the light of a Neon lamp in your instrument and adjust exposure time to avoid both overexposure and underexposure. Then set the number of accumulations as high as possible to get a low noise level. A low noise level is important to get also the very small peaks close to the left and right sides of the spectrum, because everything outside the range of detected peaks needs to be extrapolated.
@@ -34,7 +34,7 @@ For that, two measurements are needed:
 
 ###### Data evaluation
 
-Load both the Neon spectrum and the Silicon spectrum into an empty worksheet. For that, create an empty worksheet, and then use `File → Import → Ascii`, or `File → Import → SPC `or some of the other file import menu points, according to the file format of the spectra.
+Load both the Neon spectrum and the Silicon spectrum into an empty worksheet. For that, create an empty worksheet, and then use `File → Import → Ascii`, or `File → Import → SPC `or some of the other file import menu points, according to the file format of the spectra. Details on how to import can be find [here](#Section_ImportOfSpectra).
 
 Make sure that the x-axis of both spectra is marked as type "X". Take a look of the Neon spectrum by plotting it.
 
@@ -53,7 +53,7 @@ Typical errors are:
 
 - You have entered the wrong unit of the x-axis of the Neon spectrum. Some reasonability checks are made by the software, and if they fail, an error is reported.
 - You have entered the wrong (approximate) wavelength of the laser. For instance, if you have a 785 nm system, but have forgotten to change the laser wavelength (which is by default 532 nm), the calibration will fail. This kind of error could not be detected by the software. 
-- The Neon spectrum is too noisy, so that too few peaks or too many peaks are detected. Try to adjust some options in the peak finding algorithm. You can use peak detection and finding (menu Analysis-&gt;Spectroscopy-&gt;PeakDetection&amp;Finding) to search for appropriate settings, and then use those settings for calibration.
+- The Neon spectrum is too noisy, so that too few peaks or too many peaks are detected. Try to adjust some options in the peak finding algorithm. You can use peak detection and finding (menu `Analysis → Spectroscopy → PeakDetection &amp; Finding`) to search for appropriate settings, and then use those settings for calibration.
 
 **Silicon calibration**
 

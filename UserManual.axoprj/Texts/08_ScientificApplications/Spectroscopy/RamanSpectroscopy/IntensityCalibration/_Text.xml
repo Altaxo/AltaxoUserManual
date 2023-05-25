@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>08_ScientificApplications\Spectroscopy\RamanSpectroscopy\IntensityCalibration\_Text</Name>
+  <CreationTime>2023-05-25T22:22:00.2041691+02:00</CreationTime>
+  <LastChangeTime>2023-05-25T22:22:00.2041691+02:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Intensity calibration of a Raman device with a known light source{#Section_RamanSpectroscopy_IntensityCalibration}
+
+###### Objective
+
+The spectrometer of a Raman device has a sensitivity which is dependent on the wavelength. The sensitivity varies from device to device, even if they are coming from the same manufacturer. 
+
+The **objective** of the intensity calibration is to find a wavelength dependent correction function, which corrects the different sensitivities of the spectrometers. Although no absolute calibration is possible, this will make Raman spectra from different devices better comparable, because the relative heights of the peaks will be the same.
+
+###### What is needed
+
+For intensity calibration, a light source with a known spectrum is necessary:
+
+- Either, a  fluorescent glass is exited with the Raman laser, which will then emit light with a broad spectral distribution. Usually, for each laser wavelength, another glass is used. Such standards are available for instance from NIST, and they are accompanied by a description of the wavelength dependent intensity.
+
+- Or, a known light source, for instance an LED with a known (preferable broad) spectrum, is used. The spectrum of the LED must cover the range of the spectrometer. Those light sources come with a certificate, in which the wavelength dependent intensity is described as a function. 
+
+###### What is measured
+
+When using the fluorescent glass, follow the instructions accompanying this standard. The laser must be switched on for the measurement. Acquire a spectrum which is neither overexposed nor underexposed. Multiple accumulations can enhance the signal to noise ratio.
+
+When using the known light source, the laser must not be switched on. Take a spectrum of the light source which is neither overexposed nor underexposed. Multiple accumulations can enhance the signal to noise ratio.
+
+&gt; **Important**:  
+&gt; For both methods it is absolutely necessary to acquire a dark spectrum (a spectrum with laser and all other light sources off). On some instruments, a dark spectrum is acquired automatically, and is then part of the exported spectrum. Ideally, the exported spectrum contains already one column, in which the dark spectrum is subtracted from the signal spectrum.
+
+###### Data evaluation
+
+Load the acquired spectrum into an empty worksheet. For that, create an empty worksheet, and then use `File → Import → Ascii`, or `File → Import → SPC `or some of the other file import menu points, according to the file format of the spectra. Details on how to import can be find [here](#Section_ImportOfSpectra).
+
+Make sure that the x-axis of the spectrum is marked as type "X". Take a look at the spectrum by plotting it. It should have a broad distribution, i.e. the intensity should be high enough in all parts of the spectrum (except in the range close to the laser wavelength, where filter catch the light).
+
+If the dark spectrum was exported to a separate file, then import that spectrum, too.
+
+**Intensity calibration**
+
+Go to the worksheet which contains the spectrum. If the worksheet contains a column in which the dark spectrum is already subtracted, then select this column. Otherwise, select the column with the y-values of the spectrum, and use the menu `Analysis → Spectroscopy → Intensity calibration`. A dialog opens. 
+
+Its upper part contain the spectral preprocessing pipeline. If the dark signal is already subtracted, no preprocessing should be used here. If it is not already subtracted, then use the tab 'Dark', choose `SpectrumSubtraction`, and provide the table which contains the dark spectrum and the x and y-column names of that spectrum.
+
+In the lower part of the dialog, a function must be entered, which describes the intensity in dependence of the wavelength. Usually, a Gaussian distribution (with one term, with no baseline or a constant baseline is used). Make sure that the function you select is identical to the function that come with the certificate of the light source. The selected function is described in the right part of the dialog. Enter the parameters given on the certificate. Make also sure that the x-axis of your spectrum matches the x-axis unit given in the certificate. Example: if your x-axis is Raman shift, but on the certificate the x-axis unit is wavelength, then you can not perform intensity calibration.
+
+Press OK to perform the intensity calibration. A new table is created, which contains the correction function.
+
+###### Perform an intensity correction
+
+In subsequent [preprocessing operations](#Section_SpectralPreprocessing), this calibration table can be used for intensity correction. Use the tab `YCal` of the preprocessing pipeline, select `YCalibrationByDataSource`, and in the combobox, choose the table containing the intensity calibration.
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>
