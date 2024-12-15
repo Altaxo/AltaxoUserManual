@@ -1102,7 +1102,7 @@
     </GraphObjects>
   </RootLayer>
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="5" AssemblyVersion="4.8.2881.0">
+    <Properties Count="5" AssemblyVersion="4.8.3257.0">
       <e>
         <Key>2CFD57CF-25D5-456E-9E45-D7D8823F4A54</Key>
         <Value Type="AltaxoBase,Altaxo.Drawing.FontX,2">Frutiger LT Com 55 Roman, 12world</Value>

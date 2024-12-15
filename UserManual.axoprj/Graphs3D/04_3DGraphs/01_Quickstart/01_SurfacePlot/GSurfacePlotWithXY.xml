@@ -1901,7 +1901,7 @@
     </GraphObjects>
   </RootLayer>
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="1" AssemblyVersion="4.8.2881.0">
+    <Properties Count="1" AssemblyVersion="4.8.3257.0">
       <e>
         <Key>8D245305-B64F-4B51-ACB4-A30B5C7C20FE</Key>
         <Value Type="AltaxoBase,Altaxo.Drawing.D3D.FontX3D,0">

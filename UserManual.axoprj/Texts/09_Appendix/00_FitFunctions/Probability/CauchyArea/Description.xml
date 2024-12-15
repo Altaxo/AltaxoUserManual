@@ -5,12 +5,12 @@
   <LastChangeTime>2021-06-13T11:24:00.6131779+02:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
   </Properties>
   <StyleName />
   <SourceText>##### CauchyArea
 
-This function evaluates a sum of Cauchy (Lorentzian) terms, plus a background polynomial with one or multiple terms, according to
+This function evaluates a sum of Cauchy (Lorentzian) terms, plus a baseline polynomial with one or multiple terms, according to
 
 $$
 y(x) = \frac{A_0}{\pi w_0 \left[ 1 + \left ( \frac{x-x_{c0}}{w_0} \right ) ^2  \right ] } + ... + \frac{A_{n-1}}{\pi w_{n-1} \left [ 1 + \left ( \frac{x-x_{cn-1}}{w_{n-1}} \right ) ^2  \right ] } + b_0 + b_1 x^1 + ... + b_m x^m 
@@ -24,12 +24,12 @@ in which:
 
 - $w_0 ... w_{n-1}$ are the half widths of half maximum (HWHM) of the Cauchy terms
 
-- $b_0 ... b_m$ are the coefficients of the background polynomial of order  $m$
+- $b_0 ... b_m$ are the coefficients of the baseline polynomial of order  $m$
 
 - $n$ is the number of Cauchy terms ($n \geq 1$)
-- $m$ is the order of the background polynomial (set $m=-1$ to disable the background polynomial)
+- $m$ is the order of the baseline polynomial (set $m=-1$ to disable the baseline polynomial)
 
-The number of Cauchy terms $n$ and the order of the background polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=0$. In order to get the probability density function of the Cauchy distribution, set $n=1$,  $m=-1$, and set the parameter $A_0$ fixed to $A_0=1$.
+The number of Cauchy terms $n$ and the order of the baseline polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=0$. In order to get the probability density function of the Cauchy distribution, set $n=1$,  $m=-1$, and set the parameter $A_0$ fixed to $A_0=1$.
 
 
 The domain of the function is $-\infty \leq x \leq \infty$. 

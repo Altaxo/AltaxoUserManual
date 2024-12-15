@@ -5,7 +5,7 @@
   <LastChangeTime>2023-01-25T20:45:45.8591739+01:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="3" AssemblyVersion="4.8.2881.0">
+    <Properties Count="3" AssemblyVersion="4.8.3257.0">
       <e>
         <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
         <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">

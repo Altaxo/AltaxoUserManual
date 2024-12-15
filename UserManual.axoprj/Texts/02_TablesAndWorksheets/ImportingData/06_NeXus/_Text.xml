@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>02_TablesAndWorksheets\ImportingData\06_NeXus\_Text</Name>
+  <CreationTime>2024-12-04T14:02:22.424045+01:00</CreationTime>
+  <LastChangeTime>2024-12-04T14:02:22.424045+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="3" AssemblyVersion="4.8.3257.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+      <e>
+        <Key>8FBF38A4-E9ED-4C17-B6F0-F6E5E285FD33</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+      <e>
+        <Key>648D76D1-401F-4955-881A-716FFB4C6106</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+  <StyleName />
+  <SourceText>#### Importing NeXus files
+
+The NeXus file format is a file format driven by the  [NeXus community](https://www.nexusformat.org/) with a growing field of applications. Its base format is `.HDF5`. Nexus files usually have the extension `.nx` or `.nxs`.
+
+Since typically a NeXus file can contain multiple tables, it is recommended to import these files be the `File`→`Import` menu, so that you can change the options how those multiple tables are handled.</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

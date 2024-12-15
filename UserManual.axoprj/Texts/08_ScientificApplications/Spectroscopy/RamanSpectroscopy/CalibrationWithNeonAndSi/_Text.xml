@@ -5,7 +5,7 @@
   <LastChangeTime>2022-09-02T12:02:25.7658985+02:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
   </Properties>
   <StyleName />
   <SourceText>##### Calibration of a Raman device with Neon light and a Silicon wafer  {#Section_RamanSpectroscopy_CalibrationWithNeonAndSi}
@@ -64,9 +64,57 @@ Next, do the silicon calibration. For this, go back to the worksheet containing 
 
 Press OK. Now your calibration table should contain a full x-axis calibration. From now on you can use that calibration table in the preprocessing of spectra to adjust the x-axis to a calibrated x-axis.
 
+**Contents of the calibration table**
+
+If both the neon as well as the silicon calibration has been successfully performed, the calibration table consist of the following columns:
+
+- `NistNeonPeakWavelength [nm]`  
+Wavelength in nm of the neon peak tabulated in a table from NIST (National institute of Standards and Technology)
+
+- `MeasuredNeonPeakWavelength [nm]`  
+Wavelength in nm of the peak that was found in the neon spectrum used for calibration. Please note, that when the original x-axis of the neon spectrum was Raman shift (cm^-1^), then the wavelength was calculated using the approximate laser wavelength that was provided in the neon calibration dialog.
+
+- `DifferenceOfPeakWavelengths [nm]`  
+Difference $(NistNeonPeakWavelength [nm]) - (MeasuredNeonPeakWavelength [nm])$
+
+- `DifferenceOfPeakWavelengths.Err [nm]`  
+The error of the previous column, assuming that the NIST wavelength has a neglectable error. Thus, this column represents the errors of the fit position of the neon peaks.
+
+- `Neon1_PreprocessedUncalibrated_Wavelength [nm]`  
+X-axis values in nm of the neon spectrum. If the original x-axis of the neon spectrum was Raman shift (cm^-1^), then the wavelength values in this column were calculated using the approximate laser wavelength that was provided in the neon calibration dialog.
+
+- `Neon1_PreprocessedCalibrated_Wavelength [nm]`  
+X-axis values in nm of the neon spectrum after the neon calibration. Thus, the values in this column represent absolute, calibrated wavelength values.
+
+- `Neon1_Preprocessed_Signal`  
+Y-values of the neon spectrum after execution of the preprocessing steps. These values can be plotted either using the uncalibrated wavelength x-axis, or the calibrated one (see the previous two columns).
+
+- `NeonCalibration_MeasuredWL [nm]`  
+X-axis values in nm of the neon spectrum. If the original x-axis of the neon spectrum was Raman shift (cm^-1^), then the wavelength values in this column were calculated using the approximate laser wavelength that was provided in the neon calibration dialog.
+
+- `NeonCalibration_DifferenceWL [nm]`  
+Contains the difference wavelength values in nm. By adding these difference values to the uncalibrated x-axis values (see previous column), the calibrated x-axis in absolute nm is obtained.
+
+- `SiliconPeakShift [cm-1]`  
+This column only contains a single value, which is the peak position of the silicon peak (obtained from the fit of this peak).
+
+- `SiliconPeakShift.Err [cm-1]`  
+This column only contains a single value, which is the peak position error of the silicon peak (obtained from the fit of this peak).
 
 
+- `XCalibration_UncalibratedX`  
+Contains the uncalibrated x-axis in the unit in which the neon and silicon spectrum were provided.
 
+- `XCalibration_CalibratedX`  
+Contains the calibrated x-axis in the unit in which the neon and silicon spectrum were provided. The calibration uses here both the neon and silicon calibration.
+
+- `XCalibration_XDeviation`  
+Contains the difference between calibrated and uncalibrated x-axis values.
+
+
+&gt; **Note**  
+&gt; Most of the columns in this table are for your information only.
+&gt; To apply an x-axis calibration to another spectrum, only the columns `XCalibration_UncalibratedX` and `XCalibration_CalibratedX` are necessary.
 </SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />

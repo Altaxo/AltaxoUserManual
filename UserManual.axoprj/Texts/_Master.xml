@@ -5,7 +5,7 @@
   <LastChangeTime>2018-03-14T22:00:45.0123591+01:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="5" AssemblyVersion="4.8.2881.0">
+    <Properties Count="5" AssemblyVersion="4.8.3257.0">
       <e>
         <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
         <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
@@ -37,7 +37,7 @@
           <BodyTextFontFamily>Segoe UI</BodyTextFontFamily>
           <BodyTextFontSize>15.000000000000002</BodyTextFontSize>
           <IsIntendedForHtmlHelp1File>true</IsIntendedForHtmlHelp1File>
-          <OpenHelpFileBuilder>true</OpenHelpFileBuilder>
+          <OpenHelpFileBuilder>false</OpenHelpFileBuilder>
           <OutputFileName>V:\C\Altaxo\src\AltaxoClassRef-Chm.shfbproj</OutputFileName>
           <ContentFolderName>HelpContent</ContentFolderName>
           <EnableRemoveOldContentsOfContentFolder>true</EnableRemoveOldContentsOfContentFolder>
@@ -68,7 +68,86 @@
         </Value>
       </e>
       <e>
-        <Key>5BB2EED3-9FCD-4E63-9113-CCB2A2066462</Key><Value Type="OpenXMLAddin,Altaxo.Text.OpenXMLExportOptions,0"><ExpandChildDocuments>true</ExpandChildDocuments><MaxImageHeight Type="AltaxoCore,Altaxo.Units.DimensionfulQuantity,0"><Value>9.5</Value><Prefix Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-2</Exponent><Name>centi</Name><Shortcut>c</Shortcut></Prefix><Unit Type="AltaxoCore,Altaxo.Units.UnitWithLimitedPrefixes,0"><Unit Type="AltaxoCore,Altaxo.Units.Length.Meter,0" /><PrefixList Count="4"><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-6</Exponent><Name>micro</Name><Shortcut>µ</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-3</Exponent><Name>milli</Name><Shortcut>m</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-2</Exponent><Name>centi</Name><Shortcut>c</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-1</Exponent><Name>deci</Name><Shortcut>d</Shortcut></e></PrefixList></Unit></MaxImageHeight><MaxImageHeight Type="AltaxoCore,Altaxo.Units.DimensionfulQuantity,0"><Value>9.5</Value><Prefix Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-2</Exponent><Name>centi</Name><Shortcut>c</Shortcut></Prefix><Unit Type="AltaxoCore,Altaxo.Units.UnitWithLimitedPrefixes,0"><Unit Type="AltaxoCore,Altaxo.Units.Length.Meter,0" /><PrefixList Count="4"><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-6</Exponent><Name>micro</Name><Shortcut>µ</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-3</Exponent><Name>milli</Name><Shortcut>m</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-2</Exponent><Name>centi</Name><Shortcut>c</Shortcut></e><e Type="AltaxoCore,Altaxo.Units.SIPrefix,0"><Exponent>-1</Exponent><Name>deci</Name><Shortcut>d</Shortcut></e></PrefixList></Unit></MaxImageHeight><ThemeName>GitHub</ThemeName><OpenApplication>true</OpenApplication><OutputFileName>C:\Temp\RenderedWordFile.docx</OutputFileName></Value></e>
+        <Key>5BB2EED3-9FCD-4E63-9113-CCB2A2066462</Key>
+        <Value Type="OpenXMLAddin,Altaxo.Text.TextDocumentToOpenXmlExportOptionsAndData,1">
+          <ExpandChildDocuments>true</ExpandChildDocuments>
+          <MaxImageWidth Type="AltaxoCore,Altaxo.Units.DimensionfulQuantity,0">
+            <Value>9.5</Value>
+            <Prefix Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+              <Exponent>-2</Exponent>
+              <Name>centi</Name>
+              <Shortcut>c</Shortcut>
+            </Prefix>
+            <Unit Type="AltaxoCore,Altaxo.Units.UnitWithLimitedPrefixes,0">
+              <Unit Type="AltaxoCore,Altaxo.Units.Length.Meter,0" />
+              <PrefixList Count="4">
+                <e Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+                  <Exponent>-6</Exponent>
+                  <Name>micro</Name>
+                  <Shortcut>µ</Shortcut>
+                </e>
+                <e Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+                  <Exponent>-3</Exponent>
+                  <Name>milli</Name>
+                  <Shortcut>m</Shortcut>
+                </e>
+                <e Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+                  <Exponent>-2</Exponent>
+                  <Name>centi</Name>
+                  <Shortcut>c</Shortcut>
+                </e>
+                <e Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+                  <Exponent>-1</Exponent>
+                  <Name>deci</Name>
+                  <Shortcut>d</Shortcut>
+                </e>
+              </PrefixList>
+            </Unit>
+          </MaxImageWidth>
+          <MaxImageHeight Type="AltaxoCore,Altaxo.Units.DimensionfulQuantity,0">
+            <Value>9.5</Value>
+            <Prefix Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+              <Exponent>-2</Exponent>
+              <Name>centi</Name>
+              <Shortcut>c</Shortcut>
+            </Prefix>
+            <Unit Type="AltaxoCore,Altaxo.Units.UnitWithLimitedPrefixes,0">
+              <Unit Type="AltaxoCore,Altaxo.Units.Length.Meter,0" />
+              <PrefixList Count="4">
+                <e Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+                  <Exponent>-6</Exponent>
+                  <Name>micro</Name>
+                  <Shortcut>µ</Shortcut>
+                </e>
+                <e Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+                  <Exponent>-3</Exponent>
+                  <Name>milli</Name>
+                  <Shortcut>m</Shortcut>
+                </e>
+                <e Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+                  <Exponent>-2</Exponent>
+                  <Name>centi</Name>
+                  <Shortcut>c</Shortcut>
+                </e>
+                <e Type="AltaxoCore,Altaxo.Units.SIPrefix,0">
+                  <Exponent>-1</Exponent>
+                  <Name>deci</Name>
+                  <Shortcut>d</Shortcut>
+                </e>
+              </PrefixList>
+            </Unit>
+          </MaxImageHeight>
+          <ImageResolution>600</ImageResolution>
+          <ThemeName>GitHub</ThemeName>
+          <RemoveOldContent>true</RemoveOldContent>
+          <OpenApplication>true</OpenApplication>
+          <OutputFileName>C:\Temp\RenderedWordFile.docx</OutputFileName>
+          <RenumerateFigures>true</RenumerateFigures>
+          <UseAutomaticFigureNumbering>true</UseAutomaticFigureNumbering>
+          <DoNotFormatFigureLinksAsHyperlinks>true</DoNotFormatFigureLinksAsHyperlinks>
+          <ShiftSolitaryHeader1ToTitle>false</ShiftSolitaryHeader1ToTitle>
+        </Value>
+      </e>
     </Properties>
   </Properties>
   <StyleName />

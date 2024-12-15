@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>02_TablesAndWorksheets\ImportingData\03_Excel\_Text</Name>
+  <CreationTime>2024-12-04T14:02:22.4084523+01:00</CreationTime>
+  <LastChangeTime>2024-12-04T14:02:22.4084523+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="3" AssemblyVersion="4.8.3257.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+      <e>
+        <Key>8FBF38A4-E9ED-4C17-B6F0-F6E5E285FD33</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+      <e>
+        <Key>648D76D1-401F-4955-881A-716FFB4C6106</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+  <StyleName />
+  <SourceText>#### Importing Excel .xlsx files
+
+Altaxo supports the import of Excel .xlsx files. The older format .xls is not supported. Since Excel columns can contain different types (text, numbers etc.), but columns in Altaxo can only hold a specific type, the importer determines automatically which type is most suitable. This means, that if an Excel column not only contains numbers, but also text, the resulting column type in Altaxo is a text column.</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

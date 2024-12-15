@@ -5,12 +5,12 @@
   <LastChangeTime>2023-01-18T14:15:57.4597912+01:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
   </Properties>
   <StyleName />
   <SourceText>##### PseudoVoigt (Amplitude)
 
-This function evaluates a sum of pseudo Voigt terms, plus a background polynomial with one or multiple terms, according to
+This function evaluates a sum of pseudo Voigt terms, plus a baseline polynomial with one or multiple terms, according to
 
 $$
 y(x) = a_0 \times PSVoigt \left ( x-x_{c0}, w_0, \nu_0 \right ) + ... + a_{n-1} \times PSVoigt \left ( x-x_{c{n-1}}, w_{n-1}, \nu_{n-1} \right ) + b_0 + b_1 x^1 + ... + b_m x^m 
@@ -26,10 +26,10 @@ in which:
 
 - $\nu_0 ... \nu_{n-1}$ are the mixing parameters between the Lorentzian part and the Gaussian part
 
-- $b_0 ... b_m$ are the coefficients of the background polynomial of order  $m$
+- $b_0 ... b_m$ are the coefficients of the baseline polynomial of order  $m$
 
 - $n$ is the number of Voigt terms ($n \geq 1$)
-- $m$ is the order of the background polynomial (set $m=-1$ to disable the background polynomial)
+- $m$ is the order of the baseline polynomial (set $m=-1$ to disable the baseline polynomial)
 
 The pseudo Voigt function is an additive combination of a Gaussian function and a Lorentzian function:
 
@@ -49,7 +49,7 @@ $$
 L(x, x_c, w) = \frac{1}{1+(\frac{x-x_c}{w})^2}
 $$
 
-The number of pseudo Voigt terms $n$ and the order of the background polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=-1$. 
+The number of pseudo Voigt terms $n$ and the order of the baseline polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=-1$. 
 
 The domain of the function is $-\infty \leq x \leq \infty$. 
 

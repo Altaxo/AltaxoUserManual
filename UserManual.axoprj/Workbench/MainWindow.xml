@@ -3,20 +3,21 @@
   <CurrentLayoutConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;LayoutRoot&gt;
   &lt;RootPanel Orientation="Horizontal"&gt;
-    &lt;LayoutPanel Orientation="Vertical"&gt;
-      &lt;LayoutPanel Orientation="Horizontal"&gt;
+    &lt;LayoutPanel Orientation="Vertical" DockWidth="12.3204352811265*"&gt;
+      &lt;LayoutPanel Orientation="Horizontal" DockHeight="1.37608024915282*"&gt;
         &lt;LayoutDocumentPaneGroup Orientation="Horizontal"&gt;
-          &lt;LayoutDocumentPane Id="1d914bd6-36e2-4f5a-97cc-f8601365e092" /&gt;
+          &lt;LayoutDocumentPane Id="88a7bfc0-431b-4ce6-a261-9d448a647cfe" FloatingWidth="1606" FloatingHeight="745" FloatingLeft="514" FloatingTop="455" /&gt;
         &lt;/LayoutDocumentPaneGroup&gt;
       &lt;/LayoutPanel&gt;
-      &lt;LayoutAnchorablePane Name="DockBottom" DockHeight="233.8"&gt;
-        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" ContentId="Altaxo.Gui.Pads.Output.TextOutputWindowController" LastActivationTimeStamp="12/22/2022 22:46:31" /&gt;
-        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Notes" IsSelected="True" ContentId="Altaxo.Gui.Pads.Notes.NotesController" LastActivationTimeStamp="01/25/2023 21:10:35" /&gt;
-        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Data reader" ContentId="Altaxo.Gui.Pads.DataDisplay.DataDisplayController" LastActivationTimeStamp="12/19/2022 10:56:42" /&gt;
+      &lt;LayoutAnchorablePane Name="DockBottom" DockHeight="382.8"&gt;
+        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Output" IsSelected="True" ContentId="Altaxo.Gui.Pads.Output.TextOutputWindowController" LastActivationTimeStamp="12/06/2024 22:31:51" /&gt;
+        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Notes" ContentId="Altaxo.Gui.Pads.Notes.NotesController" LastActivationTimeStamp="11/07/2024 12:00:00" /&gt;
+        &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Data reader" ContentId="Altaxo.Gui.Pads.DataDisplay.DataDisplayController" LastActivationTimeStamp="10/13/2024 19:21:39" /&gt;
       &lt;/LayoutAnchorablePane&gt;
     &lt;/LayoutPanel&gt;
-    &lt;LayoutAnchorablePane Id="be6895b6-fe1d-47b6-886c-ef96f21c3277" Name="DockRight" DockWidth="479"&gt;
-      &lt;LayoutAnchorable AutoHideWidth="354" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Project" IsSelected="True" ContentId="Altaxo.Gui.Pads.ProjectBrowser.ProjectBrowseController" LastActivationTimeStamp="01/26/2023 21:24:52" /&gt;
+    &lt;LayoutAnchorablePane Id="be6895b6-fe1d-47b6-886c-ef96f21c3277" Name="DockRight" DockWidth="341"&gt;
+      &lt;LayoutAnchorable AutoHideWidth="354" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Project" IsSelected="True" ContentId="Altaxo.Gui.Pads.ProjectBrowser.ProjectBrowseController" LastActivationTimeStamp="12/15/2024 15:30:00" /&gt;
+      &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Files" ContentId="Altaxo.Gui.Pads.FileBrowser.FileBrowserController" LastActivationTimeStamp="10/13/2024 18:59:40" /&gt;
     &lt;/LayoutAnchorablePane&gt;
   &lt;/RootPanel&gt;
   &lt;TopSide /&gt;
@@ -25,8 +26,7 @@
   &lt;BottomSide /&gt;
   &lt;FloatingWindows /&gt;
   &lt;Hidden&gt;
-    &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Files" IsSelected="True" ContentId="Altaxo.Gui.Pads.FileBrowser.FileBrowserController" LastActivationTimeStamp="01/26/2023 21:23:54" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
-    &lt;LayoutAnchorable AutoHideWidth="384" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Lighting" IsSelected="True" ContentId="Altaxo.Gui.Pads.LightingPad.LightingController" LastActivationTimeStamp="01/26/2023 21:23:54" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
+    &lt;LayoutAnchorable AutoHideWidth="384" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Lighting" IsSelected="True" ContentId="Altaxo.Gui.Pads.LightingPad.LightingController" LastActivationTimeStamp="12/15/2024 14:46:08" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
   &lt;/Hidden&gt;
 &lt;/LayoutRoot&gt;</CurrentLayoutConfiguration>
 </MainWindow>

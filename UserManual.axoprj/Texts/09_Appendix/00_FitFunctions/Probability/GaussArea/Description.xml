@@ -5,12 +5,12 @@
   <LastChangeTime>2021-06-12T12:17:00.0499073+02:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
   </Properties>
   <StyleName />
   <SourceText>##### GaussArea
 
-This function evaluates a sum of Gaussian terms, plus a background polynomial with one or multiple terms, according to
+This function evaluates a sum of Gaussian terms, plus a baseline polynomial with one or multiple terms, according to
 
 $$
 y(x) = \frac{A_0}{w_0 \sqrt{2 \pi}} \exp \left ( -\frac{(x-x_{c0})^2}{2 w_0^2} \right ) + ... + \frac{A_{n-1}}{w_{n-1} \sqrt{2 \pi}} \exp \left ( -\frac{(x-x_{cn-1})^2}{2 w_{n-1}^2} \right ) + b_0 + b_1 x^1 + ... + b_m x^m 
@@ -24,12 +24,12 @@ in which:
 
 - $w_0 ... w_{n-1}$ are the widths of the Gaussian terms
 
-- $b_0 ... b_m$ are the coefficients of the background polynomial of order  $m$
+- $b_0 ... b_m$ are the coefficients of the baseline polynomial of order  $m$
 
 - $n$ is the number of Gaussian terms ($n \geq 1$)
-- $m$ is the order of the background polynomial (set $m=-1$ to disable the background polynomial)
+- $m$ is the order of the baseline polynomial (set $m=-1$ to disable the baseline polynomial)
 
-The number of Gaussian terms $n$ and the order of the background polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=0$. 
+The number of Gaussian terms $n$ and the order of the baseline polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=0$. 
 
 The domain of the function is $-\infty \leq x \leq \infty$. 
 

@@ -5,12 +5,12 @@
   <LastChangeTime>2022-05-17T22:36:02.3424924+02:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
   </Properties>
   <StyleName />
   <SourceText>##### VoigtArea
 
-This function evaluates a sum of Voigt terms, plus a background polynomial with one or multiple terms, according to
+This function evaluates a sum of Voigt terms, plus a baseline polynomial with one or multiple terms, according to
 
 $$
 y(x) = A_0 \times Voigt \left ( x-x_{c0}, w_0, \gamma_0 \right ) + ... + A_{n-1} \times Voigt \left ( x-x_{c{n-1}}, w_{n-1}, \gamma_{n-1} \right ) + b_0 + b_1 x^1 + ... + b_m x^m 
@@ -26,10 +26,10 @@ in which:
 
 - $\gamma_0 ... \gamma_{n-1}$ are the parameters of the Lorentzian part of the Voigt terms
 
-- $b_0 ... b_m$ are the coefficients of the background polynomial of order  $m$
+- $b_0 ... b_m$ are the coefficients of the baseline polynomial of order  $m$
 
 - $n$ is the number of Voigt terms ($n \geq 1$)
-- $m$ is the order of the background polynomial (set $m=-1$ to disable the background polynomial)
+- $m$ is the order of the baseline polynomial (set $m=-1$ to disable the baseline polynomial)
 
 The Voigt function is a convolution of a Gaussian function and a Lorentzian function:
 
@@ -49,7 +49,7 @@ $$
 L(x, \gamma) = \frac{\gamma}{\pi(x^2 + \gamma^2)}
 $$
 
-The number of Voigt terms $n$ and the order of the background polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=-1$. 
+The number of Voigt terms $n$ and the order of the baseline polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=-1$. 
 
 The domain of the function is $-\infty \leq x \leq \infty$. 
 

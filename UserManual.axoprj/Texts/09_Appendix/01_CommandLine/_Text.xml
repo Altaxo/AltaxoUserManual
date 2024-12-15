@@ -5,7 +5,7 @@
   <LastChangeTime>2018-10-19T23:01:59.2034702+02:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
   </Properties>
   <StyleName />
   <SourceText>### Altaxo's command line arguments
@@ -32,6 +32,9 @@ The following command line arguments can be used to start up Altaxo (both with `
 	
 - `-noAutoUpdate`  :  
     Altaxo will not perform an auto update. Use this argument if you have more than one instance of Altaxo on your computer, and you want to keep that instance at a certain version, whereas the other instances should get updates.
+    
+- `--attachDebugger`  :  
+    Immediately after startup, Altaxo will wait for a debugger to be attached to the process.
 
 - `-exit` :  
 	if this argument is the last argument, Altaxo is exited before Altaxo's workbench is shown. All arguments before this argument are executed nevertheless (e.g. loading of a Altaxo project, executing a table script etc.). If this argument is not the last one, it is ignored.

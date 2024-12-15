@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>09_Appendix\00_FitFunctions\Peaks\ShiftedLogNormalParametrizationNIST\Description</Name>
+  <CreationTime>2023-11-10T10:13:37.318435+01:00</CreationTime>
+  <LastChangeTime>2023-11-10T10:13:37.318435+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
+  </Properties>
+  <StyleName />
+  <SourceText>##### Shifted Log-Normal (parametrization: NIST)
+
+This function evaluates a sum of shifted log-normal distribution terms, plus a baseline polynomial with one or multiple terms, according to
+
+$$
+y(x) = a_0 \times SLN \left ( x, x_{c0}, w_0, \nu_0 \right ) + ... + a_{n-1} \times SLN \left ( x, x_{c{n-1}}, w_{n-1}, \nu_{n-1} \right ) + b_0 + b_1 x^1 + ... + b_m x^m 
+$$
+
+in which:
+
+$$
+SLN(x, x_c, w, \rho) = \exp \left ( \frac{-\ln 2}{(\ln \rho)^2} \left [ \ln \left ( \frac{(x-x_c)(\rho^2-1)}{w \rho} + 1 \right ) \right ]^{2} \right ) 
+$$
+
+is the shifted log-normal function and for which the parametrization is:
+
+- $a_0 ... a_{n-1}$ are the heights of the shifted log-normal terms
+
+- $x_{c0} ... x_{cn-1}$ are the locations of the maximum of the shifted log-normal terms
+
+- $w_0 ... w_{n-1}$ are the full-width-half-maximum values (FWHM) of the shifted log-normal terms
+
+- $\rho_0 ... \rho_{n-1}$ are skewness parameters of the shifted log-normal terms. The range is $0 &lt; \rho &lt; \infty$. For $\rho&lt;1$, the right slope is steeper than the left slope, for $\rho&gt;1$ the left slope is steeper than the right slope. For $\rho = 1$, the shape is Gaussian and therefore symmetric.
+
+- $b_0 ... b_m$ are the coefficients of the baseline polynomial of order $m$
+
+- $n$ is the number of shifted log-normal terms ($n \geq 1$)
+- $m$ is the order of the baseline polynomial (set $m=-1$ to disable the baseline polynomial)
+
+The number of shifted log-normal terms $n$ and the order of the baseline polynomial $m$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $m=-1$. 
+
+For x-values for which the shifted log-normal function is undefined, the y-value of that term is set to zero, so that the resulting domain of the function is $-\infty \leq x \leq \infty$. 
+
+^^^
+![](graph:Fig1){width=15cm}  
+^^^ Fig. 1: Shifted log-normal function ($n=1$, $m=0$) with $a_0=5$, $x_{c0}=7$, $w_0=6$, and $\rho_0=2$ (green) or  $\rho_0=1$ (orange), respectively. Note that for $\rho=1$ a Gaussian shape is returned.
+---
+
+&gt; **Note:**  
+&gt; This function is used for instance to describe the intensity in dependence of the Raman shift of the Standard Reference Material 2242a from the National Institute of Standards and Technology NIST. In the formula given in the accompanying document, the number of terms is $n=1$, and the order of the baseline polynomial is $m=1$. The parameter $H$ corresponds to parameter $a_0$  here; the parameter m in the document is the linear slope of the background, which is parameter $b_1$ here; and the parameter $b$ in the document is the constant background, which is parameter $b_0$ here. 
+
+
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

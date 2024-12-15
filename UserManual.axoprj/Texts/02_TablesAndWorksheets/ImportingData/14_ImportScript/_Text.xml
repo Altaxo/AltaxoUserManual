@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
+  <Name>02_TablesAndWorksheets\ImportingData\14_ImportScript\_Text</Name>
+  <CreationTime>2024-12-04T14:02:22.424045+01:00</CreationTime>
+  <LastChangeTime>2024-12-04T14:02:22.424045+01:00</LastChangeTime>
+  <Notes />
+  <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
+    <Properties Count="3" AssemblyVersion="4.8.3257.0">
+      <e>
+        <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
+        <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
+          <CultureID>1033</CultureID>
+          <CultureName>en-US</CultureName>
+          <NumberDecimalSeparator>.</NumberDecimalSeparator>
+          <NumberGroupSeparator>,</NumberGroupSeparator>
+        </Value>
+      </e>
+      <e>
+        <Key>8FBF38A4-E9ED-4C17-B6F0-F6E5E285FD33</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+      <e>
+        <Key>648D76D1-401F-4955-881A-716FFB4C6106</Key>
+        <Value Type="mscorlib,System.Boolean,0">
+          <e>true</e>
+        </Value>
+      </e>
+    </Properties>
+  </Properties>
+  <StyleName />
+  <SourceText>#### Importing using a self-written import script
+
+By choosing `File`-&gt;`Import`-&gt;`Using file import script` you can write your own script to import files.
+The advantage compared to a worksheet script is that the TableDataSource still remembers where the data come from, and that the script will not change if the file name(s) change.
+</SourceText>
+  <IsHyphenationEnabled />
+  <Images Count="0" />
+</Text>

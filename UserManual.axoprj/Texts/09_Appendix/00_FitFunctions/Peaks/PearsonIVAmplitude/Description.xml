@@ -5,12 +5,12 @@
   <LastChangeTime>2022-07-29T23:41:07.7652219+02:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
   </Properties>
   <StyleName />
   <SourceText>##### PearsonIVAmplitude
 
-This function evaluates a sum of PearsonIV terms, plus a background polynomial with one or multiple terms, according to
+This function evaluates a sum of PearsonIV terms, plus a baseline polynomial with one or multiple terms, according to
 
 $$
 y(x) = a_0 \times PearsonIV \left ( x-x_{c0}, w_0, m_0, \nu_0 \right ) + ... + a_{n-1} \times PearsonIV \left ( x-x_{c{n-1}}, w_{n-1}, m_{n-1}, \nu_{n-1} \right ) + b_0 + b_1 x^1 + ... + b_q x^q 
@@ -28,10 +28,10 @@ in which:
 
 - $\nu_0 ... \nu_{n-1}$ are the skewness parameters of the PearsonIV terms
 
-- $b_0 ... b_q$ are the coefficients of the background polynomial of order  $q$
+- $b_0 ... b_q$ are the coefficients of the baseline polynomial of order  $q$
 
 - $n$ is the number of PearsonIV terms ($n \geq 1$)
-- $q$ is the order of the background polynomial (set $q=-1$ to disable the background polynomial)
+- $q$ is the order of the baseline polynomial (set $q=-1$ to disable the baseline polynomial)
 
 
 The original PearsonIV function was modified, such as that the location parameters describe the location of the maximal value of the function, and the amplitude parameter is the maximum y-value of the function:
@@ -47,7 +47,7 @@ $$
 PearsonIV(x) = \left ( \frac{1+z^2}{1+z_0^2} \right )^{-m} \exp (- \nu [\arctan(z)-\arctan(z_0)]) ; z_0 = -\frac{\nu}{2 m}, z = z_0 + \frac{x-x_c}{w} 
 $$
 
-The number of PearsonIV terms $n$ and the order of the background polynomial $q$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $q=-1$. 
+The number of PearsonIV terms $n$ and the order of the baseline polynomial $q$ can be changed by double-clicking on the fit function. The default values are $n=1$ and $q=-1$. 
 
 The domain of the function is $-\infty \leq x \leq \infty$. 
 

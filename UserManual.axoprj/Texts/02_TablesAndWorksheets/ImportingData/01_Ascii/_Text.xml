@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Text Type="AltaxoBase,Altaxo.Text.TextDocument,0">
-  <Name>02_TablesAndWorksheets\ImportingAscii\_Text</Name>
-  <CreationTime>2023-01-25T20:45:45.8631727+01:00</CreationTime>
-  <LastChangeTime>2023-01-25T20:45:45.8631727+01:00</LastChangeTime>
+  <Name>02_TablesAndWorksheets\ImportingData\01_Ascii\_Text</Name>
+  <CreationTime>2024-12-04T12:03:45.3410948+01:00</CreationTime>
+  <LastChangeTime>2024-12-04T12:03:45.3410948+01:00</LastChangeTime>
   <Notes />
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="3" AssemblyVersion="4.8.2881.0">
+    <Properties Count="3" AssemblyVersion="4.8.3257.0">
       <e>
         <Key>04A3950C-1AA0-4E66-A734-A278C51BD04B</Key>
         <Value Type="AltaxoBase,Altaxo.Settings.CultureSettings,0">
@@ -30,18 +30,16 @@
     </Properties>
   </Properties>
   <StyleName />
-  <SourceText>### Importing ASCII data  {#Section_Tables_ImportingAscii}
+  <SourceText>#### Importing ASCII data  {#Section_Tables_ImportingAscii}
 
-#### Importing ASCII data from a single file into a single worksheet
+##### Importing ASCII data from a single file into a single worksheet
 
 To import ASCII data from a single file into a (single) worksheet, first
 make the worksheet to import to the active document, or create a new
 (preferably empty) worksheet.
 
 Then choose File→Import→Ascii from the main menu, or use the
-toolbar button (see Figure below).
-
-![](local:175BA38271F9EFD451538A761150E354 "Man_Wks_ImportAscii_Fig010.png")
+import toolbar button.
 
 A file dialog opens. After selecting the Ascii file and pressing OK the
 Ascii data are imported into your active worksheet. The import process
@@ -88,7 +86,7 @@ and uncheck those results that you want to be analyzed again.
 
 Finally, press OK to import the Ascii file into your worksheet.
 
-#### Importing ASCII data from multiple files into a single worksheet
+##### Importing ASCII data from multiple files into a single worksheet
 
 Suppose you have a spectrometer that stores every spectrum in a single
 Ascii file. The data in each file is structured into two columns. The
@@ -136,7 +134,7 @@ spectrometer codes the date and time into the filename. With the help of
 a script, one can extract this date/time and use it to calculate the
 time span relative to the start of measurement.
 
-#### Importing ASCII data from multiple files into separate worksheets
+##### Importing ASCII data from multiple files into separate worksheets
 
 If you want to import Ascii data from multiple files into separate
 worksheets, the most preferable way is to start when your current
@@ -171,7 +169,7 @@ import. In contrast to the example in chapter “Importing ASCII data from
 multiple files into a single worksheet”, each worksheet now contains a
 separate x-column with the wavelength values.
 
-#### Importing multiple ASCII files into a single worksheet vertically
+##### Importing multiple ASCII files into a single worksheet vertically
 
 This command is useful if you have a time series of data in one file,
 which is continued in another file and so on. You can then import all
@@ -198,17 +196,7 @@ that the file name of the imported file is stored in column ‘FilePath’
 at the beginning of each data chunk.
 </SourceText>
   <IsHyphenationEnabled />
-  <Images Count="5">
-    <e>
-      <Name>175BA38271F9EFD451538A761150E354</Name>
-      <Image Type="AltaxoBase,Altaxo.Drawing.MemoryStreamImageProxy,2">
-        <Url>V:\C\Altaxo\ManualMD\02_Figures/Man_Wks_ImportAscii_Fig010.png</Url>
-        <Name>Man_Wks_ImportAscii_Fig010.png</Name>
-        <Hash>175BA38271F9EFD451538A761150E354</Hash>
-        <Extension>.png</Extension>
-        <Stream Length="5008">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</Stream>
-      </Image>
-    </e>
+  <Images Count="4">
     <e>
       <Name>711CB8B1917D15389B22470E2D11C2D9</Name>
       <Image Type="AltaxoBase,Altaxo.Drawing.MemoryStreamImageProxy,2">

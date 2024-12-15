@@ -51,7 +51,7 @@ namespace Altaxo.Calc
 </Text>
   </TableScript>
   <Properties Type="AltaxoBase,Altaxo.Main.Properties.PropertyBag,0">
-    <Properties Count="0" AssemblyVersion="4.8.2881.0" />
+    <Properties Count="0" AssemblyVersion="4.8.3257.0" />
   </Properties>
   <Notes />
   <CreationTime>2018-10-25T22:12:41.8729264+02:00</CreationTime>
