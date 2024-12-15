@@ -32,7 +32,15 @@
   <StyleName />
   <SourceText>#### Importing WiTec project files
 
-Altaxo supports the import of WiTec project files. WiTec project files are very complex and can contain multidimensional spectra and images. Only the spectra import is supported for now. WiTec project files usually have the extension `.wip'.</SourceText>
+Altaxo supports the import of WiTec project files. WiTec project files are very complex and can contain multidimensional spectra and images. Only the spectra import is supported for now. WiTec project files usually have the extension `.wip'. The format is very complex, and can contain multiple spectra and images.
+
+[1] J. T. Holmi, H. Lipsanen, "WITio: A MATLAB data evaluation toolbox to script broader insights into big data from WITec microscopes", SoftwareX 18 (2022), 101009, doi: [https://doi.org/10.1016/j.softx.2022.101009](https://doi.org/10.1016/j.softx.2022.101009)
+
+[2] [Wit tag format description](https://gitlab.com/jtholmi/wit_io/-/blob/master/+WITio/+doc/README%20on%20WIT-tag%20format.txt)
+
+[3] [Mathlab implementation](https://gitlab.com/jtholmi/wit_io)
+
+[4] [Phyton implementation](https://git.photonicdata.science/py-packages/photonicdata-files-wip)</SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />
 </Text>

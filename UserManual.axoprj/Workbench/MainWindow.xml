@@ -3,7 +3,7 @@
   <CurrentLayoutConfiguration>&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;LayoutRoot&gt;
   &lt;RootPanel Orientation="Horizontal"&gt;
-    &lt;LayoutPanel Orientation="Vertical" DockWidth="12.3204352811265*"&gt;
+    &lt;LayoutPanel Orientation="Vertical" DockWidth="11.2653549602688*"&gt;
       &lt;LayoutPanel Orientation="Horizontal" DockHeight="1.37608024915282*"&gt;
         &lt;LayoutDocumentPaneGroup Orientation="Horizontal"&gt;
           &lt;LayoutDocumentPane Id="88a7bfc0-431b-4ce6-a261-9d448a647cfe" FloatingWidth="1606" FloatingHeight="745" FloatingLeft="514" FloatingTop="455" /&gt;
@@ -15,9 +15,9 @@
         &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Data reader" ContentId="Altaxo.Gui.Pads.DataDisplay.DataDisplayController" LastActivationTimeStamp="10/13/2024 19:21:39" /&gt;
       &lt;/LayoutAnchorablePane&gt;
     &lt;/LayoutPanel&gt;
-    &lt;LayoutAnchorablePane Id="be6895b6-fe1d-47b6-886c-ef96f21c3277" Name="DockRight" DockWidth="341"&gt;
-      &lt;LayoutAnchorable AutoHideWidth="354" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Project" IsSelected="True" ContentId="Altaxo.Gui.Pads.ProjectBrowser.ProjectBrowseController" LastActivationTimeStamp="12/15/2024 15:30:00" /&gt;
-      &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Files" ContentId="Altaxo.Gui.Pads.FileBrowser.FileBrowserController" LastActivationTimeStamp="10/13/2024 18:59:40" /&gt;
+    &lt;LayoutAnchorablePane Id="be6895b6-fe1d-47b6-886c-ef96f21c3277" Name="DockRight" DockWidth="530"&gt;
+      &lt;LayoutAnchorable AutoHideWidth="354" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Project" IsSelected="True" ContentId="Altaxo.Gui.Pads.ProjectBrowser.ProjectBrowseController" LastActivationTimeStamp="12/15/2024 19:20:46" /&gt;
+      &lt;LayoutAnchorable AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Files" ContentId="Altaxo.Gui.Pads.FileBrowser.FileBrowserController" LastActivationTimeStamp="12/15/2024 19:17:04" /&gt;
     &lt;/LayoutAnchorablePane&gt;
   &lt;/RootPanel&gt;
   &lt;TopSide /&gt;
@@ -26,7 +26,7 @@
   &lt;BottomSide /&gt;
   &lt;FloatingWindows /&gt;
   &lt;Hidden&gt;
-    &lt;LayoutAnchorable AutoHideWidth="384" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Lighting" IsSelected="True" ContentId="Altaxo.Gui.Pads.LightingPad.LightingController" LastActivationTimeStamp="12/15/2024 14:46:08" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
+    &lt;LayoutAnchorable AutoHideWidth="384" AutoHideMinWidth="100" AutoHideMinHeight="100" Title="Lighting" IsSelected="True" ContentId="Altaxo.Gui.Pads.LightingPad.LightingController" LastActivationTimeStamp="12/15/2024 17:31:49" PreviousContainerId="be6895b6-fe1d-47b6-886c-ef96f21c3277" PreviousContainerIndex="1" /&gt;
   &lt;/Hidden&gt;
 &lt;/LayoutRoot&gt;</CurrentLayoutConfiguration>
 </MainWindow>

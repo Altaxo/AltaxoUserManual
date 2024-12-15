@@ -32,7 +32,7 @@
   <StyleName />
   <SourceText>#### Importing Bruker Opus files
 
-Bruker Opus files usually have the extension `.0`. This is a binary file format which is used for spectra measured with Bruker instruments.</SourceText>
+Bruker Opus files usually have the extension `.0`. This is a binary file format which is used for spectra measured with Bruker spectrometers. The file contains one spectrum.</SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />
 </Text>

@@ -32,7 +32,11 @@
   <StyleName />
   <SourceText>#### Importing Princeton Instruments spectral files
 
-Altaxo supports the import of spectral files from Princeton Instruments devices. The file extension usually used for those files is `.SPE`.</SourceText>
+Altaxo supports the import of spectral files from Princeton Instruments devices. The file extension usually used for those files is `.SPE`. Those files are binary files with an Xml section containing the document metadata at the end of the file. The format is rather complex and supports beside spectra (multiple spectra per file) also image data.
+
+References:
+
+[1] [Python implementation](https://github.com/ashirsch/spe2py)</SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />
 </Text>

@@ -63,7 +63,7 @@ namespace Altaxo.Calc
                 {
                     if (line.StartsWith("# Heading 1") || line.StartsWith("## Heading 2")) // Ignore the example in 05_TextDocuments
                         continue;
-                	
+
                     int currentLevel;
 
                     for (currentLevel = 0; currentLevel &lt; line.Length; ++currentLevel)
@@ -110,7 +110,7 @@ namespace Altaxo.Calc
   <Properties Type="UndefinedValue" />
   <Notes />
   <CreationTime>2023-01-25T11:13:32.4660839+01:00</CreationTime>
-  <LastChangeTime>2023-01-26T21:12:30.1012572+01:00</LastChangeTime>
+  <LastChangeTime>2024-12-15T19:20:41.487007+01:00</LastChangeTime>
   <PropCols Type="AltaxoBase,Altaxo.Data.DataColumnCollection,1">
     <NumberOfRows>0</NumberOfRows>
     <ColumnArray Count="0" />

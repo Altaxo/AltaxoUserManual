@@ -32,7 +32,12 @@
   <StyleName />
   <SourceText>#### Importing Galactic SPC files
 
-Galactic SPC files usually contain spectral data. They usually have the extension `.spc`.</SourceText>
+Galactic SPC files usually contain spectral data. They usually have the extension `.spc`. Galactic SPC is a binary file format consisting of a main header describing the contents, followed by the binary data section. One .spc file can contain multiple spectra.
+
+References:
+
+[1] [SPC file format](https://en.wikipedia.org/wiki/SPC_file_format)  
+[2] [Galactic Universal Data Format Specification 9/4/97](https://www.google.com/search?q=Galactic+Universal+Data+Format+Specification)</SourceText>
   <IsHyphenationEnabled />
   <Images Count="0" />
 </Text>
